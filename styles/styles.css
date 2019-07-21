@@ -281,10 +281,13 @@ a:hover {
 
 .hero__img {
   position: absolute;
-  bottom: 180px;
+  top: 65px;
   right: 1rem; }
 
 .hero__img.gerty {
+  width: 100px; }
+
+.hero__img.salesforce {
   width: 100px; }
 
 .hero__img.multisite {
@@ -294,7 +297,8 @@ a:hover {
   width: 100px; }
 
 .hero__img.driveby {
-  width: 50px; }
+  width: 50px;
+  top: 60px; }
 
 .work-nav {
   padding-top: 1rem;
@@ -434,7 +438,34 @@ a:hover {
   .hero__title {
     font-size: 4.125rem; }
   .hero__img {
-    bottom: 95px; }
+    top: 65px; }
+  .button:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: #97dffc;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+  .button:hover:after {
+    width: 100%; } }
+
+/* lg */
+@media (min-width: 992px) {
+  .work-title {
+    padding-top: 3rem;
+    font-size: 5.125rem;
+    line-height: 4rem; }
+  .work-sample .work-title {
+    font-size: 5.5rem;
+    line-height: 4rem; }
   .work-nav__link, .work-nav__link:visited {
     display: inline-block; }
   .work-nav__link:after {
@@ -458,33 +489,6 @@ a:hover {
     background-color: #41b6e6; }
   .work-sample .work-title {
     font-size: 4rem;
-    line-height: 2rem; }
-  .button:after {
-    content: "";
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    width: 0;
-    height: 1px;
-    background-color: #97dffc;
-    transform: translate(-50%, 0);
-    -webkit-transform: translate(-50%, 0);
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out; }
-  .button:hover:after {
-    width: 100%; } }
-
-/* lg */
-@media (min-width: 992px) {
-  .work-title {
-    padding-top: 3rem;
-    font-size: 5.5rem;
-    line-height: 4rem; }
-  .work-sample .work-title {
-    font-size: 5.5rem;
     line-height: 3rem; }
   .hero__container {
     padding-top: 12rem; }
@@ -493,6 +497,8 @@ a:hover {
   .hero__copy {
     padding-bottom: 9rem; }
   .hero__img.gerty {
+    width: 250px; }
+  .hero__img.salesforce {
     width: 250px; }
   .hero__img.multisite {
     width: 370px; }
@@ -505,10 +511,10 @@ a:hover {
 @media (min-width: 1200px) {
   .work-title {
     padding-top: 5rem;
-    font-size: 8.5rem;
-    line-height: 6rem; }
+    font-size: 6rem;
+    line-height: 4.5rem; }
   .work-sample .work-title {
     font-size: 6rem;
-    line-height: 3rem; } }
+    line-height: 4.5rem; } }
 
 /* End Responsive/Media Queries */
