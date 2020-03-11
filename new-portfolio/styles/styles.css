@@ -1071,14 +1071,14 @@ a:hover {
     font-size: 2rem; }
   @keyframes hero-title {
     0% {
-      padding-left: 60px;
+      padding-left: 0;
       opacity: 0; }
     20% {
-      padding-left: 60px; }
+      padding-left: 0; }
     40% {
-      padding-left: 60px; }
+      padding-left: 0; }
     60% {
-      padding-left: 60px;
+      padding-left: 0;
       opacity: 1.0; }
     80% {
       padding-left: 0; }
