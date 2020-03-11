@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="415px" viewBox="0 0 106 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Sword</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M59.0614273,1.64371437 L51.6753748,1.51229503 L40.5464577,12.7318901 C39.438986,14.0280928 39.4390031,15.1883953 40.5465089,16.2127974 C41.6540147,17.2371995 44.4183704,19.104628 48.8395759,21.8150831 L45.2502106,74.9916966 L43.4082362,75.2393714 L4.64801151,77.3282193 C3.78398229,78.5685338 3.78399616,79.510262 4.64805313,80.1534038 C31.1142766,80.8717147 44.3473883,81.2308702 44.3473883,81.2308702 L42.1361281,405.855353 L52.4453886,415.600092 L62.7855621,406.21579 L70.9050435,81.2575424 L108.646159,81.8925869 C109.827853,80.9931837 109.82784,80.1376297 108.646121,79.325925 L70.2904869,75.7086028 L67.7746405,22.1455959 C71.0593361,20.4910117 73.5725189,18.7157029 75.314189,16.8196695 C76.3338302,15.7892599 76.1924448,14.6264898 74.890033,13.3313594 C73.5876212,12.036229 70.2404507,8.17401865 64.8485215,1.74472848 L59.0614273,1.64371437 Z" id="path-1"></path>
+    </defs>
+    <g id="Design-Stories-Templates/Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design-Stories---Homepage" transform="translate(-1046.000000, -172.000000)">
+            <g id="Hero" transform="translate(120.000000, 171.000000)">
+                <g id="Hero-Finish">
+                    <g id="Shield/Sword-Area" transform="translate(863.000000, 0.000000)">
+                        <g id="Sword/Shield">
+                            <g id="Sword" transform="translate(61.440539, 0.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#5FBFF9" transform="translate(56.766210, 208.556193) rotate(-1.000000) translate(-56.766210, -208.556193) " xlink:href="#path-1"></use>
+                                <rect id="Shadow" fill-opacity="0.06" fill="#000000" mask="url(#mask-2)" x="55.5594609" y="-8" width="57" height="437"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1025px" height="59px" viewBox="0 0 1025 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>bgd</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design-Stories-Templates/Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design-Stories---Homepage" transform="translate(-149.000000, -22.000000)">
+            <g id="Header">
+                <g id="bgd" transform="translate(149.000000, 22.000000)">
+                    <g id="angle-double-right" transform="translate(1018.500000, 23.000000) rotate(-270.000000) translate(-1018.500000, -23.000000) translate(1011.000000, 17.000000)" fill="#F6F5AE" fill-rule="nonzero">
+                        <path d="M7.50940793,6.58008273 L2.39149523,11.6345377 C2.03775715,11.9838897 1.46575514,11.9838897 1.11578023,11.6345377 L0.265303562,10.7946062 C-0.0884345208,10.4452542 -0.0884345208,9.8803445 0.265303562,9.53470898 L3.8930005,5.95199237 L0.265303562,2.36927577 C-0.0884345208,2.01992373 -0.0884345208,1.45501406 0.265303562,1.10937853 L1.11201706,0.262014026 C1.46575514,-0.0873380086 2.03775715,-0.0873380086 2.38773206,0.262014026 L7.50564476,5.31646899 C7.86314601,5.66582103 7.86314601,6.2307307 7.50940793,6.58008273 L7.50940793,6.58008273 Z M14.7346964,5.31646899 L9.61678374,0.262014026 C9.26304566,-0.0873380086 8.69104365,-0.0873380086 8.34106874,0.262014026 L7.49059207,1.10194551 C7.13685399,1.45129755 7.13685399,2.01620722 7.49059207,2.36184274 L11.118289,5.94455935 L7.49059207,9.52727596 C7.13685399,9.87662799 7.13685399,10.4415377 7.49059207,10.7871732 L8.34106874,11.6271047 C8.69480682,11.9764567 9.26680883,11.9764567 9.61678374,11.6271047 L14.7346964,6.57264971 C15.0884345,6.2307307 15.0884345,5.66582103 14.7346964,5.31646899 Z" id="Shape"></path>
+                    </g>
+                    <line x1="1018" y1="11.5" x2="1018" y2="0.5" id="border" stroke-opacity="0.29925153" stroke="#F6F5AE" stroke-linecap="square" stroke-dasharray="1,3"></line>
+                    <line x1="638.5" y1="38.5" x2="638.5" y2="0.5" id="border" stroke-opacity="0.29925153" stroke="#F6F5AE" stroke-linecap="square" stroke-dasharray="1,3"></line>
+                    <circle id="Oval" stroke="#F6F5AE" stroke-width="2" cx="639" cy="49" r="9"></circle>
+                    <line x1="0.5" y1="48.5" x2="629.5" y2="48.5" id="border" stroke-opacity="0.29925153" stroke="#F6F5AE" stroke-linecap="square" stroke-dasharray="1,3"></line>
+                    <line x1="639.5" y1="0.5" x2="1017.5" y2="0.5" id="border" stroke-opacity="0.29925153" stroke="#F6F5AE" stroke-linecap="square" stroke-dasharray="1,3"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
