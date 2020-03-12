@@ -286,7 +286,7 @@ a, a:visited, a:hover {
 .home-bgd {
   background-image: url(../images/bgd.jpg);
   background-position: center 100px;
-  background-size: 100%;
+  background-size: 2000px;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
@@ -761,6 +761,8 @@ a, a:visited, a:hover {
     100% {
       top: -100px;
       left: 50%; } }
+  .home-bgd {
+    background-size: 120%; }
   .container {
     width: 960px; }
   .header .container {
