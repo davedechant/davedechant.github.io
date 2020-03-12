@@ -33,6 +33,50 @@
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
 		},
+	"/images/bgd.jpg": {
+		"ft": 16384,
+		"iS": 208386,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/bgd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/gerty-components.jpg": {
+		"ft": 16384,
+		"iS": 72736,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gerty-components.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gerty-homepage.jpg": {
+		"ft": 16384,
+		"iS": 119884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gerty-homepage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/gerty-sketch.jpg": {
+		"ft": 16384,
+		"iS": 93691,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/gerty-sketch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/header-bgd.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -159,6 +203,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/securian-balsamiq.jpg": {
+		"ft": 16384,
+		"iS": 98867,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/securian-balsamiq.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/securian-blueprint.jpg": {
+		"ft": 16384,
+		"iS": 40055,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/securian-blueprint.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/securian-ecosystem.jpg": {
+		"ft": 16384,
+		"iS": 63562,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/securian-ecosystem.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/securian-invision.jpg": {
+		"ft": 16384,
+		"iS": 96005,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/securian-invision.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/snow-bgd.png": {
+		"ft": 32768,
+		"iS": 80358,
+		"oA": 0,
+		"oAP": "/images/snow-bgd.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/sps-balsamiq.jpg": {
 		"ft": 16384,
 		"iS": 106111,
@@ -200,7 +299,7 @@
 		"oAP": "/images/story-thumbnail-gerty.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/story-thumbnail-nintendo-review-app.jpg": {
@@ -211,7 +310,7 @@
 		"oAP": "/images/story-thumbnail-nintendo-review-app.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/story-thumbnail-securian.jpg": {
@@ -222,7 +321,7 @@
 		"oAP": "/images/story-thumbnail-securian.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/story-thumbnail-sps-commerce.jpg": {
@@ -233,7 +332,7 @@
 		"oAP": "/images/story-thumbnail-sps-commerce.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/story-thumbnail-united-healthcare.jpg": {
@@ -244,7 +343,7 @@
 		"oAP": "/images/story-thumbnail-united-healthcare.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/sword-and-shield-logo.svg": {
@@ -256,6 +355,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/uhc-referral.jpg": {
+		"ft": 16384,
+		"iS": 322283,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/uhc-referral.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/uhc-search.jpg": {
+		"ft": 16384,
+		"iS": 75463,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/uhc-search.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,

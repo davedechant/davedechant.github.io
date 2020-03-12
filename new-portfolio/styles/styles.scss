@@ -266,20 +266,16 @@ strong {
 	font-weight: 500;
 }
 
-a, a:visited {
+a, a:visited, a:hover {
 	font-family: $base-font;
 	font-weight: 700;
 	color: $base-primary-color;
-	text-decoration: underline;
+	text-decoration: none;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-}
-
-a:hover {
-	color: $base-primary-color;
 }
 
 /* End Reset/Base Styles */
@@ -356,6 +352,37 @@ a:hover {
 
 
 /* Begin Website/Product Specific Styles */
+
+.snow-bgd {
+	position: fixed;
+	width: 850px;
+	top: -100px;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 9000;
+	animation-name: snow;
+	animation-duration: 35s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	z-index: -1;
+}
+
+@keyframes snow {
+	0% {top:-700px; left: 48%;}
+	20% {left: 50%;}
+	40% {left: 48%;}
+	60% {left: 50%;}
+	80% {left: 48%;}
+	100% {top:-100px; left: 50%;}
+}
+
+.home-bgd {
+	background-image: url(../images/bgd.jpg);
+	background-position: center 100px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 
 .container {
 	width: 1200px;
@@ -565,6 +592,8 @@ a:hover {
 
 .main-stories {
 	padding-top: 52px;
+	position: relative;
+	z-index: 201;
 }
 
 .stories-area-title {
@@ -574,7 +603,7 @@ a:hover {
 .story-summaries {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 0 1rem;
+	margin: 0 0 2rem;
 }
 
 .story-summaries.row-2 {
@@ -585,30 +614,41 @@ a:hover {
 	display: block;
 	background-color: $brand-color;
 	padding: 1.5rem;
-	padding-top: 210px;
 	width: 32.5%;
-	border-radius: 6px;
+	border-radius: 8px;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100%;
 	position: relative;
 	overflow: hidden;
-	border: 1px solid $grayscale-200;
+	border: 1px solid $grayscale-0;
 	text-decoration: none;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.15),0 6px 6px 0 rgba(0,0,0,0.15),0 10px 10px 0 rgba(0,0,0,0.15);
 }
 
 .story-summary-container:hover {
-	
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3),0 3px 3px 0 rgba(0,0,0,0.3),0 6px 6px 0 rgba(0,0,0,0.3);
 }
 
-.story-summary-container::before {
+.story-summaries.row-2 .story-summary-container {
+	margin-right: 1rem;
+}
+
+.story-summary-img {
+	margin-top: -1.5rem;
+	margin-left: -1.5rem;
+	margin-bottom: 1.5rem;
+	width: calc(100% + 3rem);
+	overflow: hidden;
+	position: relative;
+}
+
+.story-summary-img:before {
 	content: "";
 	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
-	height: 180px;
-	background-color: rgba($brand-color,0.75);
+	height: 100%;
+	background-color: rgba($grayscale-1000, 0.25);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -616,12 +656,8 @@ a:hover {
 	transition: all 0.3s ease-in-out;
 }
 
-.story-summary-container:hover::before {
-	background-color: rgba($brand-color,0);
-}
-
-.story-summaries.row-2 .story-summary-container {
-	margin-right: 1rem;
+.story-summary-container:hover .story-summary-img:before {
+	background-color: rgba($grayscale-1000, 0);
 }
 
 .story-client {
@@ -708,6 +744,13 @@ a:hover {
 	padding: 1.5rem;
 	padding-top: 115px;
 	overflow: scroll;
+	animation-name: sidebar;
+	animation-duration: 1.25s;
+}
+
+@keyframes sidebar {
+	0% {left: -320px;}
+	100% {left: 0;}
 }
 
 .sidebar-list {
@@ -755,6 +798,13 @@ a:hover {
 	padding: 4.25rem 2rem;
 	width: calc(100% - 320px);
 	margin: 100px 0 0 320px;
+	animation-name: story;
+	animation-duration: 3s;
+}
+
+@keyframes story {
+	0% {opacity: 0;}
+	100% {opacity: 1.0;}
 }
 
 .story .story-copy {
@@ -798,6 +848,19 @@ a:hover {
 
 /* lg */
 @media screen and (max-width: 1220px) {
+
+.snow-bgd {
+	animation-duration: 30s;
+}
+
+@keyframes snow {
+	0% {top:-600px; left: 48%;}
+	20% {left: 50%;}
+	40% {left: 48%;}
+	60% {left: 50%;}
+	80% {left: 48%;}
+	100% {top:-100px; left: 50%;}
+}
 
 .container {
 	width: 960px;
@@ -851,10 +914,6 @@ a:hover {
 	right: 103px;
 }
 
-.story-summary-container, .story-summary-container:visited, .story-summary-container:hover {
-	padding-top: 170px;
-}
-
 .story-summaries.row-2 .story-summary-container {
 	margin-right: 0.75rem;
 }
@@ -872,6 +931,19 @@ a:hover {
 
 /* md */
 @media (max-width: 980px) {
+
+.snow-bgd {
+	animation-duration: 25s;
+}
+
+@keyframes snow {
+	0% {top:-500px; left: 48%;}
+	20% {left: 50%;}
+	40% {left: 48%;}
+	60% {left: 50%;}
+	80% {left: 48%;}
+	100% {top:-100px; left: 50%;}
+}
 
 .container {
 	width: 720px;
@@ -948,15 +1020,6 @@ a:hover {
 	right: 103px;
 }
 
-.story-summary-container, .story-summary-container:visited, .story-summary-container:hover {
-	padding: 1.125rem;
-	padding-top: 130px;
-}
-
-.story-summary-container::before {
-	height: 108px;
-}
-
 .story-summaries.row-2 .story-summary-container {
 	margin-right: 0.563rem;
 }
@@ -986,6 +1049,23 @@ a:hover {
 
 /* sm */
 @media (max-width: 740px) {
+
+.snow-bgd {
+	animation-duration: 20s;
+}
+
+@keyframes snow {
+	0% {top:-300px; left: 48%;}
+	20% {left: 50%;}
+	40% {left: 48%;}
+	60% {left: 50%;}
+	80% {left: 48%;}
+	100% {top:-80px; left: 50%;}
+}
+
+.home-bgd {
+	background-position: center 80px;
+}
 
 .container {
 	width: 540px;
@@ -1146,9 +1226,7 @@ a:hover {
 }
 
 .story-summary-container, .story-summary-container:visited, .story-summary-container:hover {
-	padding-top: 280px;
 	width: 100%;
-	background-size: 100%;
 	margin-bottom: 2rem;
 }
 
@@ -1178,6 +1256,23 @@ a:hover {
 
 /* xs */
 @media (max-width: 540px) {
+
+.snow-bgd {
+	animation-duration: 12s;
+}
+
+@keyframes snow {
+	0% {top:-200px; left: 48%;}
+	20% {left: 50%;}
+	40% {left: 48%;}
+	60% {left: 50%;}
+	80% {left: 48%;}
+	100% {top:-70px; left: 50%;}
+}
+
+.home-bgd {
+	background-position: center 70px;
+}
 
 .container {
 	width: 90%;
@@ -1230,6 +1325,7 @@ a:hover {
 
 .hero-title {
 	font-size: 2rem;
+	text-align: center;
 }
 
 @keyframes hero-title {
@@ -1280,13 +1376,6 @@ a:hover {
 
 .main-stories {
 	padding-top: 20px;
-}
-
-.story-summary-container, .story-summary-container:visited, .story-summary-container:hover {
-	padding-top: 235px;
-	width: 100%;
-	background-size: 100%;
-	margin-bottom: 2rem;
 }
 
 }
