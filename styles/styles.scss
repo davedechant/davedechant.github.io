@@ -795,7 +795,7 @@ a, a:visited, a:hover {
 }
 
 .story {
-	padding: 4.25rem 2rem;
+	padding: 4.25rem 0;
 	width: calc(100% - 320px);
 	margin: 100px 0 0 320px;
 	animation-name: story;
@@ -809,19 +809,19 @@ a, a:visited, a:hover {
 
 .story .story-copy {
 	width: 800px;
+	padding: 0 2rem;
 	margin-bottom: 3rem;
 }
 
 .story-img-container {
-	width: calc(100% + 4rem);
 	background-color: $base-primary-color;
-	margin: 0 0 3rem -2rem;
+	margin: 0 0 3rem 0;
 	padding: 4rem 0;
 }
 
 .story-img {
-	margin-left: 2rem;
-	width: calc(100% - 6rem);
+	padding-left: 2rem;
+	width: 99%;
 	max-width: 967px;
 }
 
@@ -949,6 +949,10 @@ a, a:visited, a:hover {
 
 .story .story-copy {
 	width: 100%;
+}
+
+.story-img {
+	max-width: 95%;
 }
 
 }
@@ -1267,7 +1271,6 @@ a, a:visited, a:hover {
 }
 
 .story {
-	padding: 1.5rem;
 	width: 100%;
 	margin: 0;
 }
