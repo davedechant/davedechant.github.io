@@ -1214,6 +1214,8 @@ a, a:visited, a:hover {
     display: none; }
   .header-menu-link:hover::after, .header-menu-link.active::after {
     background: none; }
+  .mobile-hide {
+    display: none; }
   .hero {
     padding: 180px 0 0; }
   .hero-title {
