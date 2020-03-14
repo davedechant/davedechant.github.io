@@ -756,6 +756,9 @@ a, a:visited, a:hover {
   font-size: 1rem;
   font-weight: 500; }
 
+.story .footer-copy {
+  padding-left: 1.5rem; }
+
 /* End Website/Product Specific Styles */
 /*---------------------------------------------------------------------*/
 /* 7. Begin Responsive/Media Queries */
