@@ -1196,7 +1196,7 @@ a, a:visited, a:hover {
   .header-menu-left, .header-menu-right {
     display: block;
     float: left;
-    width: 280px;
+    width: 180px;
     margin-top: 1.125rem; }
   .header-menu-right {
     width: 60px;
