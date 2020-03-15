@@ -189,12 +189,16 @@ a, a:visited, a:hover {
   font-family: "Spartan", sans-serif;
   font-weight: 700;
   color: #5FBFF9;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style: dotted;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
+
+a:hover {
+  text-decoration-style: solid; }
 
 /* End Reset/Base Styles */
 /*---------------------------------------------------------------------*/
