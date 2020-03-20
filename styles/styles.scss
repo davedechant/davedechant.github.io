@@ -336,6 +336,7 @@ a:hover {
 	background-image: url(../images/bgd-noise.png);
 	z-index: 9998;
 	border-bottom: 1px solid rgba($grayscale-0,0.1);
+	box-shadow: 0 0 2px 0 rgba($grayscale-1000,0.5),0 0 4px 0 rgba($grayscale-1000,0.5),0 0 8px 0 rgba($grayscale-1000,0.5);
 }
 
 .header .container {
