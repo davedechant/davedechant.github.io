@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="78px" height="105px" viewBox="0 0 78 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="58px" height="99px" viewBox="0 0 58 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>ShieldSword Area</title>
     <desc>Created with Sketch.</desc>
@@ -30,11 +30,10 @@
         </linearGradient>
     </defs>
     <g id="Design-Stories-Templates/Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Design-Stories---Homepage" transform="translate(-110.000000, -32.000000)">
+        <g id="Design-Stories---Homepage" transform="translate(-120.000000, -32.000000)">
             <g id="Header">
                 <g id="ShieldSword-Area" transform="translate(121.000000, 32.000000)">
                     <g id="Sword/Shield">
-                        <path d="M27.3826394,93.3482357 C19.1024161,89.5836078 13.2455133,86.2905383 9.81193097,83.4690273 C6.29250904,80.5769785 3.73203079,76.8967702 2.13049624,72.4284025 L2.13049624,72.4284025 L0,24.2571092 C10.0481391,24.2571092 19.3842058,22.6145939 28.0081998,19.3295633 L28.0081998,19.3295633 C36.6321939,22.6145939 45.9682606,24.2571092 56.0163997,24.2571092 L53.8859035,72.4284025 C52.2843689,76.8967702 49.7238907,80.5769785 46.2044687,83.4690273 C42.6850468,86.361076 36.6196238,89.748556 28.0081998,93.631467 Z" id="Shield-Border" stroke="#0C1821" stroke-width="20"></path>
                         <g id="Sword" transform="translate(14.645437, 0.000000)">
                             <mask id="mask-2" fill="white">
                                 <use xlink:href="#path-1"></use>

@@ -727,17 +727,6 @@
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
 		},
-	"/images/bgd-noise-alpha.png": {
-		"ft": 32768,
-		"iS": 38115,
-		"oA": 0,
-		"oAP": "/images/bgd-noise-alpha.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/bgd.jpg": {
 		"ft": 16384,
 		"iS": 208386,

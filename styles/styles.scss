@@ -335,12 +335,13 @@ a:hover {
 	background-color: $brand-color;
 	background-image: url(../images/bgd-noise.png);
 	z-index: 9998;
+	border-bottom: 1px solid rgba($grayscale-0,0.1);
 }
 
 .header .container {
 	background-image: url(../images/header-bgd.svg);
 	background-repeat: no-repeat;
-	background-position: 30px 16px;
+	background-position: 45px 7px;
 }
 
 .header-story .container {
@@ -357,24 +358,24 @@ a:hover {
 }
 
 .header-menu-logo {
-	width: 78px;
-	height: 105px;
+	width: 45px;
+	height: 77px;
 	text-indent: -9999px;
 	background-image: url(../images/sword-and-shield-logo.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	margin: 1.5rem 3rem 0 0;
+	margin: 0.688rem 2rem 0 0;
 }
 
 .header-menu-logo a, .header-menu-logo a:visited {
+	width: 45px;
+	height: 77px;
 	display: block;
-	width: 78px;
-	height: 105px;
 }
 
 .header-menu-link, .header-menu-link:visited {
 	color: $grayscale-0;
-	margin-right: 3rem;
+	margin: 1.5rem 2rem 0 0;
 	align-self: center;
 	text-decoration: none;
 	position: relative;
@@ -383,10 +384,10 @@ a:hover {
 .header-menu-link::after {
 	content: "";
 	position: absolute;
-	bottom: -27px;
+	bottom: -10px;
 	left: 50%;
 	transform: translate(-50%,0);
-	width: 50px;
+	width: 0;
 	height: 3px;
 	background-color: rgba($base-secondary-color,0);
 	border-radius: 6px;
@@ -399,6 +400,7 @@ a:hover {
 
 .header-menu-link:hover::after, .header-menu-link.active::after {
 	background-color: rgba($base-secondary-color,1.0);
+	width: 40px;
 }
 
 .header-menu-link:hover, .header-menu-link.active {
@@ -411,7 +413,7 @@ a:hover {
 }
 
 .header-menu-right .header-menu-link {
-	margin: 0 0 0 3rem;
+	margin: 1.5rem 0 0 2rem;
 }
 
 .hero {
@@ -678,6 +680,7 @@ a:hover {
 	width: 320px;
 	height: 100%;
 	background-color: $brand-color;
+	background-image: url(../images/bgd-noise.png);
 	padding: 1.5rem;
 	padding-top: 115px;
 	overflow: scroll;
@@ -773,6 +776,7 @@ a:hover {
 	background-color: #359DDB;
 	padding: 0.75rem 1rem 0.75rem 2rem;
 	margin-top: 1rem;
+	line-height: 1.375rem;
 }
 
 .dave-dechant {
@@ -900,8 +904,8 @@ a:hover {
 }
 
 .header .container {
-	background-size: 60%;
-	background-position: 240px 15px;
+	background-size: 82%;
+	background-position: 45px 17px;
 }
 
 @keyframes hero-title {
@@ -987,17 +991,11 @@ a:hover {
 }
 
 .header .container {
-	background-size: 82%;
-	background-position: 10px 15px;
+	background: none;
 }
 
 .header-menu-link, .header-menu-link:visited {
-	margin-right: 2rem;
 	font-size: 0.875rem;
-}
-
-.header-menu-right .header-menu-link {
-	margin: 0 0 0 2rem;
 }
 
 .hero {
@@ -1119,33 +1117,24 @@ a:hover {
 	height: 80px;
 }
 
-.header .container {
-	background: none;
-}
-
-.header-menu {
-	display: flex;
-	justify-content: space-between;
-}
-
 .header-menu-logo {
-	width: 60px;
-	height: 80px;
-	margin: 1rem 1.5rem 0 0;
+	width: 40px;
+	height: 68px;
+	margin: 0.375rem 1rem 0 0;
 }
 
 .header-menu-logo a, .header-menu-logo a:visited {
-	width: 60px;
-	height: 80px;
+	width: 40px;
+	height: 68px;
 }
 
 .header-menu-link, .header-menu-link:visited {
-	margin-right: 1rem;
+	margin: 1rem 1rem 0 0;
 	font-size: 0.813rem;
 }
 
 .header-menu-right .header-menu-link {
-	margin: 0 0 0 1rem;
+	margin: 1rem 0 0 1rem;
 }
 
 .hero {
@@ -1340,11 +1329,18 @@ a:hover {
 }
 
 .header-menu-logo {
-	margin: -0.5rem 0.5rem 0 0;
+	width: 34px;
+	height: 58px;
+	margin: -0.75rem 1rem 0 0;
 	display: inline-block;
 	float: left;
 	position: relative;
 	z-index: 100;
+}
+
+.header-menu-logo a, .header-menu-logo a:visited {
+	width: 40px;
+	height: 68px;
 }
 
 .header-menu-link, .header-menu-link:visited, .header-menu-right .header-menu-link {
