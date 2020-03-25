@@ -205,7 +205,7 @@ a:hover {
 .snow-bgd {
   position: fixed;
   width: 825px;
-  top: -100px;
+  top: 0;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 9000;
@@ -213,23 +213,22 @@ a:hover {
   animation-duration: 35s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  z-index: -1; }
+  z-index: -1;
+  transform: translate(-50%, -100px); }
 
 @keyframes snow {
   0% {
-    top: -700px;
-    left: 48%; }
+    transform: translate(-48%, -600px); }
   20% {
-    left: 50%; }
+    transform: translate(-50%, -500px); }
   40% {
-    left: 48%; }
+    transform: translate(-48%, -400px); }
   60% {
-    left: 50%; }
+    transform: translate(-50%, -300px); }
   80% {
-    left: 48%; }
+    transform: translate(-48%, -200px); }
   100% {
-    top: -100px;
-    left: 50%; } }
+    transform: translate(-50%, -100px); } }
 
 .home-bgd {
   background-image: url(../images/bgd.jpg);
@@ -330,19 +329,19 @@ a:hover {
 
 @keyframes hero-title {
   0% {
-    padding-left: 355px;
+    transform: translate(355px, 0);
     opacity: 0; }
   20% {
-    padding-left: 355px; }
+    transform: translate(355px, 0); }
   40% {
-    padding-left: 355px; }
+    transform: translate(355px, 0); }
   60% {
-    padding-left: 355px;
+    transform: translate(355px, 0);
     opacity: 1.0; }
   80% {
-    padding-left: 0; }
+    transform: translate(0, 0); }
   100% {
-    padding-left: 0; } }
+    transform: translate(0, 0); } }
 
 .hero-copy {
   width: 693px;
@@ -366,99 +365,103 @@ a:hover {
 
 .hero-sword {
   position: absolute;
-  right: 166px;
-  top: -130px;
+  right: 0;
+  top: 0;
   animation-name: sword;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  transform: translate(-166px, -130px); }
 
 @keyframes sword {
   0% {
-    top: -620px;
+    transform: translate(-166px, -620px);
     opacity: 1.0; }
   20% {
-    top: -620px;
+    transform: translate(-166px, -620px);
     opacity: 1.0; }
   40% {
-    top: -620px;
+    transform: translate(-166px, -620px);
     opacity: 1.0; }
   60% {
-    top: -620px;
+    transform: translate(-166px, -620px);
     opacity: 1.0; }
   80% {
-    top: -620px;
+    transform: translate(-166px, -620px);
     opacity: 1.0; }
   100% {
-    top: -130px;
+    transform: translate(-166px, -130px);
     opacity: 1.0; } }
 
 .hero-shield {
   position: absolute;
-  right: 100px;
-  top: -50px;
+  right: 0;
+  top: 0;
   animation-name: shield;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  transform: translate(-100px, -50px); }
 
 @keyframes shield {
   0% {
-    right: 480px;
+    transform: translate(-480px, -50px);
     opacity: 0; }
   20% {
-    right: 480px; }
+    transform: translate(-480px, -50px); }
   40% {
-    right: 480px; }
+    transform: translate(-480px, -50px); }
   60% {
-    right: 480px;
+    transform: translate(-480px, -50px);
     opacity: 0.25; }
   80% {
-    right: 100px;
+    transform: translate(-100px, -50px);
     opacity: 1.0; }
   100% {
-    right: 100px;
+    transform: translate(-100px, -50px);
     opacity: 1.0; } }
 
 .hero-shadow-shield, .hero-shadow-sword {
   content: "";
   position: absolute;
-  top: 300px;
-  right: 167px;
+  top: 0;
+  right: 0;
   width: 100px;
   height: 15px;
   background-color: rgba(0, 0, 0, 0.075);
   border-radius: 50%;
   animation-name: shadow-shield;
-  animation-duration: 5s; }
+  animation-duration: 5s;
+  transform: translate(-167px, 300px); }
+
+@keyframes shadow-shield {
+  0% {
+    transform: translate(-547px, 300px);
+    opacity: 0; }
+  20% {
+    transform: translate(-547px, 300px);
+    opacity: 0.25; }
+  40% {
+    transform: translate(-547px, 300px);
+    opacity: 0.25; }
+  60% {
+    transform: translate(-547px, 300px);
+    opacity: 0.25; }
+  80% {
+    transform: translate(-167px, 300px);
+    opacity: 1.0; }
+  100% {
+    transform: translate(-167px, 300px);
+    opacity: 1.0; } }
 
 .hero-shadow-sword {
   content: "";
   position: absolute;
-  top: 303px;
-  right: 203px;
+  top: 0;
+  right: 0;
   width: 30px;
   height: 6px;
   background-color: rgba(0, 0, 0, 0.075);
   border-radius: 50%;
   animation-name: shadow-sword;
-  animation-duration: 5s; }
-
-@keyframes shadow-shield {
-  0% {
-    right: 547px;
-    opacity: 0; }
-  20% {
-    right: 547px;
-    opacity: 0.25; }
-  40% {
-    right: 547px;
-    opacity: 0.25; }
-  60% {
-    right: 547px;
-    opacity: 0.25; }
-  80% {
-    right: 167px;
-    opacity: 1.0; }
-  100% {
-    right: 167px;
-    opacity: 1.0; } }
+  animation-duration: 5s;
+  transform: translate(-203px, 303px); }
 
 @keyframes shadow-sword {
   0% {
@@ -772,23 +775,6 @@ a:hover {
 /* 7. Begin Responsive/Media Queries */
 /* lg */
 @media screen and (max-width: 1220px) {
-  .snow-bgd {
-    animation-duration: 30s; }
-  @keyframes snow {
-    0% {
-      top: -600px;
-      left: 48%; }
-    20% {
-      left: 50%; }
-    40% {
-      left: 48%; }
-    60% {
-      left: 50%; }
-    80% {
-      left: 48%; }
-    100% {
-      top: -100px;
-      left: 50%; } }
   .home-bgd {
     background-size: 120%; }
   .container {
@@ -798,63 +784,82 @@ a:hover {
     background-position: 45px 17px; }
   @keyframes hero-title {
     0% {
-      padding-left: 250px;
+      transform: translate(250px, 0);
       opacity: 0; }
     20% {
-      padding-left: 250px; }
+      transform: translate(250px, 0); }
     40% {
-      padding-left: 250px; }
+      transform: translate(250px, 0); }
     60% {
-      padding-left: 250px;
+      transform: translate(250px, 0);
       opacity: 1.0; }
     80% {
-      padding-left: 0; }
+      transform: translate(0, 0); }
     100% {
-      padding-left: 0; } }
+      transform: translate(0, 0); } }
+  .hero-shield {
+    transform: translate(0, -50px); }
   @keyframes shield {
     0% {
-      right: 350px;
+      transform: translate(-350px, -50px);
       opacity: 0; }
     20% {
-      right: 350px; }
+      transform: translate(-350px, -50px); }
     40% {
-      right: 350px; }
+      transform: translate(-350px, -50px); }
     60% {
-      right: 350px;
+      transform: translate(-350px, -50px);
       opacity: 0.25; }
     80% {
-      right: 0;
+      transform: translate(0, -50px);
       opacity: 1.0; }
     100% {
-      right: 0;
-      opacity: 1.0; } }
-  @keyframes shadow-shield {
-    0% {
-      right: 417px;
-      opacity: 0; }
-    20% {
-      right: 417px;
-      opacity: 0.25; }
-    40% {
-      right: 417px;
-      opacity: 0.25; }
-    60% {
-      right: 417px;
-      opacity: 0.25; }
-    80% {
-      right: 67px;
-      opacity: 1.0; }
-    100% {
-      right: 67px;
+      transform: translate(0, -50px);
       opacity: 1.0; } }
   .hero-sword {
-    right: 66px; }
-  .hero-shield {
-    right: 0; }
+    transform: translate(-66px, -130px); }
+  @keyframes sword {
+    0% {
+      transform: translate(-66px, -620px);
+      opacity: 1.0; }
+    20% {
+      transform: translate(-66px, -620px);
+      opacity: 1.0; }
+    40% {
+      transform: translate(-66px, -620px);
+      opacity: 1.0; }
+    60% {
+      transform: translate(-66px, -620px);
+      opacity: 1.0; }
+    80% {
+      transform: translate(-66px, -620px);
+      opacity: 1.0; }
+    100% {
+      transform: translate(-66px, -130px);
+      opacity: 1.0; } }
   .hero-shadow-shield, .hero-shadow-sword {
-    right: 67px; }
+    transform: translate(-67px, 300px); }
   .hero-shadow-sword {
-    right: 103px; }
+    transform: translate(-103px, 303px); }
+  @keyframes shadow-shield {
+    0% {
+      transform: translate(-417px, 300px);
+      opacity: 0; }
+    20% {
+      transform: translate(-417px, 300px);
+      opacity: 0.25; }
+    40% {
+      transform: translate(-417px, 300px);
+      opacity: 0.25; }
+    60% {
+      transform: translate(-417px, 300px);
+      opacity: 0.25; }
+    80% {
+      transform: translate(-67px, 300px);
+      opacity: 1.0; }
+    100% {
+      transform: translate(-67px, 300px);
+      opacity: 1.0; } }
   .story-summaries.row-2 .story-summary-container {
     margin-right: 0.75rem; }
   .story-summary-container::before {
@@ -869,21 +874,6 @@ a:hover {
 @media (max-width: 980px) {
   .snow-bgd {
     animation-duration: 25s; }
-  @keyframes snow {
-    0% {
-      top: -500px;
-      left: 48%; }
-    20% {
-      left: 50%; }
-    40% {
-      left: 48%; }
-    60% {
-      left: 50%; }
-    80% {
-      left: 48%; }
-    100% {
-      top: -100px;
-      left: 50%; } }
   .container {
     width: 720px; }
   .header .container {
@@ -898,65 +888,61 @@ a:hover {
     width: 460px; }
   @keyframes hero-title {
     0% {
-      padding-left: 165px;
+      transform: translate(165px, 0);
       opacity: 0; }
     20% {
-      padding-left: 165px; }
+      transform: translate(165px, 0); }
     40% {
-      padding-left: 165px; }
+      transform: translate(165px, 0); }
     60% {
-      padding-left: 165px;
+      transform: translate(165px, 0);
       opacity: 1.0; }
     80% {
-      padding-left: 0; }
+      transform: translate(0, 0); }
     100% {
-      padding-left: 0; } }
+      transform: translate(0, 0); } }
   .hero-sword {
-    right: 66px;
+    right: 0;
     width: 105px; }
   .hero-shield {
     right: 0;
     width: 235px; }
   @keyframes shield {
     0% {
-      right: 230px;
+      transform: translate(-230px, -50px);
       opacity: 0; }
     20% {
-      right: 230px; }
+      transform: translate(-230px, -50px); }
     40% {
-      right: 230px; }
+      transform: translate(-230px, -50px); }
     60% {
-      right: 230px;
+      transform: translate(-230px, -50px);
       opacity: 0.25; }
     80% {
-      right: 0;
+      transform: translate(0, -50px);
       opacity: 1.0; }
     100% {
-      right: 0;
+      transform: translate(0, -50px);
       opacity: 1.0; } }
   @keyframes shadow-shield {
     0% {
-      right: 297px;
+      transform: translate(-297px, 300px);
       opacity: 0; }
     20% {
-      right: 297px;
+      transform: translate(-297px, 300px);
       opacity: 0.25; }
     40% {
-      right: 297px;
+      transform: translate(-297px, 300px);
       opacity: 0.25; }
     60% {
-      right: 297px;
+      transform: translate(-297px, 300px);
       opacity: 0.25; }
     80% {
-      right: 67px;
+      transform: translate(-67px, 300px);
       opacity: 1.0; }
     100% {
-      right: 67px;
+      transform: translate(-67px, 300px);
       opacity: 1.0; } }
-  .hero-shadow-shield, .hero-shadow-sword {
-    right: 67px; }
-  .hero-shadow-sword {
-    right: 103px; }
   .story-summaries.row-2 .story-summary-container {
     margin-right: 0.563rem; }
   .story-client {
@@ -977,19 +963,17 @@ a:hover {
     animation-duration: 20s; }
   @keyframes snow {
     0% {
-      top: -300px;
-      left: 48%; }
+      transform: translate(-48%, -300px); }
     20% {
-      left: 50%; }
+      transform: translate(-50%, -250px); }
     40% {
-      left: 48%; }
+      transform: translate(-48%, -200px); }
     60% {
-      left: 50%; }
+      transform: translate(-50%, -150px); }
     80% {
-      left: 48%; }
+      transform: translate(-48%, -100px); }
     100% {
-      top: -80px;
-      left: 50%; } }
+      transform: translate(-50%, -50px); } }
   .home-bgd {
     background-position: center 80px;
     background-size: 150%; }
@@ -1021,124 +1005,89 @@ a:hover {
     width: 370px; }
   @keyframes hero-title {
     0% {
-      padding-left: 120px;
+      transform: translate(120px, 0);
       opacity: 0; }
     20% {
-      padding-left: 120px; }
+      transform: translate(120px, 0); }
     40% {
-      padding-left: 120px; }
+      transform: translate(120px, 0); }
     60% {
-      padding-left: 120px;
+      transform: translate(120px, 0);
       opacity: 1.0; }
     80% {
-      padding-left: 0; }
+      transform: translate(0, 0); }
     100% {
-      padding-left: 0; } }
+      transform: translate(0, 0); } }
   .hero-copy p {
     font-size: 1rem; }
   .hero-sword {
     width: 70px;
-    position: absolute;
-    right: 40px;
-    top: -5px;
-    animation-name: sword;
-    animation-duration: 5s; }
+    transform: translate(-40px, -5px); }
   @keyframes sword {
     0% {
-      top: -350px;
+      transform: translate(-40px, -350px);
       opacity: 1.0; }
     20% {
-      top: -350px;
+      transform: translate(-40px, -350px);
       opacity: 1.0; }
     40% {
-      top: -350px;
+      transform: translate(-40px, -350px);
       opacity: 1.0; }
     60% {
-      top: -350px;
+      transform: translate(-40px, -350px);
       opacity: 1.0; }
     80% {
-      top: -350px;
+      transform: translate(-40px, -350px);
       opacity: 1.0; }
     100% {
-      top: -5px;
+      transform: translate(-40px, -5px);
       opacity: 1.0; } }
   .hero-shield {
     width: 150px;
-    position: absolute;
-    right: 0;
-    top: 50px;
-    animation-name: shield;
-    animation-duration: 5s; }
+    transform: translate(0, 50px); }
   @keyframes shield {
     0% {
-      right: 180px;
+      transform: translate(-180px, 50px);
       opacity: 0; }
     20% {
-      right: 180px; }
+      transform: translate(-180px, 50px); }
     40% {
-      right: 180px; }
+      transform: translate(-180px, 50px); }
     60% {
-      right: 180px;
+      transform: translate(-180px, 50px);
       opacity: 0.25; }
     80% {
-      right: 0;
+      transform: translate(0, 50px);
       opacity: 1.0; }
     100% {
-      right: 0;
+      transform: translate(0, 50px);
       opacity: 1.0; } }
   .hero-shadow-shield {
-    content: "";
-    position: absolute;
-    top: 280px;
-    right: 43px;
     width: 60px;
     height: 10px;
-    background-color: rgba(0, 0, 0, 0.075);
-    border-radius: 50%;
-    animation-name: shadow-shield;
-    animation-duration: 5s; }
+    transform: translate(-43px, 300px); }
   .hero-shadow-sword {
-    content: "";
-    position: absolute;
-    top: 283px;
-    right: 66px;
     width: 15px;
     height: 3px;
-    background-color: rgba(0, 0, 0, 0.075);
-    border-radius: 50%;
-    animation-name: shadow-sword;
-    animation-duration: 5s; }
+    transform: translate(-67px, 303px); }
   @keyframes shadow-shield {
     0% {
-      right: 227px;
+      transform: translate(-227px, 300px);
       opacity: 0; }
     20% {
-      right: 227px;
+      transform: translate(-227px, 300px);
       opacity: 0.25; }
     40% {
-      right: 227px;
+      transform: translate(-227px, 300px);
       opacity: 0.25; }
     60% {
-      right: 227px;
+      transform: translate(-227px, 300px);
       opacity: 0.25; }
     80% {
-      right: 43px;
+      transform: translate(-43px, 300px);
       opacity: 1.0; }
     100% {
-      right: 43px;
-      opacity: 1.0; } }
-  @keyframes shadow-sword {
-    0% {
-      opacity: 0; }
-    20% {
-      opacity: 0; }
-    40% {
-      opacity: 0; }
-    60% {
-      opacity: 0; }
-    80% {
-      opacity: 0; }
-    100% {
+      transform: translate(-43px, 300px);
       opacity: 1.0; } }
   .stories-area-title {
     margin: 3rem 0 1rem;
@@ -1171,19 +1120,17 @@ a:hover {
     animation-duration: 12s; }
   @keyframes snow {
     0% {
-      top: -200px;
-      left: 48%; }
+      transform: translate(-48%, -200px); }
     20% {
-      left: 50%; }
+      transform: translate(-50%, -175px); }
     40% {
-      left: 48%; }
+      transform: translate(-48%, -150px); }
     60% {
-      left: 50%; }
+      transform: translate(-50%, -125px); }
     80% {
-      left: 48%; }
+      transform: translate(-48%, -100px); }
     100% {
-      top: -70px;
-      left: 50%; } }
+      transform: translate(-50%, -75px); } }
   .home-bgd {
     background-position: center 70px; }
   .container {
@@ -1227,52 +1174,69 @@ a:hover {
     text-align: center; }
   @keyframes hero-title {
     0% {
-      padding-left: 0;
+      transform: translate(0, 0);
       opacity: 0; }
     20% {
-      padding-left: 0; }
+      transform: translate(0, 0); }
     40% {
-      padding-left: 0; }
+      transform: translate(0, 0); }
     60% {
-      padding-left: 0;
+      transform: translate(0, 0);
       opacity: 1.0; }
     80% {
-      padding-left: 0; }
+      transform: translate(0, 0); }
     100% {
-      padding-left: 0; } }
+      transform: translate(0, 0); } }
   .hero-copy {
     width: 100%; }
   .hero-sword {
     width: 45px;
     left: 50%;
     right: auto;
-    top: -195px;
-    transform: translate(-50%, 0); }
+    top: 0;
+    transform: translate(-50%, -195px); }
   @keyframes sword {
     0% {
-      top: -450px;
+      transform: translate(-50%, -450px);
       opacity: 1.0; }
     20% {
-      top: -450px;
+      transform: translate(-50%, -450px);
       opacity: 1.0; }
     40% {
-      top: -450px;
+      transform: translate(-50%, -450px);
       opacity: 1.0; }
     60% {
-      top: -450px;
+      transform: translate(-50%, -450px);
       opacity: 1.0; }
     80% {
-      top: -450px;
+      transform: translate(-50%, -450px);
       opacity: 1.0; }
     100% {
-      top: -195px;
+      transform: translate(-50%, -195px);
       opacity: 1.0; } }
   .hero-shield {
     width: 100px;
     left: 50%;
     right: auto;
-    top: -160px;
-    transform: translate(-50%, 0); }
+    top: 0;
+    transform: translate(-50%, -160px); }
+  @keyframes shield {
+    0% {
+      transform: translate(-50%, -160px);
+      opacity: 0; }
+    20% {
+      transform: translate(-50%, -160px); }
+    40% {
+      transform: translate(-50%, -160px); }
+    60% {
+      transform: translate(-50%, -160px);
+      opacity: 0.25; }
+    80% {
+      transform: translate(-50%, -160px);
+      opacity: 1.0; }
+    100% {
+      transform: translate(-50%, -160px);
+      opacity: 1.0; } }
   .hero-shadow-shield {
     display: none; }
   .hero-shadow-sword {
