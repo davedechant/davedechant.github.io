@@ -504,12 +504,12 @@ a:hover {
   background-size: 100%;
   position: relative;
   overflow: hidden;
-  border: 1px solid #FFFFFF;
   text-decoration: none;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 6px 6px 0 rgba(0, 0, 0, 0.15), 0 10px 10px 0 rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 3px 3px 0 rgba(0, 0, 0, 0.3), 0 6px 6px 0 rgba(0, 0, 0, 0.3); }
 
 .story-summary-container:hover {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 3px 3px 0 rgba(0, 0, 0, 0.3), 0 6px 6px 0 rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 6px 6px 0 rgba(0, 0, 0, 0.15), 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+  transform: translate(0, -5px); }
 
 .story-summaries.row-2 .story-summary-container {
   margin-right: 1rem; }
@@ -532,7 +532,8 @@ a:hover {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px 8px 0 0; }
 
 .story-summary-container:hover .story-summary-img:before {
   background-color: rgba(0, 0, 0, 0); }
@@ -1216,26 +1217,25 @@ a:hover {
       opacity: 1.0; } }
   .hero-shield {
     width: 100px;
-    left: 50%;
-    right: auto;
+    right: 50%;
     top: 0;
-    transform: translate(-50%, -160px); }
+    transform: translate(50%, -160px); }
   @keyframes shield {
     0% {
-      transform: translate(-50%, -160px);
+      transform: translate(50%, -160px);
       opacity: 0; }
     20% {
-      transform: translate(-50%, -160px); }
+      transform: translate(50%, -160px); }
     40% {
-      transform: translate(-50%, -160px); }
+      transform: translate(50%, -160px); }
     60% {
-      transform: translate(-50%, -160px);
+      transform: translate(50%, -160px);
       opacity: 0.25; }
     80% {
-      transform: translate(-50%, -160px);
+      transform: translate(50%, -160px);
       opacity: 1.0; }
     100% {
-      transform: translate(-50%, -160px);
+      transform: translate(50%, -160px);
       opacity: 1.0; } }
   .hero-shadow-shield {
     display: none; }
