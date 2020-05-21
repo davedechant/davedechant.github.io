@@ -1,0 +1,1389 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Name: Empty Boilerplate
+Author: dave dechant
+Description: Empty boilerplate for website
+*/
+
+
+/* Table of Contents */
+
+/* 1. SASS Variables */
+/*- 1a. Colors -*/
+/*- 1b. Fonts -*/
+
+/* 2. Reset/Base Styles */
+/*- 2a. Reset -*/
+/*- 2b. Responsive Images -*/
+/*- 2c. Text -*/
+
+/* Module/Universal Styles */
+
+/* Website/Product Specific Styles */
+
+/* Responsive/Media Query Styles */
+
+
+/*---------------------------------------------------------------------*/
+
+
+/* 1. SASS Variables */
+
+/*- 1a. Colors -*/
+
+/* brand highlight */
+
+$brand-color: #0C1821;
+
+/* base primary */
+
+$base-primary-color: #5FBFF9;
+
+/* base secondary */
+
+$base-secondary-color: #F6F5AE;
+
+
+/* grayscale */
+
+$grayscale-0: #FFFFFF;
+$grayscale-100: #FAFAFA;
+$grayscale-200: #F5F5F5;
+$grayscale-300: #EEEEEE;
+$grayscale-400: #E0E0E0;
+$grayscale-500: #BDBDBD;
+$grayscale-600: #9E9E9E;
+$grayscale-700: #757575;
+$grayscale-800: #616161;
+$grayscale-900: #424242;
+$grayscale-1000: #000000;
+
+/*- 1b. Fonts -*/
+
+$brand-font: 'Cinzel Decorative', cursive;
+$base-font: 'Spartan', sans-serif;
+
+/* End SASS Variables */
+
+
+/*---------------------------------------------------------------------*/
+
+
+/* 2. Begin Reset/Base Styles */
+
+/*- 2a. Reset -*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus {
+	outline: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	line-height: 1;
+	color: $grayscale-1000;
+	background: $grayscale-0;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+main, section, nav, article, aside, header, footer {
+	display: block;	
+}
+
+/*- 2b. Responsive Images -*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*- 2c. Text -*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 10px;
+	font-family: $brand-font;
+	font-weight: 400;
+	color: $brand-color;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.375rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.125rem;
+}
+
+h5 {
+	font-size: 1rem;
+}
+
+h6 {
+	font-size: 0.75rem;
+}
+
+p, ul, ol, blockquote, cite, small {
+	margin: 0 0 25px;
+	font-family: $base-font;
+	font-size: 1.125rem;
+	line-height: 1.688rem;
+	color: $brand-color;
+}
+
+ul, ol {
+	margin-left: 20px;
+}
+
+ul li {
+	list-style-type: disc;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+hr {
+	border: 0;
+    border-bottom: 1px solid $grayscale-400;
+    margin: 3rem 0;
+    background: none;
+}
+
+.sword-hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: $base-primary-color;
+	margin: 3rem 0;
+	position: relative;
+}
+
+.sword-hr::before {
+	content: "";
+	position: absolute;
+	top: -99px;
+	left: 50%;
+	width: 25px;
+	height: 100px;
+	background-image: url(../images/hero-sword.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	-webkit-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	-o-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	-ms-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	transform: rotate(-90deg) translateX(-50px) translateY(0px);
+}
+
+.sidebar .sword-hr::before {
+	left: 35px;
+	width: 25px;
+	height: 100px;
+	background-image: url(../images/hero-sword.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	-moz-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	-webkit-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	-o-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	-ms-transform: rotate(-90deg) translateX(-50px) translateY(0px);
+	transform: rotate(-90deg) translateX(-50px) translateY(0px);
+}
+
+blockquote {
+	border-top: 1px solid $grayscale-200;
+	border-bottom: 1px solid $grayscale-200;
+	padding: 20px 0;
+	margin: 40px 0;
+	font-size: 1.313rem;
+}
+
+cite {
+	font-size: .688rem;
+	display: block;
+	margin: 10px 0 0;
+	color: $grayscale-500;
+}
+
+small {
+	font-size: .813rem;
+}
+
+strong {
+	font-weight: 500;
+}
+
+a, a:visited, a:hover {
+	font-family: $base-font;
+	font-weight: 700;
+	color: $base-primary-color;
+	text-decoration: underline;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* End Reset/Base Styles */
+
+
+/*---------------------------------------------------------------------*/
+
+
+/* Begin Website/Product Specific Styles */
+
+.snow-bgd {
+	position: fixed;
+	width: 825px;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 9000;
+	animation-name: snow;
+	animation-duration: 35s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	z-index: -1;
+	transform: translate(-50%,-100px);
+}
+
+@keyframes snow {
+	0% {transform: translate(-48%,-600px);}
+	20% {transform: translate(-50%,-500px);}
+	40% {transform: translate(-48%,-400px);}
+	60% {transform: translate(-50%,-300px);}
+	80% {transform: translate(-48%,-200px);}
+	100% {transform: translate(-50%,-100px);}
+}
+
+.home-bgd {
+	background-image: url(../images/bgd.jpg);
+	background-position: center 100px;
+	background-size: 2000px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	height: 100px;
+	background-color: $brand-color;
+	background-image: url(../images/bgd-noise.png);
+	z-index: 9998;
+	border-bottom: 1px solid rgba($grayscale-0,0.1);
+	box-shadow: 0 0 2px 0 rgba($grayscale-1000,0.5),0 0 4px 0 rgba($grayscale-1000,0.5),0 0 8px 0 rgba($grayscale-1000,0.5);
+}
+
+.header .container {
+	background-image: url(../images/header-bgd.svg);
+	background-repeat: no-repeat;
+	background-position: 45px 7px;
+}
+
+.header-story .container {
+	margin: 0 0 0 1rem;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-menu-left {
+	display: flex;
+}
+
+.header-menu-logo {
+	width: 45px;
+	height: 77px;
+	text-indent: -9999px;
+	background-image: url(../images/sword-and-shield-logo.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0.688rem 2rem 0 0;
+}
+
+.header-menu-logo a, .header-menu-logo a:visited {
+	width: 45px;
+	height: 77px;
+	display: block;
+}
+
+.header-menu-link, .header-menu-link:visited {
+	color: $grayscale-0;
+	margin: 1.5rem 2rem 0 0;
+	align-self: center;
+	text-decoration: none;
+	position: relative;
+}
+
+.header-menu-link::after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 0;
+	height: 3px;
+	background-color: rgba($base-secondary-color,0);
+	border-radius: 6px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.header-menu-link:hover::after, .header-menu-link.active::after {
+	background-color: rgba($base-secondary-color,1.0);
+	width: 40px;
+}
+
+.header-menu-link:hover, .header-menu-link.active {
+	color: $base-secondary-color;
+}
+
+.header-menu-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-menu-right .header-menu-link {
+	margin: 1.5rem 0 0 2rem;
+}
+
+.hero {
+	margin-top: 100px;
+	padding: 200px 0 60px;
+}
+
+.hero-title {
+	animation-name: hero-title;
+	animation-duration: 5s;
+}
+
+@keyframes hero-title {
+	0% {transform: translate(355px,0); opacity: 0;}
+	20% {transform: translate(355px,0);}
+	40% {transform: translate(355px,0);}
+	60% {transform: translate(355px,0); opacity: 1.0;}
+	80% {transform: translate(0,0);}
+	100% {transform: translate(0,0);}
+}
+
+.hero-copy {
+	width: 693px;
+	opacity: 1;
+	animation-name: hero-copy;
+	animation-duration: 5s;
+}
+
+@keyframes hero-copy {
+	0% {opacity: 0;}
+	20% {opacity: 0;}
+	40% {opacity: 0;}
+	60% {opacity: 0;}
+	80% {opacity: 0;}
+	100% {opacity: 1.0;}
+}
+
+.hero-sword {
+	position: absolute;
+	right: 0;
+	top: 0;
+	animation-name: sword;
+	animation-duration: 5s;
+	transform: translate(-166px,-130px);
+}
+
+@keyframes sword {
+	0% {transform: translate(-166px,-620px); opacity: 1.0}
+	20% {transform: translate(-166px,-620px); opacity: 1.0}
+	40% {transform: translate(-166px,-620px); opacity: 1.0}
+	60% {transform: translate(-166px,-620px); opacity: 1.0}
+	80% {transform: translate(-166px,-620px); opacity: 1.0}
+	100% {transform: translate(-166px,-130px); opacity: 1.0}
+}
+
+.hero-shield {
+	position: absolute;
+	right: 0;
+	top: 0;
+	animation-name: shield;
+	animation-duration: 5s;
+	transform: translate(-100px,-50px);
+}
+
+@keyframes shield {
+	0% {transform: translate(-480px,-50px); opacity: 0;}
+	20% {transform: translate(-480px,-50px);}
+	40% {transform: translate(-480px,-50px);}
+	60% {transform: translate(-480px,-50px); opacity: 0.25;}
+	80% {transform: translate(-100px,-50px); opacity: 1.0;}
+	100% {transform: translate(-100px,-50px); opacity: 1.0;}
+}
+
+.hero-shadow-shield, .hero-shadow-sword {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 15px;
+	background-color: rgba($grayscale-1000, 0.075);
+	border-radius: 50%;
+	animation-name: shadow-shield;
+	animation-duration: 5s;
+	transform: translate(-167px,300px);
+}
+
+@keyframes shadow-shield {
+	0% {transform: translate(-547px,300px); opacity: 0;}
+	20% {transform: translate(-547px,300px); opacity: 0.25;}
+	40% {transform: translate(-547px,300px); opacity: 0.25;}
+	60% {transform: translate(-547px,300px); opacity: 0.25;}
+	80% {transform: translate(-167px,300px); opacity: 1.0;}
+	100% {transform: translate(-167px,300px); opacity: 1.0;}
+}
+
+.hero-shadow-sword {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 6px;
+	background-color: rgba($grayscale-1000, 0.075);
+	border-radius: 50%;
+	animation-name: shadow-sword;
+	animation-duration: 5s;
+	transform: translate(-203px,303px);
+}
+
+@keyframes shadow-sword {
+	0% {opacity: 0}
+	20% {opacity: 0}
+	40% {opacity: 0}
+	60% {opacity: 0}
+	80% {opacity: 0}
+	100% {opacity: 1.0}
+}
+
+.main-stories {
+	padding-top: 52px;
+	position: relative;
+	z-index: 201;
+}
+
+.stories-area-title {
+	margin: 5rem 0 2rem;
+}
+
+.story-summaries {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 2rem;
+}
+
+.story-summaries.row-2 {
+	justify-content: flex-start;
+}
+
+.story-summary-container, .story-summary-container:visited, .story-summary-container:hover {
+	display: block;
+	background-color: $brand-color;
+	padding: 1.5rem;
+	width: 32.5%;
+	border-radius: 8px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3),0 3px 3px 0 rgba(0,0,0,0.3),0 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+.story-summary-container:hover {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.15),0 6px 6px 0 rgba(0,0,0,0.15),0 10px 10px 0 rgba(0,0,0,0.15);
+	transform: translate(0,-5px);
+}
+
+.story-summaries.row-2 .story-summary-container {
+	margin-right: 1rem;
+}
+
+.story-summary-img {
+	margin-top: -1.5rem;
+	margin-left: -1.5rem;
+	margin-bottom: 1.5rem;
+	width: calc(100% + 3rem);
+	overflow: hidden;
+	position: relative;
+}
+
+.story-summary-img:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba($grayscale-1000, 0.25);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	border-radius: 8px 8px 0 0;
+}
+
+.story-summary-container:hover .story-summary-img:before {
+	background-color: rgba($grayscale-1000, 0);
+}
+
+.story-client {
+	color: $base-primary-color;
+	font-family: $base-font;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875rem;
+}
+
+.story-client:after {
+	margin: 1.125rem 0;
+	display: block;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background-color: #3A5263;
+}
+
+.story-title, .story-copy, .story-tools-title, .story-tools, .more-stories-title {
+	color: $grayscale-0;
+}
+
+.story-title {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.story-tools-title, .more-stories-title {
+	font-family: $base-font;
+	font-weight: 700;
+	margin-top: 2rem;
+	font-size: 1.125rem;
+}
+
+.story-tools {
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+.story-copy {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.story-link, .story-link:visited, .story-link:hover {
+	font-size: 1rem;
+	color: $base-secondary-color;
+	text-decoration: none;
+}
+
+.story-link .fa-chevron-right {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.story-link:hover .fa-chevron-right {
+	padding-left: 4px;
+}
+
+.more-stories-title {
+	position: relative;
+}
+
+.more-stories-title:before {
+	margin: 1.125rem 0 2rem;
+	display: block;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background-color: #3A5263;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 320px;
+	height: 100%;
+	background-color: $brand-color;
+	background-image: url(../images/bgd-noise.png);
+	padding: 1.5rem;
+	padding-top: 115px;
+	overflow: scroll;
+	animation-name: sidebar;
+	animation-duration: 1.25s;
+}
+
+@keyframes sidebar {
+	0% {transform:translate(-320px,0);}
+	100% {transform:translate(0,0);}
+}
+
+.sidebar-list {
+	margin: 0;
+}
+
+.sidebar-list li {
+	list-style-type: none;
+	font-size: 1rem;
+	line-height: 1.313rem;
+}
+
+.sidebar-list li a, .sidebar-list li a:visited {
+	display: block;
+	text-decoration: none;
+	color: $base-secondary-color;
+	font-weight: 500;
+	padding: 0.75rem 1rem 0.75rem 0;
+	border-bottom: 1px dotted rgba($base-secondary-color,0.15);
+	position: relative;
+}
+
+.sidebar-list li a:hover {
+	border-bottom: 1px dotted rgba($base-secondary-color,1);
+}
+
+.sidebar-list li a .fa-chevron-right {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0,-50%);
+	opacity: 0.35;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.sidebar-list li a:hover .fa-chevron-right {
+	opacity: 1;
+}
+
+.story {
+	padding: 4.25rem 0;
+	width: calc(100% - 320px);
+	margin: 100px 0 0 320px;
+	animation-name: story;
+	animation-duration: 3s;
+}
+
+@keyframes story {
+	0% {opacity: 0;}
+	100% {opacity: 1.0;}
+}
+
+.story .story-copy {
+	width: 800px;
+	padding: 0 2rem;
+	margin-bottom: 3rem;
+}
+
+.story-img-container {
+	background-color: $base-primary-color;
+	margin: 0 0 3rem 0;
+	padding: 4rem 0;
+}
+
+.story-img {
+	padding-left: 2rem;
+	width: 99%;
+	max-width: 967px;
+}
+
+.switch-app-video video {
+	max-width: 400px;
+}
+
+.story-caption {
+	display: inline-block;
+	font-family: $base-font;
+	font-weight: 500;
+	background-color: #359DDB;
+	padding: 0.75rem 1rem 0.75rem 2rem;
+	margin-top: 1rem;
+	line-height: 1.375rem;
+}
+
+.dave-dechant {
+	border-radius: 50%;
+	filter: grayscale(100%);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	margin-bottom: 2rem;
+}
+
+.dave-dechant:hover {
+	border-radius: 50%;
+	filter: grayscale(0%);
+}
+
+.footer-copy {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.story .footer-copy {
+	padding-left: 1.5rem;
+}
+
+/* End Website/Product Specific Styles */
+
+
+/*---------------------------------------------------------------------*/
+
+
+/* Begin Module/Universal Styles */
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba($grayscale-1000,0.8);
+	z-index: 9999;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.modal-overlay:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+.modal-overlay-close {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: default;
+	text-indent: -9999px;
+}
+
+.modal-container {
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 650px;
+	padding: 2rem;
+	background-color: $grayscale-0;
+	border-radius: 8px;
+}
+
+.modal-close {
+	position: absolute;
+	top: -16px;
+	right: -16px;
+}
+
+.modal-close .fa-times-circle {
+	font-size: 2.5rem;
+	color: $grayscale-1000;
+	background-color: $grayscale-0;
+	border-radius: 50%;
+	border: 4px solid $grayscale-0;
+}
+
+.modal-container p {
+	margin: 0;
+}
+
+/* End Module/Universal Styles */
+
+
+/*---------------------------------------------------------------------*/
+
+
+/* 7. Begin Responsive/Media Queries */
+
+/* lg */
+@media screen and (max-width: 1220px) {
+
+.home-bgd {
+	background-size: 120%;
+}
+
+.container {
+	width: 960px;
+}
+
+.header .container {
+	background-size: 82%;
+	background-position: 45px 17px;
+}
+
+@keyframes hero-title {
+	0% {transform: translate(250px,0); opacity: 0;}
+	20% {transform: translate(250px,0);}
+	40% {transform: translate(250px,0);}
+	60% {transform: translate(250px,0); opacity: 1.0;}
+	80% {transform: translate(0,0);}
+	100% {transform: translate(0,0);}
+}
+
+.hero-shield {
+	transform: translate(0,-50px);
+}
+
+@keyframes shield {
+	0% {transform: translate(-350px,-50px); opacity: 0;}
+	20% {transform: translate(-350px,-50px);}
+	40% {transform: translate(-350px,-50px);}
+	60% {transform: translate(-350px,-50px); opacity: 0.25;}
+	80% {transform: translate(0,-50px); opacity: 1.0;}
+	100% {transform: translate(0,-50px); opacity: 1.0;}
+}
+
+.hero-sword {
+	transform: translate(-66px,-130px);
+}
+
+@keyframes sword {
+	0% {transform: translate(-66px,-620px); opacity: 1.0}
+	20% {transform: translate(-66px,-620px); opacity: 1.0}
+	40% {transform: translate(-66px,-620px); opacity: 1.0}
+	60% {transform: translate(-66px,-620px); opacity: 1.0}
+	80% {transform: translate(-66px,-620px); opacity: 1.0}
+	100% {transform: translate(-66px,-130px); opacity: 1.0}
+}
+
+.hero-shadow-shield, .hero-shadow-sword {
+	transform: translate(-67px,300px);
+}
+
+.hero-shadow-sword {
+	transform: translate(-103px,303px);
+}
+
+@keyframes shadow-shield {
+	0% {transform: translate(-417px,300px); opacity: 0;}
+	20% {transform: translate(-417px,300px); opacity: 0.25;}
+	40% {transform: translate(-417px,300px); opacity: 0.25;}
+	60% {transform: translate(-417px,300px); opacity: 0.25;}
+	80% {transform: translate(-67px,300px); opacity: 1.0;}
+	100% {transform: translate(-67px,300px); opacity: 1.0;}
+}
+
+.story-summaries.row-2 .story-summary-container {
+	margin-right: 0.75rem;
+}
+
+.story-summary-container::before {
+	width: 100%;
+	height: 144px;
+}
+
+.story .story-copy {
+	width: 100%;
+}
+
+.story-img {
+	max-width: 95%;
+}
+
+}
+
+/* md */
+@media (max-width: 980px) {
+
+.snow-bgd {
+	animation-duration: 25s;
+}
+
+.container {
+	width: 720px;
+}
+
+.header .container {
+	background: none;
+}
+
+.header-menu-link, .header-menu-link:visited {
+	font-size: 0.875rem;
+}
+
+.hero {
+	padding: 150px 0 0;
+}
+
+.hero-title {
+	font-size: 2.5rem;
+}
+
+.hero-copy {
+	width: 460px;
+}
+
+@keyframes hero-title {
+	0% {transform: translate(165px,0); opacity: 0;}
+	20% {transform: translate(165px,0);}
+	40% {transform: translate(165px,0);}
+	60% {transform: translate(165px,0); opacity: 1.0;}
+	80% {transform: translate(0,0);}
+	100% {transform: translate(0,0);}
+}
+
+.hero-sword {
+	right: 0;
+	width: 105px;
+}
+
+.hero-shield {
+	right: 0;
+	width: 235px;
+}
+
+@keyframes shield {
+	0% {transform: translate(-230px,-50px); opacity: 0;}
+	20% {transform: translate(-230px,-50px);}
+	40% {transform: translate(-230px,-50px);}
+	60% {transform: translate(-230px,-50px); opacity: 0.25;}
+	80% {transform: translate(0,-50px); opacity: 1.0;}
+	100% {transform: translate(0,-50px); opacity: 1.0;}
+}
+
+@keyframes shadow-shield {
+	0% {transform: translate(-297px,300px); opacity: 0;}
+	20% {transform: translate(-297px,300px); opacity: 0.25;}
+	40% {transform: translate(-297px,300px); opacity: 0.25;}
+	60% {transform: translate(-297px,300px); opacity: 0.25;}
+	80% {transform: translate(-67px,300px); opacity: 1.0;}
+	100% {transform: translate(-67px,300px); opacity: 1.0;}
+}
+
+.story-summaries.row-2 .story-summary-container {
+	margin-right: 0.563rem;
+}
+
+.story-client {
+	font-size: 0.813rem;
+}
+
+.story-title {
+	font-size: 1.5rem;
+}
+
+.story-copy {
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+}
+
+.story-link, .story-link:visited, .story-link:hover {
+	font-size: 0.875rem;
+}
+
+.story-summary-container::before {
+	display: none;
+}
+
+}
+
+/* sm */
+@media (max-width: 740px) {
+
+.snow-bgd {
+	animation-duration: 20s;
+}
+
+@keyframes snow {
+	0% {transform: translate(-48%,-300px);}
+	20% {transform: translate(-50%,-250px);}
+	40% {transform: translate(-48%,-200px);}
+	60% {transform: translate(-50%,-150px);}
+	80% {transform: translate(-48%,-100px);}
+	100% {transform: translate(-50%,-50px);}
+}
+
+.home-bgd {
+	background-position: center 80px;
+	background-size: 150%;
+}
+
+.container {
+	width: 540px;
+}
+
+.modal-container {
+	top: 100px;
+	width: 90%;
+	padding: 1.5rem;
+}
+
+.header {
+	height: 80px;
+}
+
+.header-menu-logo {
+	width: 40px;
+	height: 68px;
+	margin: 0.375rem 1rem 0 0;
+}
+
+.header-menu-logo a, .header-menu-logo a:visited {
+	width: 40px;
+	height: 68px;
+}
+
+.header-menu-link, .header-menu-link:visited {
+	margin: 1rem 1rem 0 0;
+	font-size: 0.813rem;
+}
+
+.header-menu-right .header-menu-link {
+	margin: 1rem 0 0 1rem;
+}
+
+.hero {
+	padding: 50px 0 0;
+}
+
+.hero-title {
+	font-size: 2rem;
+}
+
+.hero-copy {
+	width: 370px;
+}
+
+@keyframes hero-title {
+	0% {transform: translate(120px,0); opacity: 0;}
+	20% {transform: translate(120px,0);}
+	40% {transform: translate(120px,0);}
+	60% {transform: translate(120px,0); opacity: 1.0;}
+	80% {transform: translate(0,0);}
+	100% {transform: translate(0,0);}
+}
+
+.hero-copy p {
+	font-size: 1rem;
+}
+
+.hero-sword {
+	width: 70px;
+	transform: translate(-40px,-5px);
+}
+
+@keyframes sword {
+	0% {transform: translate(-40px,-350px); opacity: 1.0}
+	20% {transform: translate(-40px,-350px); opacity: 1.0}
+	40% {transform: translate(-40px,-350px); opacity: 1.0}
+	60% {transform: translate(-40px,-350px); opacity: 1.0}
+	80% {transform: translate(-40px,-350px); opacity: 1.0}
+	100% {transform: translate(-40px,-5px); opacity: 1.0}
+}
+
+.hero-shield {
+	width: 150px;
+	transform: translate(0,50px);
+}
+
+@keyframes shield {
+	0% {transform: translate(-180px,50px); opacity: 0;}
+	20% {transform: translate(-180px,50px);}
+	40% {transform: translate(-180px,50px);}
+	60% {transform: translate(-180px,50px); opacity: 0.25;}
+	80% {transform: translate(0,50px); opacity: 1.0;}
+	100% {transform: translate(0,50px); opacity: 1.0;}
+}
+
+.hero-shadow-shield {
+	width: 60px;
+	height: 10px;
+	transform: translate(-43px,300px);
+}
+
+.hero-shadow-sword {
+	width: 15px;
+	height: 3px;
+	transform: translate(-67px,303px);
+}
+
+@keyframes shadow-shield {
+	0% {transform: translate(-227px,300px); opacity: 0;}
+	20% {transform: translate(-227px,300px); opacity: 0.25;}
+	40% {transform: translate(-227px,300px); opacity: 0.25;}
+	60% {transform: translate(-227px,300px); opacity: 0.25;}
+	80% {transform: translate(-43px,300px); opacity: 1.0;}
+	100% {transform: translate(-43px,300px); opacity: 1.0;}
+}
+
+.stories-area-title {
+	margin: 3rem 0 1rem;
+	font-size: 1.875rem;
+}
+
+.story-summaries {
+	display: block;
+	margin: 0;
+}
+
+.story-summary-container, .story-summary-container:visited, .story-summary-container:hover {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.story-summary-container::before {
+	display: none;
+}
+
+.sidebar {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-top: 80px;
+	overflow: visible;
+}
+
+.story {
+	width: 100%;
+	margin: 0;
+}
+
+.more-stories-title, .sidebar-list {
+	display: none;
+}
+
+.switch-app-video video {
+	max-width: 300px;
+}
+	
+}
+
+/* xs */
+@media (max-width: 540px) {
+
+.snow-bgd {
+	animation-duration: 12s;
+}
+
+@keyframes snow {
+	0% {transform: translate(-48%,-200px);}
+	20% {transform: translate(-50%,-175px);}
+	40% {transform: translate(-48%,-150px);}
+	60% {transform: translate(-50%,-125px);}
+	80% {transform: translate(-48%,-100px);}
+	100% {transform: translate(-50%,-75px);}
+}
+
+.home-bgd {
+	background-position: center 70px;
+}
+
+.container {
+	width: 90%;
+}
+
+.header {
+	height: 70px;
+}
+
+.header-menu {
+	display: block;
+}
+
+.header-menu-left, .header-menu-right {
+	display: block;
+	float: left;
+	width: 180px;
+	margin-top: 1.125rem;
+}
+
+.header-menu-right {
+	width: 60px;
+	float: right;
+}
+
+.header-menu-logo {
+	width: 34px;
+	height: 58px;
+	margin: -0.75rem 1rem 0 0;
+	display: inline-block;
+	float: left;
+	position: relative;
+	z-index: 100;
+}
+
+.header-menu-logo a, .header-menu-logo a:visited {
+	width: 40px;
+	height: 68px;
+}
+
+.header-menu-link, .header-menu-link:visited, .header-menu-right .header-menu-link {
+	display: block;
+	margin: 0 0 0.75rem 0;
+}
+
+.header-menu-link::after {
+	display: none;
+}
+
+.header-menu-link:hover::after, .header-menu-link.active::after {
+	background: none;
+}
+
+.mobile-hide {
+	display: none;
+}
+
+.hero {
+	padding: 180px 0 0;
+}
+
+.hero-title {
+	font-size: 2rem;
+	text-align: center;
+}
+
+@keyframes hero-title {
+	0% {transform: translate(0,0); opacity: 0;}
+	20% {transform: translate(0,0);}
+	40% {transform: translate(0,0);}
+	60% {transform: translate(0,0); opacity: 1.0;}
+	80% {transform: translate(0,0);}
+	100% {transform: translate(0,0);}
+}
+
+.hero-copy {
+	width: 100%;
+}
+
+.hero-sword {
+	width: 45px;
+	left: 50%;
+	right: auto;
+	top: 0;
+	transform: translate(-50%,-195px);
+}
+
+@keyframes sword {
+	0% {transform: translate(-50%,-450px); opacity: 1.0}
+	20% {transform: translate(-50%,-450px); opacity: 1.0}
+	40% {transform: translate(-50%,-450px); opacity: 1.0}
+	60% {transform: translate(-50%,-450px); opacity: 1.0}
+	80% {transform: translate(-50%,-450px); opacity: 1.0}
+	100% {transform: translate(-50%,-195px); opacity: 1.0}
+}
+
+.hero-shield {
+	width: 100px;
+	right: 50%;
+	top: 0;
+	transform: translate(50%,-160px);
+}
+
+@keyframes shield {
+	0% {transform: translate(50%,-160px); opacity: 0;}
+	20% {transform: translate(50%,-160px);}
+	40% {transform: translate(50%,-160px);}
+	60% {transform: translate(50%,-160px); opacity: 0.25;}
+	80% {transform: translate(50%,-160px); opacity: 1.0;}
+	100% {transform: translate(50%,-160px); opacity: 1.0;}
+}
+
+.hero-shadow-shield {
+	display: none;
+}
+
+.hero-shadow-sword {
+	display: none;
+}
+
+.main-stories {
+	padding-top: 20px;
+}
+
+}
+
+
+
+/* End Responsive/Media Queries */

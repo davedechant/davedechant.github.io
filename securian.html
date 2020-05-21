@@ -18,27 +18,29 @@
 
         <!-- Styles -->
 
-        <link href="styles/styles.css" rel="stylesheet" type="text/css">
         <link href="styles/fontawesome.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Spartan:400,500,700&display=swap" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;900&display=swap" rel="stylesheet">
 
 
         <!-- Favicons/Icons -->
 
-        <link rel="shortcut icon" href="images/icons/favicon.ico">
+        <link rel="shortcut icon" href="/images/icons/favicon.ico">
 
-        <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="images/icons/touch-icon-ipad-retina.png" />
+        <link rel="apple-touch-icon" href="/images/icons/touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/touch-icon-iphone-retina.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/touch-icon-ipad-retina.png" />
 
         <meta name="application-name" content="Site Tile"/>
         <meta name="msapplication-TileColor" content="#000000"/>
-        <meta name="msapplication-square70x70logo" content="images/icons/tiny.png"/>
-        <meta name="msapplication-square150x150logo" content="images/icons/square.png"/>
-        <meta name="msapplication-wide310x150logo" content="images/icons/wide.png"/>
-        <meta name="msapplication-square310x310logo" content="images/icons/large.png"/>
+        <meta name="msapplication-square70x70logo" content="/images/icons/tiny.png"/>
+        <meta name="msapplication-square150x150logo" content="/images/icons/square.png"/>
+        <meta name="msapplication-wide310x150logo" content="/images/icons/wide.png"/>
+        <meta name="msapplication-square310x310logo" content="/images/icons/large.png"/>
 
+
+        <!-- Google Analytics Script -->
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6645091-26"></script>
@@ -70,31 +72,17 @@
 
     </head>
 
-    <body>
+    <body class="project">
 
-        <header class="header header-story">
+        <header class="header">
 
-            <div class="container">
+            <div class="row">
 
-                <nav class="header-menu">
+                <nav class="header-nav">
 
-                    <div class="header-menu-left">
+                    <a href="index.html"><i class="fas fa-chevron-left"></i> Go back home</a>
 
-                        <h1 class="header-menu-logo"><a href="/">Dave Dechant's Project Stories &amp; Experiments</a></h1>
-
-                        <a class="header-menu-link active" href="/#stories">Project Stories <span class="mobile-hide">&amp; Experiments</span></a>
-
-                        <a class="header-menu-link" href="about-dave-dechant.html">My Story</a>
-                        
-                    </div>
-
-                    <div class="header-menu-right">
-
-                        <a class="header-menu-link" href="#contact">Contact</a>
-
-                        <a class="header-menu-link" href="resume-dave-dechant.pdf" target="_blank">Resume</a>
-                        
-                    </div>
+                    <a href="uhc.html">View next project <i class="fas fa-chevron-right"></i></a>
                     
                 </nav>
 
@@ -102,140 +90,121 @@
 
         </header>
 
-        <section class="sidebar">
+        <section class="hero">
 
-            <span class="sword-hr"></span>
+            <div class="row">
 
-            <span class="story-client">Securian</span>
+                <h2 class="content-block-title">Securian</h2>
 
-            <h3 class="story-title">From Many to One</h3>
+                <p class="hero-block"><span class="hero-block-decor-one"></span>Any successful journey likely includes a need for people and tools that assist you along the way.<span class="hero-block-decor-two"></span></p>
 
-            <h4 class="story-tools-title">Tools/Methodologies Used:</h4>
-
-            <p class="story-tools">User Research, Miro, Balsamiq, Lightening Design System, Sketch, InVision, Salesforce</p>
-
-            <h4 class="more-stories-title">Read other stories:</h4>
-
-            <ul class="sidebar-list">
-
-                <li><a href="united-healthcare.html">Sometimes You're a Code Monkey <i class="fas fa-chevron-right"></i></a></li>
-                <li><a href="gerty-design-system.html">Bring It Together <i class="fas fa-chevron-right"></i></a></li>
-                <li><a href="nintendo-review-app.html">Game Over <i class="fas fa-chevron-right"></i></a></li>
-                <li><a href="sps-commerce.html">Time To Ideate <i class="fas fa-chevron-right"></i></a></li>
-            	
-            </ul>
-
-        </section>
-
-        <main class="story">
-
-        	<div class="story-copy">
-
-        		<p><strong>Any successful journey likely includes a need for people and tools that assist you along the way.</strong></p>
-
-                <p>Such was the need for this project. Securian Financial provides insurance, investment and retirement solutions. In doing so, they have a large Customer Service Agent (CSA) team that fields calls from inquiring customers asking all sorts of varying questions.</p>
-
-                <p>The CSA's utilized up to twelve systems per call when interacting with customers. Our task was to consolidate and streamline as many capabilities as possible into a Salesforce application called the ECC Desktop.</p>
-
-                <p>This discovery phase would prove the concept and allow Securian to have the research necessary to move forward with the build phase.</p>
-        		
-        	</div>
-
-        	<div class="story-img-container">
-
-        		<img class="story-img" src="images/securian-blueprint.jpg"><br>
-
-        		<span class="story-caption">Service Design Blueprint that represented the client's current state</span>
-        		
-        	</div>
-
-            <div class="story-copy">
-
-                <p>Among others, our team included a Salesforce engineer, architect, and myself at the experience design lead.</p>
-
-                <p>We started by documenting the current state journey of CSA's through the creation of a service design blueprint. This information was gathered through real-time shadowing of individual CSA's. As they took calls from customers, we reviewed and noted how and why they used their current systems.</p>
-
-                <p>We also held auditing workshops with hand-picked CSA's and stakeholders that allowed us to better understand what needed to be shifted to the new experience, and what might be able to be left behind.</p>
-
-                <p>Working directly with the CSA's and stakeholders allowed the team to better empathize with their current day to day roadblocks, and come up with solutions that kept them at the forefront.</p>
-                
-            </div>
-
-            <div class="story-img-container">
-
-                <img class="story-img" src="images/securian-ecosystem.jpg"><br>
-
-                <span class="story-caption">Ecosystem flow representing future state</span>
-                
-            </div>
-
-            <div class="story-copy">
-
-                <p>Based on the user research we gathered, a future state ecosystem was developed. While we discovered that not all current systems could be consolidated into Salesforce, this new ecosystem would take the total systems from twelve to five.</p>
-
-                <p>Armed with this research, I gathered the team to do a live lo-fi prototype build session in Balsamiq. This allowed us to ideate quickly, and not get bogged down in design details at this early stage.</p>
-                
-            </div>
-
-            <div class="story-img-container">
-
-                <img class="story-img" src="images/securian-balsamiq.jpg"><br>
-
-                <span class="story-caption">Lo-fidelity prototype built in Balsamiq</span>
-                
-            </div>
-
-            <div class="story-copy">
-
-                <p>Next, we again worked with CSA's and stakeholders to validate our findings and run them through our initial lo-fidelity prototypes.</p>
-
-                <p>Once we felt confident in our direction, I worked with the team to create hi-fidelity versions of our prototype using Salesforce's Lightning Design System, Sketch, and InVision. The CSA's were again brought in to help us refine the user scenarios the prototype represented.</p>
-                
-            </div>
-
-            <div class="story-img-container">
-
-                <img class="story-img" src="images/securian-invision.jpg"><br>
-
-                <span class="story-caption">Hi-fidelity prototype created using the Salesforce Lightning Design System</span>
-                
-            </div>
-
-        	<div class="story-copy">
-
-        		<p>As the discovery phase came to a close, we met with key stakeholders and presented our user research findings, final InVision prototype, and future state recommendations and cost estimates.</p>
-
-                <p>Securian Financial representatives were so thrilled with our discovery process and the solutions that came out of it, they decided to sign off and move forward with a build phase that same day.</p>
-        		
-        	</div>
-
-        	<footer class="footer">
-
-        		<span class="sword-hr"></span>
-
-        		<p class="footer-copy">&copy; 2020 Dave Dechant</p>
-	                            
-	        </footer>
-
-        </main>
-
-        <div class="modal-overlay" id="contact">
-
-            <a class="modal-overlay-close" href="#">Close Modal</a>
-
-            <div class="modal-container">
-
-                <a class="modal-close" href="#"><i class="fas fa-times-circle"></i></a>
-
-                <h2>What's Your Story?</h2>
-
-                <p>If you want to hear more about my design story, or have design stories of your own to share, feel free to email me at <a href="mailto:davedechant@gmail.com" target="_blank">davedechant@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/davedechant/" target="_blank">Linkedin</a>.</p>
+                <p class="description"><strong>Tools/Methodologies Used:</strong> User Research, Miro, Balsamiq, Lightening Design System, Sketch, InVision, Salesforce</p>
 
             </div>
             
-        </div>
+        </section>
+
+        <main class="main">
+
+            <div class="row flex-off">
+
+                <div class="project-copy">
+
+                    <p>Such was the need for this project. Securian Financial provides insurance, investment and retirement solutions. In doing so, they have a large Customer Service Agent (CSA) team that fields calls from inquiring customers asking all sorts of varying questions.</p>
+
+                    <p>The CSA's utilized up to twelve systems per call when interacting with customers. Our task was to consolidate and streamline as many capabilities as possible into a Salesforce application called the ECC Desktop.</p>
+
+                    <p>This discovery phase would prove the concept and allow Securian to have the research necessary to move forward with the build phase.</p>
+                    
+                </div>
+
+                <div class="project-img">
+
+                    <img src="images/securian-1.jpg">
+
+                    <p class="description">Service Design Blueprint that represented the client's current state</p>
+                    
+                </div>
+
+                <div class="project-copy">
+
+                    <p>Among others, our team included a Salesforce engineer, architect, and myself at the experience design lead.</p>
+
+                    <p>We started by documenting the current state journey of CSA's through the creation of a service design blueprint. This information was gathered through real-time shadowing of individual CSA's. As they took calls from customers, we reviewed and noted how and why they used their current systems.</p>
+
+                    <p>We also held auditing workshops with hand-picked CSA's and stakeholders that allowed us to better understand what needed to be shifted to the new experience, and what might be able to be left behind.</p>
+
+                    <p>Working directly with the CSA's and stakeholders allowed the team to better empathize with their current day to day roadblocks, and come up with solutions that kept them at the forefront.</p>
+                    
+                </div>
+
+                <div class="project-img">
+
+                    <img src="images/securian-2.jpg">
+
+                    <p class="description">Ecosystem flow representing future state</p>
+                    
+                </div>
+
+                <div class="project-copy">
+
+                    <p>Based on the user research we gathered, a future state ecosystem was developed. While we discovered that not all current systems could be consolidated into Salesforce, this new ecosystem would take the total systems from twelve to five.</p>
+
+                    <p>Armed with this research, I gathered the team to do a live lo-fi prototype build session in Balsamiq. This allowed us to ideate quickly, and not get bogged down in design details at this early stage.</p>
+                    
+                </div>
+
+                <div class="project-img">
+
+                    <img src="images/securian-3.jpg">
+
+                    <p class="description">Lo-fidelity prototype built in Balsamiq</p>
+                    
+                </div>
+
+                <div class="project-copy">
+
+                    <p>Next, we again worked with CSA's and stakeholders to validate our findings and run them through our initial lo-fidelity prototypes.</p>
+
+                    <p>Once we felt confident in our direction, I worked with the team to create hi-fidelity versions of our prototype using Salesforce's Lightning Design System, Sketch, and InVision. The CSA's were again brought in to help us refine the user scenarios the prototype represented.</p>
+                    
+                </div>
+
+                <div class="project-img">
+
+                    <img src="images/securian-4.jpg">
+
+                    <p class="description">Hi-fidelity prototype created using the Salesforce Lightning Design System</p>
+                    
+                </div>
+
+                <div class="project-copy">
+
+                    <p>As the discovery phase came to a close, we met with key stakeholders and presented our user research findings, final InVision prototype, and future state recommendations and cost estimates.</p>
+
+                    <p>Securian Financial representatives were so thrilled with our discovery process and the solutions that came out of it, they decided to sign off and move forward with a build phase that same day.</p>
+                    
+                </div>
+
+            </div>
+                            
+        </main>
+
+        <footer class="footer">
+
+            <p>&copy;2020 Dave Dechant</p>
+                            
+        </footer>
 
         <!-- JS Links -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+        <script defer src="/js/classie.js"></script>
+
+        <script defer src="/js/scripts.js"></script>
 
     </body>
 
