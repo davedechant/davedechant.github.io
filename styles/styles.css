@@ -600,7 +600,8 @@ a:hover {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  flex-shrink: 0; }
 
 .work-block-left:hover .work-block-img, .work-block-right:hover .work-block-img {
   filter: grayscale(0%); }
