@@ -714,7 +714,8 @@ a:hover {
   transform: translate(-50%, 0); }
 
 .footer {
-  text-align: center; }
+  text-align: center;
+  padding: 2rem; }
 
 /* End Website/Product Specific Styles */
 /*---------------------------------------------------------------------*/
