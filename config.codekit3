@@ -1879,6 +1879,39 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/wtp-1.jpg": {
+		"ft": 16384,
+		"iS": 604925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/wtp-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/wtp-2.jpg": {
+		"ft": 16384,
+		"iS": 481391,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/wtp-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/wtp-3.jpg": {
+		"ft": 16384,
+		"iS": 914848,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/wtp-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/wtp-thumbnail.jpg": {
 		"ft": 16384,
 		"iS": 47785,
@@ -1945,6 +1978,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/ninty-app.html",
+		"oF": 0
+		},
+	"/resume-dave-dechant.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/resume-dave-dechant.pdf",
 		"oF": 0
 		},
 	"/securian.html": {

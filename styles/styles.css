@@ -62,7 +62,7 @@ body {
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   animation-name: site-wakeup;
-  animation-duration: 5s; }
+  animation-duration: 3s; }
 
 ol, ul {
   list-style: none; }
@@ -574,7 +574,7 @@ a:hover {
   background-color: #000000;
   position: relative;
   width: 90%;
-  margin-bottom: 3rem; }
+  margin-bottom: 6rem; }
 
 .work-block-right {
   margin-left: 10%; }
