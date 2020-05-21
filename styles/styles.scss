@@ -1184,6 +1184,21 @@ a:hover {
 	display: none;
 }
 
+.project .header-nav a, .project .header-nav a:visited {
+	font-size: 0.875rem;
+	margin-left: 1rem;
+}
+
+.header-nav .fa-chevron-left, .header-nav .fa-chevron-right {
+	font-size: 1.125rem;
+	vertical-align: -1px;
+	margin-right: 2px;
+}
+
+.header-nav .fa-chevron-right {
+	margin-left: 2px;
+}
+
 .header-logo, .header-logo:hover {
 	width: 275px;
 	padding: 30px 0 0 100px;
