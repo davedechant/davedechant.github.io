@@ -599,6 +599,10 @@ a:hover {
 	font-size: 0.813rem;
 }
 
+.intro-mobile {
+	display: none;
+}
+
 .vectors {
 	width: 6000px;
 	position: absolute;
@@ -1073,6 +1077,18 @@ a:hover {
 	font-size: 0.813rem;
 }
 
+.intro-desktop {
+	display: none;
+}
+
+.intro-mobile {
+	display: block;
+}
+
+.tooltip {
+	display: none;
+}
+
 .vector {
 	margin-right: 2rem;
 }
@@ -1219,6 +1235,12 @@ a:hover {
 
 .vector img {
 	max-width: 100px;
+}
+
+.description {
+	width: 95%;
+	bottom: -140px;
+	right: -20px;
 }
 
 .project-img .description, .hero .description {
