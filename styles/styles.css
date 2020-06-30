@@ -309,12 +309,13 @@ a:hover {
   padding: 0.5rem; }
 
 .header-logo {
+  position: relative;
   font-size: 1.313rem;
   font-weight: 400;
   height: 150px;
   margin: 0;
   padding: 55px 0 0 143px;
-  background-image: url(../images/dave-dechant.png);
+  background-image: url(../images/dave-dechant-hover.png);
   background-size: 128px;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -324,19 +325,52 @@ a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
+.header-logo:before, .header-logo:after {
+  content: "";
+  position: absolute;
+  left: 47px;
+  top: 115px;
+  width: 37px;
+  height: 15px;
+  background-image: url(../images/dave-dechant-mustache.png);
+  background-size: 37px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.header-logo:after {
+  left: 15px;
+  top: 74px;
+  width: 99px;
+  height: 30px;
+  background-image: url(../images/dave-dechant-glasses.png);
+  background-size: 99px; }
+
+.header-logo:hover:before, .header-logo:hover:after {
+  opacity: 0; }
+
 .smaller .header-logo {
   height: 60px;
   padding: 10px 0 0 60px;
   background-size: 50px; }
 
-.header-logo:hover {
-  background-image: url(../images/dave-dechant-hover.png);
-  background-size: 128px; }
+.smaller .header-logo:before {
+  left: 19px;
+  top: 45px;
+  width: 13px;
+  height: 7px;
+  background-size: 13px; }
 
-.smaller .header-logo:hover {
-  height: 60px;
-  padding: 10px 0 0 60px;
-  background-size: 50px; }
+.smaller .header-logo:after {
+  left: 7px;
+  top: 29px;
+  width: 36px;
+  height: 30px;
+  background-size: 36px; }
 
 .header-logo span {
   font-size: 0.750rem;
@@ -772,6 +806,18 @@ a:hover {
     height: 108px;
     padding: 35px 0 0 100px;
     background-size: 90px; }
+  .header-logo:before, .header-logo:after {
+    left: 34px;
+    top: 81px;
+    width: 25px;
+    height: 15px;
+    background-size: 25px; }
+  .header-logo:after {
+    left: 10px;
+    top: 52px;
+    width: 69px;
+    height: 30px;
+    background-size: 69px; }
   .header-nav-mobile-open, .header-nav-mobile-open:visited {
     position: absolute;
     top: 40px;

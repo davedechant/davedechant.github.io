@@ -1480,11 +1480,33 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/dave-dechant-glasses.png": {
+		"ft": 32768,
+		"iS": 3370,
+		"oA": 0,
+		"oAP": "/images/dave-dechant-glasses.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/dave-dechant-hover.png": {
 		"ft": 32768,
 		"iS": 23108,
 		"oA": 0,
 		"oAP": "/images/dave-dechant-hover.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/dave-dechant-mustache.png": {
+		"ft": 32768,
+		"iS": 934,
+		"oA": 0,
+		"oAP": "/images/dave-dechant-mustache.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
