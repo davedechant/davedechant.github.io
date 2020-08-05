@@ -917,12 +917,13 @@ a:hover {
 
 .king-video {
 	position: relative;
-	height: 985px;
+	height: 800px;
 	background-color: $grayscale-1000;
 	border-radius: 20px;
 }
 
 .king-video video {
+	width: 400px;
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%,0);
