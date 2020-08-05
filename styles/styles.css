@@ -759,6 +759,17 @@ a:hover {
   left: 50%;
   transform: translate(-50%, 0); }
 
+.king-video {
+  position: relative;
+  height: 985px;
+  background-color: #000000;
+  border-radius: 20px; }
+
+.king-video video {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0); }
+
 .footer {
   text-align: center;
   padding: 2rem; }

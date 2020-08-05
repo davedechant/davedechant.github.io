@@ -1707,6 +1707,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/king-anthology.jpg": {
+		"ft": 16384,
+		"iS": 131868,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/king-anthology.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/nes-gamepad-vector.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2026,6 +2037,14 @@
 		"oAP": "/sps-commerce.html",
 		"oF": 0
 		},
+	"/stephen-king-anthology.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/stephen-king-anthology.html",
+		"oF": 0
+		},
 	"/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -2121,6 +2140,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/videos/nintendo-switch-review-app.webm",
+		"oF": 0
+		},
+	"/videos/stephen-king-anthology-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/videos/stephen-king-anthology-prototype.mp4",
 		"oF": 0
 		},
 	"/webfonts/fa-brands-400.eot": {
