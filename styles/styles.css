@@ -309,11 +309,14 @@ a:hover {
   padding: 0.5rem; }
 
 .header-logo {
-  position: relative;
   font-size: 1.313rem;
   font-weight: 400;
+  margin: 0; }
+
+.header-logo a, .header-logo a:visited {
+  display: block;
+  position: relative;
   height: 150px;
-  margin: 0;
   padding: 55px 0 0 143px;
   background-image: url(../images/dave-dechant-hover.png);
   background-size: 128px;
@@ -323,9 +326,11 @@ a:hover {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+  text-decoration: none; }
 
-.header-logo:before, .header-logo:after {
+.header-logo a:before, .header-logo a:after {
   content: "";
   position: absolute;
   left: 47px;
@@ -342,7 +347,7 @@ a:hover {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
 
-.header-logo:after {
+.header-logo a:after {
   left: 15px;
   top: 74px;
   width: 99px;
@@ -350,29 +355,29 @@ a:hover {
   background-image: url(../images/dave-dechant-glasses.png);
   background-size: 99px; }
 
-.header-logo:hover:before, .header-logo:hover:after {
+.header-logo a:hover:before, .header-logo a:hover:after {
   opacity: 0; }
 
-.smaller .header-logo {
+.smaller .header-logo a {
   height: 60px;
   padding: 10px 0 0 60px;
   background-size: 50px; }
 
-.smaller .header-logo:before {
+.smaller .header-logo a:before {
   left: 19px;
   top: 45px;
   width: 13px;
   height: 7px;
   background-size: 13px; }
 
-.smaller .header-logo:after {
+.smaller .header-logo a:after {
   left: 7px;
   top: 29px;
   width: 36px;
   height: 30px;
   background-size: 36px; }
 
-.header-logo span {
+.header-logo a span {
   font-size: 0.750rem;
   font-weight: 900;
   letter-spacing: 2px;
@@ -409,21 +414,63 @@ a:hover {
 .header-nav a.header-nav-mobile-close, .header-nav a.header-nav-mobile-close:visited, .header-nav a.header-nav-mobile-close:hover {
   display: none; }
 
-.project .header-nav {
-  justify-content: center;
-  flex-grow: 1; }
-
-.project .header-nav:before {
-  left: 605px; }
-
 .header-nav a, .header-nav a:visited {
   font-size: 1rem;
   font-weight: 500;
-  margin-left: 1.5rem; }
+  margin-left: 1.5rem;
+  padding: 0.5rem 0; }
 
 .header-nav-last-item {
   flex-grow: 2;
   text-align: right; }
+
+.menu-item {
+  position: relative;
+  padding: 0.5rem 0; }
+
+.menu-dropdown {
+  display: block;
+  position: absolute;
+  top: 85%;
+  left: 20px;
+  padding: 1rem 1rem 0.688rem;
+  width: 320px;
+  background-color: #007DFF;
+  border-radius: 0px;
+  border: 1px solid #FFFFFF;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 9999; }
+
+.menu-item:hover .menu-dropdown {
+  top: 100%;
+  opacity: 1.0;
+  visibility: visible; }
+
+.menu-dropdown::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 22px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7px 6px 7px;
+  border-color: transparent transparent #007bff transparent; }
+
+.menu-dropdown a, .menu-dropdown a:visited {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  margin: 0;
+  color: #FFFFFF; }
 
 .hero {
   padding: 280px 0 400px;
@@ -431,11 +478,11 @@ a:hover {
   overflow: hidden; }
 
 .project .hero {
-  padding: 128px 0 50px;
+  padding: 250px 0 60px;
   position: relative;
   overflow: hidden; }
 
-.project .hero .content-block-title {
+.hero .content-block-title {
   left: 350px;
   z-index: 9990; }
 
@@ -782,8 +829,14 @@ a:hover {
 @media screen and (max-width: 1280px) {
   .row {
     width: 960px; }
-  .project .header-nav:before {
-    left: 465px; }
+  .header-logo a span {
+    letter-spacing: 0; }
+  .header-nav {
+    margin-left: 1.125rem; }
+  .header-nav a, .header-nav a:visited {
+    font-size: 0.938rem; }
+  .menu-dropdown a, .menu-dropdown a:visited {
+    font-size: 0.75rem; }
   .hero {
     padding: 240px 0 400px; }
   .hero-block {
@@ -800,9 +853,6 @@ a:hover {
     padding: 8rem 0 5rem; }
   .hero .row:after {
     right: -50px; }
-  .project .hero .content-block-title {
-    left: 120px;
-    z-index: 9990; }
   .project-copy {
     width: 600px;
     margin: 5rem auto; } }
@@ -813,18 +863,18 @@ a:hover {
     width: 720px; }
   .header .row {
     display: block; }
-  .header-logo, .header-logo:hover {
+  .header-logo a, .header-logo a:hover {
     width: 380px;
     height: 108px;
     padding: 35px 0 0 100px;
     background-size: 90px; }
-  .header-logo:before, .header-logo:after {
+  .header-logo a:before, .header-logo a:after {
     left: 34px;
     top: 81px;
     width: 25px;
     height: 15px;
     background-size: 25px; }
-  .header-logo:after {
+  .header-logo a:after {
     left: 10px;
     top: 52px;
     width: 69px;
@@ -840,7 +890,7 @@ a:hover {
     top: 16px; }
   .header-nav a.header-nav-mobile-close, .header-nav a.header-nav-mobile-close:visited, .header-nav a.header-nav-mobile-close:hover {
     position: absolute;
-    top: 110px;
+    top: 230px;
     left: -1.5rem;
     font-size: 2rem;
     color: #007DFF;
@@ -858,7 +908,7 @@ a:hover {
     top: 0;
     right: -350px;
     height: 100%;
-    width: 300px;
+    width: 320px;
     background-color: #000000;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -876,24 +926,23 @@ a:hover {
     color: #FFFFFF; }
   .header-nav-last-item {
     text-align: left; }
-  .project .header-nav {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    padding: 0;
+  .menu-dropdown {
     position: relative;
     top: 0;
-    right: 0;
-    height: auto;
-    width: auto;
-    background-color: #FFFFFF; }
-  .project .header-nav:before {
-    display: block;
-    left: 360px; }
-  .project .header-nav a, .project .header-nav a:visited {
+    left: 0;
     padding: 0;
-    margin-left: 2rem;
-    color: #007DFF; }
+    width: auto;
+    background: none;
+    border: 0;
+    opacity: 1;
+    visibility: visible; }
+  .menu-item:hover .menu-dropdown {
+    top: 0; }
+  .menu-dropdown::before {
+    display: none; }
+  .menu-dropdown a, .menu-dropdown a:visited {
+    padding: 0.5rem 0;
+    color: #FFFFFF; }
   .hero {
     padding: 200px 0 250px;
     position: relative;
@@ -903,8 +952,6 @@ a:hover {
     font-size: 1.25rem;
     line-height: 2rem;
     width: 100%; }
-  .project .hero {
-    padding: 128px 0 70px; }
   .hero .description {
     width: 90%;
     bottom: -90px;
@@ -963,9 +1010,6 @@ a:hover {
 @media (max-width: 740px) {
   .row {
     width: 520px; }
-  .project .header-nav:before {
-    display: block;
-    left: 260px; }
   .description {
     width: 95%;
     bottom: -100px;
@@ -976,8 +1020,6 @@ a:hover {
     padding: 1.5rem;
     left: 5%;
     bottom: -50px; }
-  .project .hero {
-    padding: 128px 0 70px; }
   .project-copy {
     width: 100%; }
   .work-block-img {
@@ -987,21 +1029,10 @@ a:hover {
 @media (max-width: 540px) {
   .row {
     width: 90%; }
-  .project .header-nav:before {
-    display: none; }
-  .project .header-nav a, .project .header-nav a:visited {
-    font-size: 0.875rem;
-    margin-left: 1rem; }
-  .header-nav .fa-chevron-left, .header-nav .fa-chevron-right {
-    font-size: 1.125rem;
-    vertical-align: -1px;
-    margin-right: 2px; }
-  .header-nav .fa-chevron-right {
-    margin-left: 2px; }
-  .header-logo, .header-logo:hover {
+  .header-logo a, .header-logo a:hover {
     width: 275px;
     padding: 30px 0 0 100px; }
-  .header-logo span {
+  .header-logo a span {
     letter-spacing: 1px;
     font-size: 0.625rem; }
   .vector img {

@@ -1718,6 +1718,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/king-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 32045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/king-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/nes-gamepad-vector.svg": {
 		"ft": 2097152,
 		"miP": 0,
