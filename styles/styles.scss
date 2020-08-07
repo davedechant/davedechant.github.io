@@ -958,31 +958,25 @@ a:hover {
 	margin: 6rem auto;
 }
 
-.ninty-video {
+.ninty-video, .king-video {
 	position: relative;
 	height: 800px;
 	background-color: #68BCF5;
 	border-radius: 20px;
 }
 
-.ninty-video video {
+.ninty-video video, .king-video video {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%,0);
 }
 
 .king-video {
-	position: relative;
-	height: 800px;
 	background-color: $grayscale-1000;
-	border-radius: 20px;
 }
 
 .king-video video {
 	width: 400px;
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%,0);
 }
 
 .footer {
@@ -1347,6 +1341,14 @@ a:hover {
 }
 
 .work-block-img {
+	width: 300px;
+}
+
+.ninty-video, .king-video {
+	height: 625px;
+}
+
+.ninty-video video, .king-video video {
 	width: 300px;
 }
 
