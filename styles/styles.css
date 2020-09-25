@@ -862,18 +862,12 @@ a:hover {
     height: 108px;
     padding: 35px 0 0 100px;
     background-size: 90px; }
-  .header-logo a:before, .header-logo a:after {
-    left: 34px;
-    top: 81px;
-    width: 25px;
-    height: 15px;
-    background-size: 25px; }
-  .header-logo a:after {
-    left: 10px;
-    top: 52px;
-    width: 69px;
-    height: 30px;
-    background-size: 69px; }
+  .header-logo a:before {
+    width: 90px;
+    background-size: 90px; }
+  .smaller .header-logo a:before {
+    width: 50px;
+    background-size: 50px; }
   .header-nav-mobile-open, .header-nav-mobile-open:visited {
     position: absolute;
     top: 40px;
