@@ -678,13 +678,19 @@ a:hover {
   margin: 0 0 3rem 0;
   padding: 4rem 0; }
 
+.story-img-container.king-app-video {
+  background-color: #000000; }
+
 .story-img {
   padding-left: 2rem;
   width: 99%;
   max-width: 967px; }
 
-.switch-app-video video {
+.king-app-video video, .switch-app-video video {
   max-width: 400px; }
+
+.king-app-video video {
+  margin-left: 2rem; }
 
 .story-caption {
   display: inline-block;

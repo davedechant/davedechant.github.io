@@ -7,7 +7,7 @@
 		"uuidString": "BF6D9895-A27B-4B7D-A821-AE9BE4CEBB3E"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32147",
 "files": {
 	"/about-dave-dechant.html": {
 		"cB": 0,
@@ -15,700 +15,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/about-dave-dechant.html",
-		"oF": 0
-		},
-	"/Archive/driveby-app.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/driveby-app.html",
-		"oF": 0
-		},
-	"/Archive/gerty.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/gerty.html",
-		"oF": 0
-		},
-	"/Archive/images/_notes/dwsync.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/_notes/dwsync.xml",
-		"oF": 0
-		},
-	"/Archive/images/cpt-multisite-admin.png": {
-		"ft": 32768,
-		"iS": 64818,
-		"oA": 0,
-		"oAP": "/Archive/images/cpt-multisite-admin.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/cpt-multisite-cpt.jpg": {
-		"ft": 16384,
-		"iS": 158351,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/cpt-multisite-cpt.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/cpt-multisite-featured.png": {
-		"ft": 32768,
-		"iS": 179605,
-		"oA": 0,
-		"oAP": "/Archive/images/cpt-multisite-featured.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/cpt-multisite-retargeter.jpg": {
-		"ft": 16384,
-		"iS": 228000,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/cpt-multisite-retargeter.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/cpt-product-screen.png": {
-		"ft": 32768,
-		"iS": 195401,
-		"oA": 0,
-		"oAP": "/Archive/images/cpt-product-screen.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/driveby-app-conversions.png": {
-		"ft": 32768,
-		"iS": 47934,
-		"oA": 0,
-		"oAP": "/Archive/images/driveby-app-conversions.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/driveby-app-featured.png": {
-		"ft": 32768,
-		"iS": 32108,
-		"oA": 0,
-		"oAP": "/Archive/images/driveby-app-featured.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/driveby-app-intro.png": {
-		"ft": 32768,
-		"iS": 43368,
-		"oA": 0,
-		"oAP": "/Archive/images/driveby-app-intro.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/driveby-app-login.png": {
-		"ft": 32768,
-		"iS": 42459,
-		"oA": 0,
-		"oAP": "/Archive/images/driveby-app-login.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/ecc-desktop-balsamiq-case-screen.png": {
-		"ft": 32768,
-		"iS": 333342,
-		"oA": 0,
-		"oAP": "/Archive/images/ecc-desktop-balsamiq-case-screen.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/ecc-desktop-case-screen.jpg": {
-		"ft": 16384,
-		"iS": 226793,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/ecc-desktop-case-screen.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/ecc-desktop-case-screen.png": {
-		"ft": 32768,
-		"iS": 521450,
-		"oA": 0,
-		"oAP": "/Archive/images/ecc-desktop-case-screen.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/ecc-desktop-ecosystem-flows.png": {
-		"ft": 32768,
-		"iS": 53052,
-		"oA": 0,
-		"oAP": "/Archive/images/ecc-desktop-ecosystem-flows.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/ecc-desktop-search-results.png": {
-		"ft": 32768,
-		"iS": 138296,
-		"oA": 0,
-		"oAP": "/Archive/images/ecc-desktop-search-results.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/ecc-desktop-service-blueprint.png": {
-		"ft": 32768,
-		"iS": 295713,
-		"oA": 0,
-		"oAP": "/Archive/images/ecc-desktop-service-blueprint.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/gerty-dashboard.png": {
-		"ft": 32768,
-		"iS": 164729,
-		"oA": 0,
-		"oAP": "/Archive/images/gerty-dashboard.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/gerty-design-system-featured.png": {
-		"ft": 32768,
-		"iS": 194115,
-		"oA": 0,
-		"oAP": "/Archive/images/gerty-design-system-featured.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/gerty-website-components.jpg": {
-		"ft": 16384,
-		"iS": 165174,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/gerty-website-components.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/gerty-website-home.jpg": {
-		"ft": 16384,
-		"iS": 204302,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/gerty-website-home.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/icons/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/favicon.ico",
-		"oF": 0
-		},
-	"/Archive/images/icons/large.png": {
-		"ft": 32768,
-		"iS": 2916,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/large.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/icons/square.png": {
-		"ft": 32768,
-		"iS": 1562,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/square.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/icons/tiny.png": {
-		"ft": 32768,
-		"iS": 1150,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/tiny.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/icons/touch-icon-ipad-retina.png": {
-		"ft": 32768,
-		"iS": 1183,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/touch-icon-ipad-retina.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/icons/touch-icon-ipad.png": {
-		"ft": 32768,
-		"iS": 1022,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/touch-icon-ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/icons/touch-icon-iphone-retina.png": {
-		"ft": 32768,
-		"iS": 1101,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/touch-icon-iphone-retina.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/icons/touch-icon-iphone.png": {
-		"ft": 32768,
-		"iS": 988,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/touch-icon-iphone.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/icons/wide.png": {
-		"ft": 32768,
-		"iS": 1897,
-		"oA": 0,
-		"oAP": "/Archive/images/icons/wide.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/product-dashboard.jpg": {
-		"ft": 16384,
-		"iS": 168861,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/product-dashboard.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/themes-plus-about.jpg": {
-		"ft": 16384,
-		"iS": 208873,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/themes-plus-about.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/themes-plus-about.png": {
-		"ft": 32768,
-		"iS": 723208,
-		"oA": 0,
-		"oAP": "/Archive/images/themes-plus-about.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/themes-plus-featured.jpg": {
-		"ft": 16384,
-		"iS": 285094,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/themes-plus-featured.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/images/themes-plus-theme11.png": {
-		"ft": 32768,
-		"iS": 165779,
-		"oA": 0,
-		"oAP": "/Archive/images/themes-plus-theme11.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/Archive/images/themes-plus-theme3.jpg": {
-		"ft": 16384,
-		"iS": 195269,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Archive/images/themes-plus-theme3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/Archive/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/index.html",
-		"oF": 0
-		},
-	"/Archive/multisite.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/multisite.html",
-		"oF": 0
-		},
-	"/Archive/resume-dave-dechant.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/resume-dave-dechant.pdf",
-		"oF": 0
-		},
-	"/Archive/salesforce-product.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/salesforce-product.html",
-		"oF": 0
-		},
-	"/Archive/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc",
-		"oF": 0
-		},
-	"/Archive/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons2.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons2.scssc",
-		"oF": 0
-		},
-	"/Archive/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/styles.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/styles.scssc",
-		"oF": 0
-		},
-	"/Archive/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/icons2.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/icons2.scssc",
-		"oF": 0
-		},
-	"/Archive/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/styles.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/styles.scssc",
-		"oF": 0
-		},
-	"/Archive/styles/fontawesome.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/fontawesome-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/Archive/styles/grid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/grid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/Archive/styles/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/Archive/styles/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/Archive/styles/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/Archive/themesplus.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/themesplus.html",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-brands-400.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-brands-400.eot",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-brands-400.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Archive/webfonts/fa-brands-400.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/Archive/webfonts/fa-brands-400.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-brands-400.ttf",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-brands-400.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-brands-400.woff",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-brands-400.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-brands-400.woff2",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-light-300.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-light-300.eot",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-light-300.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Archive/webfonts/fa-light-300.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/Archive/webfonts/fa-light-300.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-light-300.ttf",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-light-300.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-light-300.woff",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-light-300.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-light-300.woff2",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-regular-400.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-regular-400.eot",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-regular-400.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Archive/webfonts/fa-regular-400.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/Archive/webfonts/fa-regular-400.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-regular-400.ttf",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-regular-400.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-regular-400.woff",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-regular-400.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-regular-400.woff2",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-solid-900.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-solid-900.eot",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-solid-900.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/Archive/webfonts/fa-solid-900.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/Archive/webfonts/fa-solid-900.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-solid-900.ttf",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-solid-900.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-solid-900.woff",
-		"oF": 0
-		},
-	"/Archive/webfonts/fa-solid-900.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/webfonts/fa-solid-900.woff2",
-		"oF": 0
-		},
-	"/Archive/work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Archive/work.html",
 		"oF": 0
 		},
 	"/gerty-design-system.html": {
@@ -952,6 +258,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/king-app-figma.jpg": {
+		"ft": 16384,
+		"iS": 84814,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/king-app-figma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/ninty-app-sketch-symbols.jpg": {
 		"ft": 16384,
 		"iS": 148833,
@@ -1060,6 +377,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/images/story-thumbnail-king-app.jpg": {
+		"ft": 16384,
+		"iS": 47122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/story-thumbnail-king-app.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/story-thumbnail-nintendo-review-app.jpg": {
@@ -1178,6 +506,14 @@
 		"oAP": "/sps-commerce.html",
 		"oF": 0
 		},
+	"/stephen-king-app.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/stephen-king-app.html",
+		"oF": 0
+		},
 	"/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1242,14 +578,14 @@
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles/styles.css",
 		"oF": 0,
 		"oS": 0,
-		"uL": 1
+		"sct": 1
 		},
 	"/united-healthcare.html": {
 		"cB": 0,
@@ -1273,6 +609,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/videos/nintendo-switch-review-app.webm",
+		"oF": 0
+		},
+	"/videos/stephen-king-anthology-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/videos/stephen-king-anthology-prototype.mp4",
+		"oF": 0
+		},
+	"/videos/stephen-king-anthology-prototype.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/videos/stephen-king-anthology-prototype.webm",
 		"oF": 0
 		},
 	"/webfonts/fa-brands-400.eot": {
@@ -1450,7 +802,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 572802912.72960901,
-	"displayValue": "davedechant.github.io",
+	"displayValue": "V11",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 0
@@ -2049,6 +1401,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -2225,6 +1581,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -2250,6 +1610,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -2553,6 +1917,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -2756,6 +2124,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -3453,13 +2825,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,

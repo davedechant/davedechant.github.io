@@ -952,6 +952,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/Archive/V11/images/king-app-figma.jpg": {
+		"ft": 16384,
+		"iS": 84814,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V11/images/king-app-figma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/Archive/V11/images/ninty-app-sketch-symbols.jpg": {
 		"ft": 16384,
 		"iS": 148833,
@@ -1057,6 +1068,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/Archive/V11/images/story-thumbnail-gerty.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/Archive/V11/images/story-thumbnail-king-app.jpg": {
+		"ft": 16384,
+		"iS": 47122,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V11/images/story-thumbnail-king-app.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1178,6 +1200,14 @@
 		"oAP": "/Archive/V11/sps-commerce.html",
 		"oF": 0
 		},
+	"/Archive/V11/stephen-king-app.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V11/stephen-king-app.html",
+		"oF": 0
+		},
 	"/Archive/V11/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -1273,6 +1303,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/Archive/V11/videos/nintendo-switch-review-app.webm",
+		"oF": 0
+		},
+	"/Archive/V11/videos/stephen-king-anthology-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V11/videos/stephen-king-anthology-prototype.mp4",
+		"oF": 0
+		},
+	"/Archive/V11/videos/stephen-king-anthology-prototype.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V11/videos/stephen-king-anthology-prototype.webm",
 		"oF": 0
 		},
 	"/Archive/V11/webfonts/fa-brands-400.eot": {
@@ -1488,47 +1534,25 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/dave-dechant-glasses.png": {
+	"/images/dave-dechant-happy.png": {
 		"ft": 32768,
-		"iS": 3370,
+		"iS": 23761,
 		"oA": 0,
-		"oAP": "/images/dave-dechant-glasses.png",
+		"oAP": "/images/dave-dechant-happy.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/dave-dechant-hover.png": {
+	"/images/dave-dechant-winking.png": {
 		"ft": 32768,
-		"iS": 23108,
+		"iS": 25862,
 		"oA": 0,
-		"oAP": "/images/dave-dechant-hover.png",
+		"oAP": "/images/dave-dechant-winking.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/dave-dechant-mustache.png": {
-		"ft": 32768,
-		"iS": 934,
-		"oA": 0,
-		"oAP": "/images/dave-dechant-mustache.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/dave-dechant.png": {
-		"ft": 32768,
-		"iS": 25903,
-		"oA": 0,
-		"oAP": "/images/dave-dechant.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

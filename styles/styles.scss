@@ -416,48 +416,35 @@ a:hover {
 	position: relative;
 	height: 150px;
 	padding: 55px 0 0 143px;
-	background-image: url(../images/dave-dechant-hover.png);
+	background-image: url(../images/dave-dechant-happy.png);
 	background-size: 128px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
 	color: $grayscale-1000;
 	text-decoration: none;
 }
 
-.header-logo a:before, .header-logo a:after {
+.header-logo a:before {
 	content: "";
 	position: absolute;
-	left: 47px;
-	top: 115px;
-	width: 37px;
-	height: 15px;
-	background-image: url(../images/dave-dechant-mustache.png);
-	background-size: 37px;
+	top: 0;
+	left: 0;
+	width: 128px;
+	height: 100%;
+	background-image: url(../images/dave-dechant-winking.png);
+	background-size: 128px;
 	background-repeat: no-repeat;
-	background-position: 0 0;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-.header-logo a:after {
-	left: 15px;
-	top: 74px;
-	width: 99px;
-	height: 30px;
-	background-image: url(../images/dave-dechant-glasses.png);
-	background-size: 99px;
-}
-
-.header-logo a:hover:before, .header-logo a:hover:after {
+	z-index: 9000;
 	opacity: 0;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.header-logo a:hover:before {
+	opacity: 1.0;
 }
 
 .smaller .header-logo a {
@@ -467,19 +454,8 @@ a:hover {
 }
 
 .smaller .header-logo a:before {
-	left: 19px;
-	top: 45px;
-	width: 13px;
-	height: 7px;
-	background-size: 13px;
-}
-
-.smaller .header-logo a:after {
-	left: 7px;
-	top: 29px;
-	width: 36px;
-	height: 30px;
-	background-size: 36px;
+	width: 50px;
+	background-size: 50px;
 }
 
 .header-logo a span {
