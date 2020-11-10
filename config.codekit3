@@ -1,13 +1,13 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"AAInfo": "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "2709AE42-7A57-4AB3-B7F3-1CEC862F4BBA"
+		"uuidString": "BF6D9895-A27B-4B7D-A821-AE9BE4CEBB3E"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "33081",
 "files": {
 	"/Archive/V10/driveby-app.html": {
 		"cB": 0,
@@ -42,7 +42,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/cpt-multisite-cpt.jpg": {
 		"ft": 16384,
@@ -53,7 +55,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/cpt-multisite-featured.png": {
 		"ft": 32768,
@@ -64,7 +68,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/cpt-multisite-retargeter.jpg": {
 		"ft": 16384,
@@ -75,7 +81,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/cpt-product-screen.png": {
 		"ft": 32768,
@@ -86,7 +94,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/driveby-app-conversions.png": {
 		"ft": 32768,
@@ -97,7 +107,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/driveby-app-featured.png": {
 		"ft": 32768,
@@ -108,7 +120,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/driveby-app-intro.png": {
 		"ft": 32768,
@@ -119,7 +133,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/driveby-app-login.png": {
 		"ft": 32768,
@@ -130,7 +146,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/ecc-desktop-balsamiq-case-screen.png": {
 		"ft": 32768,
@@ -141,7 +159,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/ecc-desktop-case-screen.jpg": {
 		"ft": 16384,
@@ -152,7 +172,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/ecc-desktop-case-screen.png": {
 		"ft": 32768,
@@ -163,7 +185,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/ecc-desktop-ecosystem-flows.png": {
 		"ft": 32768,
@@ -174,7 +198,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/ecc-desktop-search-results.png": {
 		"ft": 32768,
@@ -185,7 +211,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/ecc-desktop-service-blueprint.png": {
 		"ft": 32768,
@@ -196,7 +224,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/gerty-dashboard.png": {
 		"ft": 32768,
@@ -207,7 +237,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/gerty-design-system-featured.png": {
 		"ft": 32768,
@@ -218,7 +250,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/gerty-website-components.jpg": {
 		"ft": 16384,
@@ -229,7 +263,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/gerty-website-home.jpg": {
 		"ft": 16384,
@@ -240,7 +276,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/favicon.ico": {
 		"cB": 0,
@@ -259,7 +297,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/square.png": {
 		"ft": 32768,
@@ -270,7 +310,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/tiny.png": {
 		"ft": 32768,
@@ -281,7 +323,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/touch-icon-ipad-retina.png": {
 		"ft": 32768,
@@ -292,7 +336,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/touch-icon-ipad.png": {
 		"ft": 32768,
@@ -303,7 +349,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/touch-icon-iphone-retina.png": {
 		"ft": 32768,
@@ -314,7 +362,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/touch-icon-iphone.png": {
 		"ft": 32768,
@@ -325,7 +375,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/icons/wide.png": {
 		"ft": 32768,
@@ -336,7 +388,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/product-dashboard.jpg": {
 		"ft": 16384,
@@ -347,7 +401,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/themes-plus-about.jpg": {
 		"ft": 16384,
@@ -358,7 +414,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/themes-plus-about.png": {
 		"ft": 32768,
@@ -369,7 +427,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/themes-plus-featured.jpg": {
 		"ft": 16384,
@@ -380,7 +440,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/themes-plus-theme11.png": {
 		"ft": 32768,
@@ -391,7 +453,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/images/themes-plus-theme3.jpg": {
 		"ft": 16384,
@@ -402,7 +466,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V10/index.html": {
 		"cB": 0,
@@ -736,7 +802,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/bgd.jpg": {
 		"ft": 16384,
@@ -747,7 +815,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/dave-dechant.jpg": {
 		"ft": 16384,
@@ -758,7 +828,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/gerty-components.jpg": {
 		"ft": 16384,
@@ -769,7 +841,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/gerty-ecosystem.jpg": {
 		"ft": 16384,
@@ -780,7 +854,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/gerty-homepage.jpg": {
 		"ft": 16384,
@@ -791,7 +867,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/gerty-personas.jpg": {
 		"ft": 16384,
@@ -802,7 +880,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/gerty-product.jpg": {
 		"ft": 16384,
@@ -813,7 +893,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/gerty-sketch.jpg": {
 		"ft": 16384,
@@ -824,7 +906,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/header-bgd.svg": {
 		"ft": 2097152,
@@ -873,7 +957,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/icons/square.png": {
 		"ft": 32768,
@@ -884,7 +970,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/icons/tiny.png": {
 		"ft": 32768,
@@ -895,7 +983,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/icons/touch-icon-ipad-retina.png": {
 		"ft": 32768,
@@ -906,7 +996,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/icons/touch-icon-ipad.png": {
 		"ft": 32768,
@@ -917,7 +1009,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/icons/touch-icon-iphone-retina.png": {
 		"ft": 32768,
@@ -928,7 +1022,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/icons/touch-icon-iphone.png": {
 		"ft": 32768,
@@ -939,7 +1035,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/icons/wide.png": {
 		"ft": 32768,
@@ -950,7 +1048,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/king-app-figma.jpg": {
 		"ft": 16384,
@@ -961,7 +1061,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/ninty-app-sketch-symbols.jpg": {
 		"ft": 16384,
@@ -972,7 +1074,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/securian-balsamiq.jpg": {
 		"ft": 16384,
@@ -983,7 +1087,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/securian-blueprint.jpg": {
 		"ft": 16384,
@@ -994,7 +1100,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/securian-ecosystem.jpg": {
 		"ft": 16384,
@@ -1005,7 +1113,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/securian-invision.jpg": {
 		"ft": 16384,
@@ -1016,7 +1126,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/snow-bgd.png": {
 		"ft": 32768,
@@ -1027,7 +1139,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/sps-balsamiq.jpg": {
 		"ft": 16384,
@@ -1038,7 +1152,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/sps-ecosystem-map.jpg": {
 		"ft": 16384,
@@ -1049,7 +1165,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/sps-sketch-invision.jpg": {
 		"ft": 16384,
@@ -1060,7 +1178,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/story-thumbnail-gerty.jpg": {
 		"ft": 16384,
@@ -1071,7 +1191,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/story-thumbnail-king-app.jpg": {
 		"ft": 16384,
@@ -1082,7 +1204,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/story-thumbnail-nintendo-review-app.jpg": {
 		"ft": 16384,
@@ -1093,7 +1217,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/story-thumbnail-securian.jpg": {
 		"ft": 16384,
@@ -1104,7 +1230,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/story-thumbnail-sps-commerce.jpg": {
 		"ft": 16384,
@@ -1115,7 +1243,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/story-thumbnail-united-healthcare.jpg": {
 		"ft": 16384,
@@ -1126,7 +1256,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/sword-and-shield-logo.svg": {
 		"ft": 2097152,
@@ -1147,7 +1279,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/images/uhc-search.jpg": {
 		"ft": 16384,
@@ -1158,7 +1292,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/Archive/V11/index.html": {
 		"cB": 0,
@@ -1489,20 +1625,976 @@
 		"oAP": "/Archive/V11/webfonts/fa-solid-900.woff2",
 		"oF": 0
 		},
-	"/cover-letter-dave-dechant.pdf": {
+	"/Archive/V12/cover-letter-dave-dechant.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/cover-letter-dave-dechant.pdf",
+		"oAP": "/Archive/V12/cover-letter-dave-dechant.pdf",
 		"oF": 0
 		},
-	"/gerty.html": {
+	"/Archive/V12/gerty.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/gerty.html",
+		"oAP": "/Archive/V12/gerty.html",
+		"oF": 0
+		},
+	"/Archive/V12/images/_notes/dwsync.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/_notes/dwsync.xml",
+		"oF": 0
+		},
+	"/Archive/V12/images/browser-frame.png": {
+		"ft": 32768,
+		"iS": 22155,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/browser-frame.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/dark-tower-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/images/dark-tower-vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/images/dave-dechant-happy.png": {
+		"ft": 32768,
+		"iS": 23761,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/dave-dechant-happy.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/dave-dechant-winking.png": {
+		"ft": 32768,
+		"iS": 25862,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/dave-dechant-winking.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/dreamcast-controller-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/images/dreamcast-controller-vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/images/gerty-1.jpg": {
+		"ft": 16384,
+		"iS": 147476,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/gerty-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/gerty-2.jpg": {
+		"ft": 16384,
+		"iS": 200306,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/gerty-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/gerty-3.jpg": {
+		"ft": 16384,
+		"iS": 217236,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/gerty-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/gerty-4.jpg": {
+		"ft": 16384,
+		"iS": 209305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/gerty-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/gerty-5.jpg": {
+		"ft": 16384,
+		"iS": 283051,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/gerty-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/gerty-6.jpg": {
+		"ft": 16384,
+		"iS": 133931,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/gerty-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/gerty-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 37815,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/gerty-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/favicon.ico",
+		"oF": 0
+		},
+	"/Archive/V12/images/icons/large.png": {
+		"ft": 32768,
+		"iS": 2916,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/large.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/square.png": {
+		"ft": 32768,
+		"iS": 1562,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/square.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/tiny.png": {
+		"ft": 32768,
+		"iS": 1150,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/tiny.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/touch-icon-ipad-retina.png": {
+		"ft": 32768,
+		"iS": 1183,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/touch-icon-ipad-retina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/touch-icon-ipad.png": {
+		"ft": 32768,
+		"iS": 1022,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/touch-icon-ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/touch-icon-iphone-retina.png": {
+		"ft": 32768,
+		"iS": 1101,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/touch-icon-iphone-retina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/touch-icon-iphone.png": {
+		"ft": 32768,
+		"iS": 988,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/touch-icon-iphone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/icons/wide.png": {
+		"ft": 32768,
+		"iS": 1897,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/icons/wide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/king-anthology.jpg": {
+		"ft": 16384,
+		"iS": 131868,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/king-anthology.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/king-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 32045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/king-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/nes-gamepad-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/images/nes-gamepad-vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/images/ninty-app-1.jpg": {
+		"ft": 16384,
+		"iS": 325180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/ninty-app-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/ninty-app-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 46357,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/ninty-app-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/securian-1.jpg": {
+		"ft": 16384,
+		"iS": 103333,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/securian-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/securian-2.jpg": {
+		"ft": 16384,
+		"iS": 136277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/securian-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/securian-3.jpg": {
+		"ft": 16384,
+		"iS": 239376,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/securian-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/securian-4.jpg": {
+		"ft": 16384,
+		"iS": 242934,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/securian-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/securian-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 37134,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/securian-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/sketchpad-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/images/sketchpad-vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/images/sps-commerce-1.jpg": {
+		"ft": 16384,
+		"iS": 170189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/sps-commerce-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/sps-commerce-2.jpg": {
+		"ft": 16384,
+		"iS": 232647,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/sps-commerce-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/sps-commerce-3.jpg": {
+		"ft": 16384,
+		"iS": 154017,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/sps-commerce-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/sps-commerce-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 44885,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/sps-commerce-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/uhc-1.jpg": {
+		"ft": 16384,
+		"iS": 206235,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/uhc-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/uhc-2.jpg": {
+		"ft": 16384,
+		"iS": 458215,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/uhc-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/united-healthcare-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 32960,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/united-healthcare-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/web-design-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/images/web-design-vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/images/wisconsin-mug-vector.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/images/wisconsin-mug-vector.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/images/wtp-1.jpg": {
+		"ft": 16384,
+		"iS": 604925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/wtp-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/wtp-2.jpg": {
+		"ft": 16384,
+		"iS": 481391,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/wtp-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/wtp-3.jpg": {
+		"ft": 16384,
+		"iS": 914848,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/wtp-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/images/wtp-thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 47785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/images/wtp-thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V12/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/index.html",
+		"oF": 0
+		},
+	"/Archive/V12/js/_notes/dwsync.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/js/_notes/dwsync.xml",
+		"oF": 0
+		},
+	"/Archive/V12/js/classie.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/Archive/V12/js/classie-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/Archive/V12/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/Archive/V12/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/Archive/V12/js/scripts.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/Archive/V12/js/scripts-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/Archive/V12/ninty-app.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/ninty-app.html",
+		"oF": 0
+		},
+	"/Archive/V12/resume-dave-dechant.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/resume-dave-dechant.pdf",
+		"oF": 0
+		},
+	"/Archive/V12/securian.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/securian.html",
+		"oF": 0
+		},
+	"/Archive/V12/sps-commerce.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/sps-commerce.html",
+		"oF": 0
+		},
+	"/Archive/V12/stephen-king-anthology.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/stephen-king-anthology.html",
+		"oF": 0
+		},
+	"/Archive/V12/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc",
+		"oF": 0
+		},
+	"/Archive/V12/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons2.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons2.scssc",
+		"oF": 0
+		},
+	"/Archive/V12/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/styles.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/styles.scssc",
+		"oF": 0
+		},
+	"/Archive/V12/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/icons2.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/icons2.scssc",
+		"oF": 0
+		},
+	"/Archive/V12/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/styles.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/styles.scssc",
+		"oF": 0
+		},
+	"/Archive/V12/styles/fontawesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/fontawesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/Archive/V12/styles/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/Archive/V12/styles/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/styles/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/Archive/V12/uhc.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/uhc.html",
+		"oF": 0
+		},
+	"/Archive/V12/videos/nintendo-switch-review-app.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/videos/nintendo-switch-review-app.mp4",
+		"oF": 0
+		},
+	"/Archive/V12/videos/nintendo-switch-review-app.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/videos/nintendo-switch-review-app.webm",
+		"oF": 0
+		},
+	"/Archive/V12/videos/stephen-king-anthology-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/videos/stephen-king-anthology-prototype.mp4",
+		"oF": 0
+		},
+	"/Archive/V12/videos/stephen-king-anthology-prototype.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/videos/stephen-king-anthology-prototype.webm",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-brands-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-brands-400.eot",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-brands-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/webfonts/fa-brands-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/webfonts/fa-brands-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-brands-400.ttf",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-brands-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-brands-400.woff",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-brands-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-brands-400.woff2",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-light-300.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-light-300.eot",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-light-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/webfonts/fa-light-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/webfonts/fa-light-300.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-light-300.ttf",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-light-300.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-light-300.woff",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-light-300.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-light-300.woff2",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-regular-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-regular-400.eot",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-regular-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/webfonts/fa-regular-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/webfonts/fa-regular-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-regular-400.ttf",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-regular-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-regular-400.woff",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-regular-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-regular-400.woff2",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-solid-900.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-solid-900.eot",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-solid-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V12/webfonts/fa-solid-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/Archive/V12/webfonts/fa-solid-900.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-solid-900.ttf",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-solid-900.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-solid-900.woff",
+		"oF": 0
+		},
+	"/Archive/V12/webfonts/fa-solid-900.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/webfonts/fa-solid-900.woff2",
+		"oF": 0
+		},
+	"/Archive/V12/wtp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V12/wtp.html",
+		"oF": 0
+		},
+	"/Designs/screens.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Designs/screens.sketch",
 		"oF": 0
 		},
 	"/images/_notes/dwsync.xml": {
@@ -1513,58 +2605,31 @@
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
 		},
-	"/images/browser-frame.png": {
-		"ft": 32768,
-		"iS": 22155,
+	"/images/dave-dechant-bw.jpg": {
+		"ft": 16384,
+		"iS": 105114,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/browser-frame.png",
+		"oAP": "/images/dave-dechant-bw.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/dark-tower-vector.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/dark-tower-vector.svg",
-		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/images/dave-dechant-happy.png": {
+	"/images/dave-illustrated.png": {
 		"ft": 32768,
-		"iS": 23761,
+		"iS": 11977,
 		"oA": 0,
-		"oAP": "/images/dave-dechant-happy.png",
+		"oAP": "/images/dave-illustrated.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/dave-dechant-winking.png": {
-		"ft": 32768,
-		"iS": 25862,
-		"oA": 0,
-		"oAP": "/images/dave-dechant-winking.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/dreamcast-controller-vector.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/dreamcast-controller-vector.svg",
-		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/gerty-1.jpg": {
 		"ft": 16384,
@@ -1575,7 +2640,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/gerty-2.jpg": {
 		"ft": 16384,
@@ -1586,7 +2653,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/gerty-3.jpg": {
 		"ft": 16384,
@@ -1597,7 +2666,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/gerty-4.jpg": {
 		"ft": 16384,
@@ -1608,7 +2679,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/gerty-5.jpg": {
 		"ft": 16384,
@@ -1619,7 +2692,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/gerty-6.jpg": {
 		"ft": 16384,
@@ -1630,18 +2705,19 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/images/gerty-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 37815,
-		"jF": 0,
+	"/images/gerty-gif.gif": {
+		"ft": 4194304,
+		"iS": 492287,
 		"oA": 0,
-		"oAP": "/images/gerty-thumbnail.jpg",
+		"oAP": "/images/gerty-gif.gif",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/icons/favicon.ico": {
 		"cB": 0,
@@ -1660,7 +2736,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icons/square.png": {
 		"ft": 32768,
@@ -1671,7 +2749,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icons/tiny.png": {
 		"ft": 32768,
@@ -1682,7 +2762,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icons/touch-icon-ipad-retina.png": {
 		"ft": 32768,
@@ -1693,7 +2775,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icons/touch-icon-ipad.png": {
 		"ft": 32768,
@@ -1704,7 +2788,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icons/touch-icon-iphone-retina.png": {
 		"ft": 32768,
@@ -1715,7 +2801,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icons/touch-icon-iphone.png": {
 		"ft": 32768,
@@ -1726,7 +2814,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/icons/wide.png": {
 		"ft": 32768,
@@ -1737,7 +2827,9 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/king-anthology.jpg": {
 		"ft": 16384,
@@ -1748,27 +2840,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/images/king-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 32045,
-		"jF": 0,
+	"/images/king-gif.gif": {
+		"ft": 4194304,
+		"iS": 811368,
 		"oA": 0,
-		"oAP": "/images/king-thumbnail.jpg",
+		"oAP": "/images/king-gif.gif",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
-	"/images/nes-gamepad-vector.svg": {
+	"/images/laptop-frame.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/nes-gamepad-vector.svg",
+		"oAP": "/images/laptop-frame.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/images/ninty-app-1.jpg": {
@@ -1780,18 +2873,29 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/images/ninty-app-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 46357,
-		"jF": 0,
+	"/images/ninty-gif.gif": {
+		"ft": 4194304,
+		"iS": 770297,
 		"oA": 0,
-		"oAP": "/images/ninty-app-thumbnail.jpg",
+		"oAP": "/images/ninty-gif.gif",
 		"oF": 0,
-		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/phone-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/phone-frame.svg",
+		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/securian-1.jpg": {
 		"ft": 16384,
@@ -1802,7 +2906,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/securian-2.jpg": {
 		"ft": 16384,
@@ -1813,7 +2919,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/securian-3.jpg": {
 		"ft": 16384,
@@ -1824,7 +2932,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/securian-4.jpg": {
 		"ft": 16384,
@@ -1835,39 +2945,32 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/images/securian-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 37134,
-		"jF": 0,
+	"/images/securian-gif.gif": {
+		"ft": 4194304,
+		"iS": 112700,
 		"oA": 0,
-		"oAP": "/images/securian-thumbnail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/sketchpad-vector.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/sketchpad-vector.svg",
+		"oAP": "/images/securian-gif.gif",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/sps-commerce-1.jpg": {
 		"ft": 16384,
-		"iS": 170189,
+		"iS": 136748,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/sps-commerce-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/sps-commerce-2.jpg": {
 		"ft": 16384,
@@ -1878,7 +2981,9 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/sps-commerce-3.jpg": {
 		"ft": 16384,
@@ -1889,18 +2994,19 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/images/sps-commerce-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 44885,
-		"jF": 0,
+	"/images/sps-gif.gif": {
+		"ft": 4194304,
+		"iS": 219962,
 		"oA": 0,
-		"oAP": "/images/sps-commerce-thumbnail.jpg",
+		"oAP": "/images/sps-gif.gif",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/images/uhc-1.jpg": {
 		"ft": 16384,
@@ -1910,8 +3016,10 @@
 		"oAP": "/images/uhc-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/uhc-2.jpg": {
 		"ft": 16384,
@@ -1922,82 +3030,19 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
-	"/images/united-healthcare-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 32960,
-		"jF": 0,
+	"/images/uhc-gif.gif": {
+		"ft": 4194304,
+		"iS": 549159,
 		"oA": 0,
-		"oAP": "/images/united-healthcare-thumbnail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/web-design-vector.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/web-design-vector.svg",
+		"oAP": "/images/uhc-gif.gif",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/wisconsin-mug-vector.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/wisconsin-mug-vector.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/wtp-1.jpg": {
-		"ft": 16384,
-		"iS": 604925,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/wtp-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/wtp-2.jpg": {
-		"ft": 16384,
-		"iS": 481391,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/wtp-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/wtp-3.jpg": {
-		"ft": 16384,
-		"iS": 914848,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/wtp-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/wtp-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 47785,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/wtp-thumbnail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"ou": "lpckwebp-none",
+		"rq": 75
 		},
 	"/index.html": {
 		"cB": 0,
@@ -2007,85 +3052,12 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/js/_notes/dwsync.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/js/_notes/dwsync.xml",
-		"oF": 0
-		},
-	"/js/classie.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/classie-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/scripts.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/scripts-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/ninty-app.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ninty-app.html",
-		"oF": 0
-		},
 	"/resume-dave-dechant.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/resume-dave-dechant.pdf",
-		"oF": 0
-		},
-	"/securian.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/securian.html",
-		"oF": 0
-		},
-	"/sps-commerce.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/sps-commerce.html",
-		"oF": 0
-		},
-	"/stephen-king-anthology.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/stephen-king-anthology.html",
 		"oF": 0
 		},
 	"/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
@@ -2161,14 +3133,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/uhc.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/uhc.html",
-		"oF": 0
-		},
 	"/videos/nintendo-switch-review-app.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -2216,7 +3180,7 @@
 		"oAP": "/webfonts/fa-brands-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/webfonts/fa-brands-400.ttf": {
@@ -2258,7 +3222,7 @@
 		"oAP": "/webfonts/fa-light-300.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/webfonts/fa-light-300.ttf": {
@@ -2300,7 +3264,7 @@
 		"oAP": "/webfonts/fa-regular-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/webfonts/fa-regular-400.ttf": {
@@ -2342,7 +3306,7 @@
 		"oAP": "/webfonts/fa-solid-900.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/webfonts/fa-solid-900.ttf": {
@@ -2368,14 +3332,6 @@
 		"oA": 0,
 		"oAP": "/webfonts/fa-solid-900.woff2",
 		"oF": 0
-		},
-	"/wtp.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/wtp.html",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -2383,10 +3339,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 611344729.83961201,
+	"creationDate": 572802912.72960901,
 	"displayValue": "davedechant.github.io",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-glace",
+	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -2860,8 +3816,7 @@
 			"optionString": "{'before': true, 'after': true}"
 			},
 		"block-scoped-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"block-spacing": {
 			"active": 0,
@@ -2877,7 +3832,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -2916,20 +3871,20 @@
 			"optionString": "'that'"
 			},
 		"constructor-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"curly": {
 			"active": 0,
 			"optionString": "'all'"
 			},
 		"default-case": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"default-case-last": {
+			"active": 0
 			},
 		"default-param-last": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"dot-location": {
 			"active": 0,
@@ -2948,8 +3903,7 @@
 			"optionString": "'always', {'null': 'always'}"
 			},
 		"for-direction": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"func-call-spacing": {
 			"active": 0,
@@ -2980,16 +3934,14 @@
 			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"grouped-accessor-pairs": {
 			"active": 0,
 			"optionString": "'anyOrder'"
 			},
 		"guard-for-in": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"handle-callback-err": {
 			"active": 0,
@@ -3005,7 +3957,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -3097,51 +4049,42 @@
 			},
 		"new-parens": {
 			"active": 0,
-			"optionString": "'always'"
+			"optionString": ""
 			},
 		"newline-per-chained-call": {
 			"active": 0,
 			"optionString": "{'ignoreChainWithDepth': 2}"
 			},
 		"no-alert": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-array-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-async-promise-executor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
 		"no-buffer-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-caller": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-case-declarations": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-class-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-cond-assign": {
 			"active": 1,
@@ -3149,131 +4092,108 @@
 			},
 		"no-confusing-arrow": {
 			"active": 0,
-			"optionString": "{'allowParens': true}"
+			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
 			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-constant-condition": {
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
 		"no-constructor-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-continue": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-control-regex": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-debugger": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-delete-var": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-div-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-dupe-args": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-class-members": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-else-if": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-dupe-keys": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-duplicate-imports": {
 			"active": 0,
 			"optionString": "{'includeExports': false}"
 			},
 		"no-else-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-empty": {
 			"active": 1,
 			"optionString": "{'allowEmptyCatch': false}"
 			},
 		"no-empty-character-class": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-empty-function": {
 			"active": 0,
 			"optionString": "{'allow': []}"
 			},
 		"no-empty-pattern": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-eq-null": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-eval": {
 			"active": 0,
 			"optionString": "{'allowIndirect': false}"
 			},
 		"no-ex-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extend-native": {
 			"active": 0,
 			"optionString": "{'exceptions': []}"
 			},
 		"no-extra-bind": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-boolean-cast": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-extra-labels": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-fallthrough": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-floating-decimal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-func-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-global-assign": {
 			"active": 1,
@@ -3284,20 +4204,16 @@
 			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
 			},
 		"no-implicit-globals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-implied-eval": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-import-assign": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-inline-comments": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-inner-declarations": {
 			"active": 1,
@@ -3309,43 +4225,40 @@
 			},
 		"no-invalid-this": {
 			"active": 0,
-			"optionString": "{'capIsConstructor': true}"
+			"optionString": ""
 			},
 		"no-irregular-whitespace": {
 			"active": 1,
 			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
 			},
 		"no-iterator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-label-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-labels": {
 			"active": 0,
 			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
 			},
 		"no-lone-blocks": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-lonely-if": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-loop-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-loss-of-precision": {
+			"active": 0
 			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
 		"no-misleading-character-class": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-mixed-operators": {
 			"active": 0,
@@ -3360,108 +4273,95 @@
 			"optionString": ""
 			},
 		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
 			},
 		"no-multi-str": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-multiple-empty-lines": {
 			"active": 0,
 			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
 			},
 		"no-negated-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-nested-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-func": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-object": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-require": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-new-symbol": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-new-wrappers": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-obj-calls": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-octal-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-param-reassign": {
 			"active": 0,
 			"optionString": "{'props': false}"
 			},
 		"no-path-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-plusplus": {
 			"active": 0,
 			"optionString": "{'allowForLoopAfterthoughts': false}"
 			},
 		"no-process-env": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-process-exit": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
+			},
+		"no-promise-executor-return": {
+			"active": 0
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-prototype-builtins": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
 			},
 		"no-regex-spaces": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
 			"optionString": "'event', 'fdescribe'"
 			},
 		"no-restricted-imports": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-restricted-modules": {
 			"active": 0,
@@ -3480,40 +4380,33 @@
 			"optionString": "'except-parens'"
 			},
 		"no-return-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-script-url": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-self-assign": {
 			"active": 1,
 			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sequences": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-setter-return": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
 			},
 		"no-shadow-restricted-names": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-sparse-arrays": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-sync": {
 			"active": 0,
@@ -3521,23 +4414,19 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": "{allowIndentationTabs: false}"
+			"optionString": ""
 			},
 		"no-template-curly-in-string": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-ternary": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-this-before-super": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-throw-literal": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-trailing-spaces": {
 			"active": 0,
@@ -3548,48 +4437,45 @@
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-undefined": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unmodified-loop-condition": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-unneeded-ternary": {
 			"active": 0,
 			"optionString": "{'defaultAssignment': true}"
 			},
 		"no-unreachable": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
+			},
+		"no-unreachable-loop": {
+			"active": 0,
+			"optionString": "{'ignore': []}"
 			},
 		"no-unsafe-finally": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unsafe-negation": {
 			"active": 1,
-			"optionString": "{'enforceForOrderingRelations': false}"
+			"optionString": ""
 			},
 		"no-unused-expressions": {
 			"active": 0,
 			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
 			},
 		"no-unused-labels": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"no-unused-vars": {
 			"active": 1,
@@ -3599,41 +4485,37 @@
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
 			},
+		"no-useless-backreference": {
+			"active": 0
+			},
 		"no-useless-call": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-catch": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-computed-key": {
 			"active": 0,
-			"optionString": "{'enforceForClassMembers': false}"
+			"optionString": ""
 			},
 		"no-useless-concat": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-constructor": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-escape": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-useless-rename": {
 			"active": 0,
 			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
 			},
 		"no-useless-return": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-var": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-void": {
 			"active": 0,
@@ -3644,12 +4526,10 @@
 			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
 			},
 		"no-whitespace-before-property": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"no-with": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"nonblock-statement-body-position": {
 			"active": 0,
@@ -3696,8 +4576,7 @@
 			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
 			},
 		"prefer-arrow-callback": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-const": {
 			"active": 0,
@@ -3708,40 +4587,32 @@
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-exponentiation-operator": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-named-capture-group": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-numeric-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-object-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-regex-literals": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-rest-params": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-spread": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"prefer-template": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"quote-props": {
 			"active": 0,
@@ -3756,24 +4627,20 @@
 			"optionString": "'always'"
 			},
 		"require-atomic-updates": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-await": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-unicode-regexp": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"require-yield": {
-			"active": 1,
-			"optionString": ""
+			"active": 1
 			},
 		"rest-spread-spacing": {
 			"active": 0,
@@ -3797,7 +4664,7 @@
 			},
 		"sort-keys": {
 			"active": 0,
-			"optionString": "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
 			},
 		"sort-vars": {
 			"active": 0,
@@ -3836,8 +4703,7 @@
 			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"template-curly-spacing": {
 			"active": 0,
@@ -3853,7 +4719,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+			"optionString": ""
 			},
 		"valid-jsdoc": {
 			"active": 0,
@@ -3864,16 +4730,14 @@
 			"optionString": "{'requireStringLiterals': true}"
 			},
 		"vars-on-top": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"wrap-iife": {
 			"active": 0,
 			"optionString": "'outside'"
 			},
 		"wrap-regex": {
-			"active": 0,
-			"optionString": ""
+			"active": 0
 			},
 		"yield-star-spacing": {
 			"active": 0,
@@ -3885,7 +4749,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http://localhost:8888",
+	"externalServerAddress": "http://localhost",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -4268,7 +5132,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -4294,7 +5160,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"outputFormat": 0,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -4386,7 +5254,9 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"optimizerType": 1,
-		"quality": 100
+		"quality": 100,
+		"webpOptimizationPresetUUID": "lpckwebp-none",
+		"webpRGBQuality": 75
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -4452,7 +5322,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 52780316221407
+		"pluginMask": 3758088159
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
@@ -4769,7 +5639,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"warnings": {
@@ -4787,6 +5657,8 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
+	"webpPresets": {
+		},
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"

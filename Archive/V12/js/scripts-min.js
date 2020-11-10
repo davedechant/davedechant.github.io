@@ -1,0 +1,1 @@
+$(document).ready((function(){window.onload=void window.addEventListener("scroll",(function(e){var o=window.pageYOffset||document.documentElement.scrollTop,l=document.querySelector("body");o>150?classie.add(l,"smaller"):classie.has(l,"smaller")&&classie.remove(l,"smaller")}))}));
