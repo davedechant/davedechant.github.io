@@ -259,6 +259,7 @@ a .fas, a .fas:visited {
 
 .controller-icons {
 	position: fixed;
+	overflow: hidden;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -266,10 +267,10 @@ a .fas, a .fas:visited {
 	border: 1px solid red;
 	z-index: 0;
 	background-image: url(../images/controller-icons.png);
-	background-size: 70px;
-	opacity: 0.025;
+	background-size: 135px;
+	opacity: 0.03;
 	animation-name: controller-icons;
-	animation-duration: 60s;
+	animation-duration: 40s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 	transform: translate(0,0);
