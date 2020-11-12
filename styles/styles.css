@@ -177,6 +177,29 @@ a .fas, a .fas:visited {
   /* IE6-9 fallback on horizontal gradient */
   height: 100vh; }
 
+.controller-icons {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  border: 1px solid red;
+  z-index: 0;
+  background-image: url(../images/controller-icons.svg);
+  background-size: 70px;
+  opacity: 0.025;
+  animation-name: controller-icons;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: translate(0, 0); }
+
+@keyframes controller-icons {
+  0% {
+    transform: translate(0, -500px); }
+  100% {
+    transform: translate(0, 0); } }
+
 .header {
   position: absolute;
   top: 50%;

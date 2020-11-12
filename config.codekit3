@@ -2589,6 +2589,82 @@
 		"oAP": "/Archive/V12/wtp.html",
 		"oF": 0
 		},
+	"/Designs/port-designs.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Designs/port-designs.sketch",
+		"oF": 0
+		},
+	"/Designs/Resume/dave-dechant-happy.png": {
+		"ft": 32768,
+		"iS": 24158,
+		"oA": 0,
+		"oAP": "/Designs/Resume/dave-dechant-happy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Designs/Resume/dave-dechant-winking.png": {
+		"ft": 32768,
+		"iS": 23592,
+		"oA": 0,
+		"oAP": "/Designs/Resume/dave-dechant-winking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Designs/Resume/hero-shield.png": {
+		"ft": 32768,
+		"iS": 55942,
+		"oA": 0,
+		"oAP": "/Designs/Resume/hero-shield.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Designs/Resume/hero-sword.png": {
+		"ft": 32768,
+		"iS": 10355,
+		"oA": 0,
+		"oAP": "/Designs/Resume/hero-sword.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Designs/Resume/references-dave-dechant.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Designs/Resume/references-dave-dechant.txt",
+		"oF": 0
+		},
+	"/Designs/Resume/resume-dave-dechant.indd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Designs/Resume/resume-dave-dechant.indd",
+		"oF": 0
+		},
 	"/Designs/screens.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -2604,6 +2680,29 @@
 		"oA": 0,
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
+		},
+	"/images/controller-icons.png": {
+		"ft": 32768,
+		"iS": 20127,
+		"oA": 0,
+		"oAP": "/images/controller-icons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/controller-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/controller-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/dave-dechant-bw.jpg": {
 		"ft": 16384,
