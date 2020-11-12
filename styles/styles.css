@@ -185,7 +185,7 @@ a .fas, a .fas:visited {
   height: 150%;
   border: 1px solid red;
   z-index: 0;
-  background-image: url(../images/controller-icons.svg);
+  background-image: url(../images/controller-icons.png);
   background-size: 70px;
   opacity: 0.025;
   animation-name: controller-icons;
