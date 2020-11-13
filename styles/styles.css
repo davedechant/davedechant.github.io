@@ -47,7 +47,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
   line-height: 1;
   color: #000000;
-  background: #003A69;
+  background: #000000;
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased; }
@@ -187,8 +187,8 @@ a .fas, a .fas:visited {
   border: 1px solid red;
   z-index: 0;
   background-image: url(../images/controller-icons.png);
-  background-size: 135px;
-  opacity: 0.03;
+  background-size: 150px;
+  opacity: 0.035;
   animation-name: controller-icons;
   animation-duration: 40s;
   animation-iteration-count: infinite;
