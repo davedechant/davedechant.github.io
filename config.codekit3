@@ -2681,19 +2681,6 @@
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
 		},
-	"/images/controller-icons-large.png": {
-		"ft": 32768,
-		"iS": 541554,
-		"oA": 0,
-		"oAP": "/images/controller-icons-large.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
 	"/images/controller-icons.png": {
 		"ft": 32768,
 		"iS": 20127,
@@ -2722,7 +2709,7 @@
 		},
 	"/images/dave-illustrated.png": {
 		"ft": 32768,
-		"iS": 11977,
+		"iS": 7029,
 		"oA": 0,
 		"oAP": "/images/dave-illustrated.png",
 		"oF": 0,
@@ -2741,7 +2728,7 @@
 		"oAP": "/images/gerty-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2754,7 +2741,7 @@
 		"oAP": "/images/gerty-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2767,7 +2754,7 @@
 		"oAP": "/images/gerty-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2780,7 +2767,7 @@
 		"oAP": "/images/gerty-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2793,7 +2780,7 @@
 		"oAP": "/images/gerty-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2806,7 +2793,7 @@
 		"oAP": "/images/gerty-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2817,7 +2804,7 @@
 		"oA": 0,
 		"oAP": "/images/gerty-gif.gif",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
@@ -2941,7 +2928,7 @@
 		"oAP": "/images/king-anthology.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2952,7 +2939,7 @@
 		"oA": 0,
 		"oAP": "/images/king-gif.gif",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
@@ -2974,7 +2961,7 @@
 		"oAP": "/images/ninty-app-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3007,7 +2994,7 @@
 		"oAP": "/images/securian-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3020,7 +3007,7 @@
 		"oAP": "/images/securian-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3033,7 +3020,7 @@
 		"oAP": "/images/securian-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3046,7 +3033,7 @@
 		"oAP": "/images/securian-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3057,7 +3044,7 @@
 		"oA": 0,
 		"oAP": "/images/securian-gif.gif",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
@@ -3069,7 +3056,7 @@
 		"oAP": "/images/sps-commerce-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3082,7 +3069,7 @@
 		"oAP": "/images/sps-commerce-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3095,7 +3082,7 @@
 		"oAP": "/images/sps-commerce-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3106,7 +3093,7 @@
 		"oA": 0,
 		"oAP": "/images/sps-gif.gif",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
@@ -3129,9 +3116,9 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/uhc-2.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3142,7 +3129,7 @@
 		"oA": 0,
 		"oAP": "/images/uhc-gif.gif",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
