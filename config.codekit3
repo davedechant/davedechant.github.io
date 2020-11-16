@@ -2681,6 +2681,19 @@
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
 		},
+	"/images/controller-icons-large.png": {
+		"ft": 32768,
+		"iS": 541554,
+		"oA": 0,
+		"oAP": "/images/controller-icons-large.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/controller-icons.png": {
 		"ft": 32768,
 		"iS": 20127,
@@ -2693,16 +2706,6 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
-		},
-	"/images/controller-icons.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/controller-icons.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"/images/dave-dechant-bw.jpg": {
 		"ft": 16384,
