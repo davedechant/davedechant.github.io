@@ -3048,6 +3048,58 @@
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
+	"/images/sps-1.jpg": {
+		"ft": 16384,
+		"iS": 332371,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sps-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/sps-2.jpg": {
+		"ft": 16384,
+		"iS": 335408,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sps-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/sps-3.jpg": {
+		"ft": 16384,
+		"iS": 403062,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sps-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/sps-4.jpg": {
+		"ft": 16384,
+		"iS": 342855,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sps-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/sps-commerce-1.jpg": {
 		"ft": 16384,
 		"iS": 136748,
@@ -3236,6 +3288,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/videos/nintendo-switch-review-app.webm",
+		"oF": 0
+		},
+	"/videos/sps-overview.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/videos/sps-overview.mp4",
+		"oF": 0
+		},
+	"/videos/sps-overview.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/videos/sps-overview.webm",
 		"oF": 0
 		},
 	"/videos/stephen-king-anthology-prototype.mp4": {

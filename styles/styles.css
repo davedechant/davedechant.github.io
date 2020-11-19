@@ -557,7 +557,15 @@ a .fas, a .fas:visited {
 
 .project-overview-image {
   margin: 3rem auto;
-  max-width: 1237px; }
+  max-width: 1240px; }
+
+.project-overview-caption {
+  font-size: 0.688rem;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px dotted #E0E0E0;
+  color: #757575;
+  margin: 0; }
 
 .about-photo {
   width: 250px;
@@ -573,6 +581,16 @@ a .fas, a .fas:visited {
 
 .project-video.ninty {
   background-color: #68BCF5; }
+
+.project-overview-video {
+  margin: 3rem auto;
+  max-width: 1240px; }
+
+.project-overview-video .project-video {
+  padding: 0.5rem;
+  border-radius: 0;
+  margin: 0;
+  max-width: 100%; }
 
 /* End Website/Product Specific Styles */
 /*---------------------------------------------------------------------*/
