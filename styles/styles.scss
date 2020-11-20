@@ -874,6 +874,10 @@ a .fas, a .fas:visited {
 		color: $grayscale-1000;
 	}
 
+	.project-overview-video .mobile {
+		max-width: 320px;
+	}
+
 }
 
 /* sm */
@@ -885,6 +889,11 @@ a .fas, a .fas:visited {
 
 	.project-overview-close, .project-overview-close:visited, .project-overview-close:hover {
 		right: 2rem;
+	}
+
+	.project-overview-video .mobile {
+		margin: 0;
+		transform: translate(0,0);
 	}
 	
 }

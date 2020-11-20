@@ -798,14 +798,19 @@ a .fas, a .fas:visited {
     padding: 0.25rem 0.5rem;
     border-radius: 4px; }
   .project-overview-close .fas {
-    color: #000000; } }
+    color: #000000; }
+  .project-overview-video .mobile {
+    max-width: 320px; } }
 
 /* sm */
 @media (max-width: 740px) {
   .project-overview {
     padding: 6rem 1rem 1rem; }
   .project-overview-close, .project-overview-close:visited, .project-overview-close:hover {
-    right: 2rem; } }
+    right: 2rem; }
+  .project-overview-video .mobile {
+    margin: 0;
+    transform: translate(0, 0); } }
 
 /* xs */
 @media (max-width: 540px) {
