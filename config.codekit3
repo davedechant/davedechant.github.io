@@ -2597,6 +2597,14 @@
 		"oAP": "/Designs/port-designs.sketch",
 		"oF": 0
 		},
+	"/Designs/Resume/cover-letter-dave-dechant.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Designs/Resume/cover-letter-dave-dechant.txt",
+		"oF": 0
+		},
 	"/Designs/Resume/dave-dechant-happy.png": {
 		"ft": 32768,
 		"iS": 24158,
@@ -3320,6 +3328,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/videos/stephen-king-anthology-prototype.webm",
+		"oF": 0
+		},
+	"/videos/uhc-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/videos/uhc-prototype.mp4",
+		"oF": 0
+		},
+	"/videos/uhc-prototype.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/videos/uhc-prototype.webm",
 		"oF": 0
 		},
 	"/webfonts/fa-brands-400.eot": {
