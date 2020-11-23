@@ -275,7 +275,7 @@ a .fas, a .fas:visited {
   font-weight: 600;
   color: #FFFFFF;
   text-transform: uppercase;
-  letter-spacing: 9px;
+  letter-spacing: 6.6px;
   animation-name: header-title;
   animation-duration: 5s;
   margin: 0; }
@@ -637,7 +637,7 @@ a .fas, a .fas:visited {
   .header-title {
     font-size: 0.938rem;
     line-height: 0.938rem;
-    letter-spacing: 5.8px; }
+    letter-spacing: 4.3px; }
   .header-nav a, .header-nav a:visited {
     line-height: 1.5rem;
     font-size: 0.875rem;
@@ -861,7 +861,7 @@ a .fas, a .fas:visited {
       transform: translate(0, 0);
       opacity: 1; } }
   .header-title {
-    letter-spacing: 3px; }
+    letter-spacing: 2px; }
   @keyframes header-title {
     0% {
       font-size: 0.938rem;

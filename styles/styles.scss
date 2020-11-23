@@ -336,7 +336,7 @@ a .fas, a .fas:visited {
 	font-weight: 600;
 	color: $grayscale-0;
 	text-transform: uppercase;
-	letter-spacing: 9px;
+	letter-spacing: 6.6px;
 	animation-name: header-title;
 	animation-duration: 5s;
 	margin: 0;
@@ -725,7 +725,7 @@ a .fas, a .fas:visited {
 	.header-title {
 		font-size: 0.938rem;
 		line-height: 0.938rem;
-		letter-spacing: 5.8px;
+		letter-spacing: 4.3px;
 	}
 
 	.header-nav a, .header-nav a:visited {
@@ -930,7 +930,7 @@ a .fas, a .fas:visited {
 	}
 
 	.header-title {
-		letter-spacing: 3px;
+		letter-spacing: 2px;
 	}
 
 	@keyframes header-title {
