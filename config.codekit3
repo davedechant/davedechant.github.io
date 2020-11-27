@@ -3206,6 +3206,32 @@
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
+	"/images/xmas-lights-red-on.png": {
+		"ft": 32768,
+		"iS": 8930,
+		"oA": 0,
+		"oAP": "/images/xmas-lights-red-on.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/xmas-lights-white-on.png": {
+		"ft": 32768,
+		"iS": 7710,
+		"oA": 0,
+		"oAP": "/images/xmas-lights-white-on.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,

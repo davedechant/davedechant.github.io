@@ -287,7 +287,7 @@ a .fas, a .fas:visited {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
 	z-index: 9990;
 	width: 100%;
@@ -295,6 +295,7 @@ a .fas, a .fas:visited {
 
 .header-dave {
 	position: relative;
+	margin-bottom: -1rem;
 }
 
 .header-dave:after {
@@ -309,7 +310,6 @@ a .fas, a .fas:visited {
 	z-index: 9992;
 	animation-name: hat-line;
 	animation-duration: 10s;
-	display: none;
 }
 
 @keyframes hat-line {
@@ -327,7 +327,6 @@ a .fas, a .fas:visited {
 	animation-name: santa-hat;
 	animation-duration: 10s;
 	z-index: 9991;
-	display: none;
 }
 
 @keyframes santa-hat {
@@ -363,6 +362,7 @@ a .fas, a .fas:visited {
 	margin-bottom: 4px;
 	animation-name: header-name;
 	animation-duration: 5s;
+	position: relative;
 }
 
 @keyframes header-name {
@@ -372,6 +372,31 @@ a .fas, a .fas:visited {
 	60%  {transform: translate(0,0); opacity: 1;}
 	80%  {transform: translate(0,0); opacity: 1;}
 	100%  {transform: translate(0,0); opacity: 1;}
+}
+
+.header-name::before {
+	content: "";
+	position: absolute;
+	top: -72px;
+	left: -5px;
+	width: 444px;
+	height: 75px;
+	background-image: url(../images/xmas-lights-red-on.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	animation: redlightsappear 12s, redlights 1s infinite;
+}
+
+@keyframes redlightsappear {
+	0% {opacity: 0;}
+	70% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes redlights {
+	0% {background-image: url(../images/xmas-lights-red-on.png);}
+	50% {background-image: url(../images/xmas-lights-white-on.png);}
+	100% {background-image: url(../images/xmas-lights-red-on.png);}
 }
 
 .header-title {
@@ -432,8 +457,13 @@ a .fas, a .fas:visited {
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: lowercase;
-	line-height: 2.125rem;
+	line-height: 1rem;
 	font-size: 1rem;
+	padding: 0.5rem 0;
+}
+
+.header-nav a:last-child {
+	padding-bottom: 0;
 }
 
 .header-nav a:hover {
@@ -459,7 +489,7 @@ a .fas, a .fas:visited {
 }
 
 .phone .gif {
-	width: 104px;
+	width: 92px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -475,7 +505,7 @@ a .fas, a .fas:visited {
 }
 
 .phone .frame {
-	width: 120px;
+	width: 105px;
 }
 
 .project-preview.one {
@@ -548,7 +578,7 @@ a .fas, a .fas:visited {
 	position: absolute;
 	top: 45%;
 	left: 50%;
-	width: 80%;
+	width: 90%;
 	transform: translate(-50%,-50%);
 	background-color: rgba($grayscale-1000, 0.9);
 	border: 1px solid rgba($grayscale-0, 0.15);
@@ -727,6 +757,59 @@ a .fas, a .fas:visited {
 /* lg */
 @media screen and (max-width: 1280px) {
 
+	.header-dave:after {
+		transform: translate(40px,-2500px);
+	}
+
+	@keyframes hat-line {
+		0%   {transform: translate(40px,-2500px);}
+		20%  {transform: translate(40px,-2500px);}
+		40%  {transform: translate(40px,-2500px);}
+		60%  {transform: translate(40px,-2500px);}
+		85%  {transform: translate(40px,-1525px);}
+		100%  {transform: translate(40px,-2500px);}
+	}
+
+	.santa-hat {
+		transform: translate(-4px,-29px);
+	}
+
+	@keyframes santa-hat {
+		0%   {transform: translate(-4px,-1000px);}
+		20%  {transform: translate(-4px,-1000px);}
+		40%  {transform: translate(-4px,-1000px);}
+		60%  {transform: translate(-4px,-1000px);}
+		85%  {transform: translate(-4px,-29px);}
+	}
+
+	.dave-face {
+		width: 82px;
+		margin-right: 10px;
+	}
+
+	.header-name {
+		font-size: 2.375rem;
+		line-height: 2.375rem;
+	}
+
+	.header-name::before {
+		top: -55px;
+		width: 315px;
+		height: 55px;
+	}
+
+	.header-title {
+		font-size: 0.938rem;
+		line-height: 0.938rem;
+		letter-spacing: 4.3px;
+	}
+
+	.header-nav a, .header-nav a:visited {
+		font-size: 0.875rem;
+		color: $grayscale-0;
+		padding: 0.1875rem 0;
+	}
+
 	.laptop .gif {
 		width: 232px;
 	}
@@ -757,26 +840,24 @@ a .fas, a .fas:visited {
 		padding: 2rem 0;
 	}
 
-	.dave-face {
-		width: 82px;
-		margin-right: 10px;
+	.header-dave:after {
+		display: none;
 	}
 
-	.header-name {
-		font-size: 2.375rem;
-		line-height: 2.375rem;
+	.santa-hat {
+		transform: translate(-4px,-29px);
 	}
 
-	.header-title {
-		font-size: 0.938rem;
-		line-height: 0.938rem;
-		letter-spacing: 4.3px;
+	.header-name::before {
+		display: none;
 	}
 
-	.header-nav a, .header-nav a:visited {
-		line-height: 1.5rem;
-		font-size: 0.875rem;
-		color: $grayscale-0;
+	@keyframes santa-hat {
+		0%   {transform: translate(-4px,-29px);}
+		20%  {transform: translate(-4px,-29px);}
+		40%  {transform: translate(-4px,-29px);}
+		60%  {transform: translate(-4px,-29px);}
+		85%  {transform: translate(-4px,-29px);}
 	}
 
 	@keyframes dave-face {
@@ -946,6 +1027,18 @@ a .fas, a .fas:visited {
 /* xs */
 @media (max-width: 540px) {
 
+	.santa-hat {
+		transform: translate(-4px,-21px);
+	}
+
+	@keyframes santa-hat {
+		0%   {transform: translate(-4px,-21px);}
+		20%  {transform: translate(-4px,-21px);}
+		40%  {transform: translate(-4px,-21px);}
+		60%  {transform: translate(-4px,-21px);}
+		85%  {transform: translate(-4px,-21px);}
+	}
+
 	.project-overview-title {
 		font-size: 2rem;
 	}
@@ -955,34 +1048,13 @@ a .fas, a .fas:visited {
 		margin-right: 8px;
 	}
 
-	@keyframes dave-face {
-	  0%   {width: 60px; transform: translate(0,0); opacity: 1;}
-	  25%  {width: 60px; transform: translate(0,0); opacity: 1;}
-	  50%  {width: 60px; transform: translate(0,0); opacity: 1;}
-	  100%  {width: 60px; transform: translate(0,0); opacity: 1;}
-	}
-
 	.header-name {
 		font-size: 1.813rem;
 		line-height: 1.813rem;
 	}
 
-	@keyframes header-name {
-	  0%   {font-size: 2rem; line-height: 2rem; transform: translate(0,0); opacity: 1;}
-	  25%  {font-size: 2rem; line-height: 2rem; transform: translate(0,0); opacity: 1;}
-	  50%  {font-size: 2rem; line-height: 2rem; transform: translate(0,0); opacity: 1;}
-	  100%  {font-size: 2rem; line-height: 2rem; transform: translate(0,0); opacity: 1;}
-	}
-
 	.header-title {
 		letter-spacing: 2px;
-	}
-
-	@keyframes header-title {
-	  0%   {font-size: 0.938rem; line-height: 0.938; letter-spacing: 3px; transform: translate(0,0); opacity: 1;}
-	  25%  {font-size: 0.938rem; line-height: 0.938; letter-spacing: 3px; transform: translate(0,0); opacity: 1;}
-	  50%  {font-size: 0.938rem; line-height: 0.938; letter-spacing: 3px; transform: translate(0,0); opacity: 1;}
-	  100%  {font-size: 0.938rem; line-height: 0.938; letter-spacing: 3px; transform: translate(0,0); opacity: 1;}
 	}
 
 	.header-nav {
@@ -992,7 +1064,6 @@ a .fas, a .fas:visited {
 
 	.header-nav a, .header-nav a:visited {
 		letter-spacing: 0;
-		line-height: 1.5rem;
 		font-size: 0.813rem;
 		color: $grayscale-0;
 	}
