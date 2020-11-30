@@ -158,6 +158,20 @@ a .fas, a .fas:visited {
   margin-left: .5rem;
   vertical-align: -2px; }
 
+::-webkit-scrollbar {
+  width: 16px; }
+
+::-webkit-scrollbar-track {
+  background: #E0E0E0;
+  border-radius: 16px; }
+
+::-webkit-scrollbar-thumb {
+  background: #BDBDBD;
+  border-radius: 16px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #757575; }
+
 /* End Reset/Base Styles */
 /*---------------------------------------------------------------------*/
 /* Begin Module/Universal Styles */
