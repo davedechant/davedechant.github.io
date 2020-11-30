@@ -845,6 +845,10 @@ a .fas, a .fas:visited {
 /* md */
 @media (max-width: 980px) {
 
+	::-webkit-scrollbar {
+		display: none;
+	}
+
 	.wrapper {
 		height: auto;
 	}
