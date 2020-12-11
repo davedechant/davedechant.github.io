@@ -113,15 +113,20 @@ ul, ol {
   margin-left: 20px; }
 
 ul li {
-  list-style-type: disc; }
+  list-style-type: disc;
+  font-size: .75rem;
+  line-height: 1.125rem;
+  margin: 0.375rem 0; }
 
 ol li {
   list-style-type: decimal; }
 
 hr {
   border: 0;
-  border-bottom: 5px solid #9E9E9E;
-  background: none; }
+  border-bottom: 4px solid #000000;
+  width: 50px;
+  background: none;
+  margin: 1.875rem 0 2.125rem; }
 
 blockquote {
   border-top: 1px solid #F5F5F5;
@@ -137,7 +142,10 @@ cite {
   color: #BDBDBD; }
 
 small {
-  font-size: .813rem; }
+  font-size: .813rem;
+  line-height: 1.375rem;
+  display: block;
+  margin: 0.5rem 0; }
 
 a, a:visited {
   font-family: "Spartan", sans-serif;
@@ -157,6 +165,11 @@ a .fas, a .fas:visited {
   font-size: 1.25rem;
   margin-left: .5rem;
   vertical-align: -2px; }
+
+a .fas.icon-sm, a .fas.icon-sm:visited {
+  font-size: 1rem;
+  margin-left: .25rem;
+  vertical-align: 1px; }
 
 ::-webkit-scrollbar {
   width: 16px; }
@@ -642,6 +655,13 @@ a .fas, a .fas:visited {
   text-transform: uppercase;
   color: #BDBDBD;
   letter-spacing: 2px; }
+
+.project-overview-date {
+  text-transform: uppercase;
+  font-size: 0.688rem;
+  letter-spacing: 1px;
+  color: #757575;
+  font-weight: 600; }
 
 .project-overview-intro::after, .project-overview-intro::before {
   display: block;
