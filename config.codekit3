@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "33081",
 "files": {
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/Archive/V10/driveby-app.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -608,7 +616,7 @@
 		"oAP": "/Archive/V10/webfonts/fa-brands-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V10/webfonts/fa-brands-400.ttf": {
@@ -650,7 +658,7 @@
 		"oAP": "/Archive/V10/webfonts/fa-light-300.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V10/webfonts/fa-light-300.ttf": {
@@ -692,7 +700,7 @@
 		"oAP": "/Archive/V10/webfonts/fa-regular-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V10/webfonts/fa-regular-400.ttf": {
@@ -734,7 +742,7 @@
 		"oAP": "/Archive/V10/webfonts/fa-solid-900.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V10/webfonts/fa-solid-900.ttf": {
@@ -917,7 +925,7 @@
 		"oAP": "/Archive/V11/images/header-bgd.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/images/hero-shield.svg": {
@@ -927,7 +935,7 @@
 		"oAP": "/Archive/V11/images/hero-shield.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/images/hero-sword.svg": {
@@ -937,7 +945,7 @@
 		"oAP": "/Archive/V11/images/hero-sword.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/images/icons/favicon.ico": {
@@ -1267,7 +1275,7 @@
 		"oAP": "/Archive/V11/images/sword-and-shield-logo.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/images/uhc-referral.jpg": {
@@ -1472,7 +1480,7 @@
 		"oAP": "/Archive/V11/webfonts/fa-brands-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/webfonts/fa-brands-400.ttf": {
@@ -1514,7 +1522,7 @@
 		"oAP": "/Archive/V11/webfonts/fa-light-300.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/webfonts/fa-light-300.ttf": {
@@ -1556,7 +1564,7 @@
 		"oAP": "/Archive/V11/webfonts/fa-regular-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/webfonts/fa-regular-400.ttf": {
@@ -1598,7 +1606,7 @@
 		"oAP": "/Archive/V11/webfonts/fa-solid-900.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V11/webfonts/fa-solid-900.ttf": {
@@ -1651,12 +1659,12 @@
 		},
 	"/Archive/V12/images/browser-frame.png": {
 		"ft": 32768,
-		"iS": 22155,
+		"iS": 2690,
 		"oA": 0,
 		"oAP": "/Archive/V12/images/browser-frame.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -1669,17 +1677,17 @@
 		"oAP": "/Archive/V12/images/dark-tower-vector.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/images/dave-dechant-happy.png": {
 		"ft": 32768,
-		"iS": 23761,
+		"iS": 12234,
 		"oA": 0,
 		"oAP": "/Archive/V12/images/dave-dechant-happy.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -1687,12 +1695,12 @@
 		},
 	"/Archive/V12/images/dave-dechant-winking.png": {
 		"ft": 32768,
-		"iS": 25862,
+		"iS": 11860,
 		"oA": 0,
 		"oAP": "/Archive/V12/images/dave-dechant-winking.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -1705,7 +1713,7 @@
 		"oAP": "/Archive/V12/images/dreamcast-controller-vector.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/images/gerty-1.jpg": {
@@ -1944,7 +1952,7 @@
 		"oAP": "/Archive/V12/images/nes-gamepad-vector.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/images/ninty-app-1.jpg": {
@@ -2045,18 +2053,18 @@
 		"oAP": "/Archive/V12/images/sketchpad-vector.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/images/sps-commerce-1.jpg": {
 		"ft": 16384,
-		"iS": 170189,
+		"iS": 136748,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/Archive/V12/images/sps-commerce-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -2146,7 +2154,7 @@
 		"oAP": "/Archive/V12/images/web-design-vector.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/images/wisconsin-mug-vector.svg": {
@@ -2156,7 +2164,7 @@
 		"oAP": "/Archive/V12/images/wisconsin-mug-vector.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/images/wtp-1.jpg": {
@@ -2428,7 +2436,7 @@
 		"oAP": "/Archive/V12/webfonts/fa-brands-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/webfonts/fa-brands-400.ttf": {
@@ -2470,7 +2478,7 @@
 		"oAP": "/Archive/V12/webfonts/fa-light-300.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/webfonts/fa-light-300.ttf": {
@@ -2512,7 +2520,7 @@
 		"oAP": "/Archive/V12/webfonts/fa-regular-400.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/webfonts/fa-regular-400.ttf": {
@@ -2554,7 +2562,7 @@
 		"oAP": "/Archive/V12/webfonts/fa-solid-900.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 52780316221407,
+		"plM": 3758088159,
 		"prP": 0
 		},
 	"/Archive/V12/webfonts/fa-solid-900.ttf": {
@@ -2587,6 +2595,910 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/Archive/V12/wtp.html",
+		"oF": 0
+		},
+	"/Archive/V13/images/_notes/dwsync.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/_notes/dwsync.xml",
+		"oF": 0
+		},
+	"/Archive/V13/images/controller-icons.png": {
+		"ft": 32768,
+		"iS": 14611,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/controller-icons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/dave-dechant-bw.jpg": {
+		"ft": 16384,
+		"iS": 11874,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/dave-dechant-bw.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/dave-illustrated.png": {
+		"ft": 32768,
+		"iS": 16991,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/dave-illustrated.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/gerty-1.jpg": {
+		"ft": 16384,
+		"iS": 132564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/gerty-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/gerty-2.jpg": {
+		"ft": 16384,
+		"iS": 190653,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/gerty-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/gerty-3.jpg": {
+		"ft": 16384,
+		"iS": 199086,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/gerty-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/gerty-4.jpg": {
+		"ft": 16384,
+		"iS": 183361,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/gerty-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/gerty-5.jpg": {
+		"ft": 16384,
+		"iS": 270032,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/gerty-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/gerty-6.jpg": {
+		"ft": 16384,
+		"iS": 122038,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/gerty-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/gerty-gif.gif": {
+		"ft": 4194304,
+		"iS": 466372,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/gerty-gif.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/favicon.ico",
+		"oF": 0
+		},
+	"/Archive/V13/images/icons/large.png": {
+		"ft": 32768,
+		"iS": 2916,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/large.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/square.png": {
+		"ft": 32768,
+		"iS": 1562,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/square.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/tiny.png": {
+		"ft": 32768,
+		"iS": 1150,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/tiny.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/touch-icon-ipad-retina.png": {
+		"ft": 32768,
+		"iS": 1183,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/touch-icon-ipad-retina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/touch-icon-ipad.png": {
+		"ft": 32768,
+		"iS": 1022,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/touch-icon-ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/touch-icon-iphone-retina.png": {
+		"ft": 32768,
+		"iS": 1101,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/touch-icon-iphone-retina.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/touch-icon-iphone.png": {
+		"ft": 32768,
+		"iS": 988,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/touch-icon-iphone.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/icons/wide.png": {
+		"ft": 32768,
+		"iS": 1897,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/icons/wide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/king-anthology.jpg": {
+		"ft": 16384,
+		"iS": 119773,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/king-anthology.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/king-gif.gif": {
+		"ft": 4194304,
+		"iS": 793556,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/king-gif.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/Archive/V13/images/laptop-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V13/images/laptop-frame.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/Archive/V13/images/ninty-app-1.jpg": {
+		"ft": 16384,
+		"iS": 299763,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/ninty-app-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/ninty-gif.gif": {
+		"ft": 4194304,
+		"iS": 457142,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/ninty-gif.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/Archive/V13/images/phone-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V13/images/phone-frame.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/Archive/V13/images/santa-hat.png": {
+		"ft": 32768,
+		"iS": 3913,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/santa-hat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/securian-1.jpg": {
+		"ft": 16384,
+		"iS": 84295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/securian-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/securian-2.jpg": {
+		"ft": 16384,
+		"iS": 113858,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/securian-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/securian-3.jpg": {
+		"ft": 16384,
+		"iS": 365593,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/securian-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/securian-4.jpg": {
+		"ft": 16384,
+		"iS": 215655,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/securian-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/securian-gif.gif": {
+		"ft": 4194304,
+		"iS": 109903,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/securian-gif.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-1.jpg": {
+		"ft": 16384,
+		"iS": 332371,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-2.jpg": {
+		"ft": 16384,
+		"iS": 335408,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-3.jpg": {
+		"ft": 16384,
+		"iS": 403062,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-4.jpg": {
+		"ft": 16384,
+		"iS": 342855,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-commerce-1.jpg": {
+		"ft": 16384,
+		"iS": 136748,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-commerce-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-commerce-2.jpg": {
+		"ft": 16384,
+		"iS": 196442,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-commerce-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-commerce-3.jpg": {
+		"ft": 16384,
+		"iS": 129909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-commerce-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/sps-gif.gif": {
+		"ft": 4194304,
+		"iS": 215488,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/sps-gif.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/Archive/V13/images/uhc-1.jpg": {
+		"ft": 16384,
+		"iS": 176738,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/uhc-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/uhc-2.jpg": {
+		"ft": 16384,
+		"iS": 392616,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/uhc-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/uhc-gif.gif": {
+		"ft": 4194304,
+		"iS": 529862,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/uhc-gif.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/Archive/V13/images/xmas-lights-red-on.png": {
+		"ft": 32768,
+		"iS": 4939,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/xmas-lights-red-on.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/images/xmas-lights-white-on.png": {
+		"ft": 32768,
+		"iS": 4874,
+		"oA": 0,
+		"oAP": "/Archive/V13/images/xmas-lights-white-on.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/Archive/V13/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/index.html",
+		"oF": 0
+		},
+	"/Archive/V13/resume-dave-dechant.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/resume-dave-dechant.pdf",
+		"oF": 0
+		},
+	"/Archive/V13/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc",
+		"oF": 0
+		},
+	"/Archive/V13/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons2.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons2.scssc",
+		"oF": 0
+		},
+	"/Archive/V13/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/styles.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/styles.scssc",
+		"oF": 0
+		},
+	"/Archive/V13/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/icons2.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/icons2.scssc",
+		"oF": 0
+		},
+	"/Archive/V13/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/styles.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/.sass-cache/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf/styles.scssc",
+		"oF": 0
+		},
+	"/Archive/V13/styles/fontawesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/fontawesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/Archive/V13/styles/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/Archive/V13/styles/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/styles/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/Archive/V13/videos/gerty-ds-website.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/gerty-ds-website.mp4",
+		"oF": 0
+		},
+	"/Archive/V13/videos/gerty-ds-website.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/gerty-ds-website.webm",
+		"oF": 0
+		},
+	"/Archive/V13/videos/nintendo-switch-review-app.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/nintendo-switch-review-app.mp4",
+		"oF": 0
+		},
+	"/Archive/V13/videos/nintendo-switch-review-app.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/nintendo-switch-review-app.webm",
+		"oF": 0
+		},
+	"/Archive/V13/videos/securian-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/securian-prototype.mp4",
+		"oF": 0
+		},
+	"/Archive/V13/videos/securian-prototype.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/securian-prototype.webm",
+		"oF": 0
+		},
+	"/Archive/V13/videos/sps-overview.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/sps-overview.mp4",
+		"oF": 0
+		},
+	"/Archive/V13/videos/sps-overview.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/sps-overview.webm",
+		"oF": 0
+		},
+	"/Archive/V13/videos/stephen-king-anthology-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/stephen-king-anthology-prototype.mp4",
+		"oF": 0
+		},
+	"/Archive/V13/videos/stephen-king-anthology-prototype.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/stephen-king-anthology-prototype.webm",
+		"oF": 0
+		},
+	"/Archive/V13/videos/uhc-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/uhc-prototype.mp4",
+		"oF": 0
+		},
+	"/Archive/V13/videos/uhc-prototype.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/videos/uhc-prototype.webm",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-brands-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-brands-400.eot",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-brands-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V13/webfonts/fa-brands-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/Archive/V13/webfonts/fa-brands-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-brands-400.ttf",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-brands-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-brands-400.woff",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-brands-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-brands-400.woff2",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-light-300.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-light-300.eot",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-light-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V13/webfonts/fa-light-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/Archive/V13/webfonts/fa-light-300.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-light-300.ttf",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-light-300.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-light-300.woff",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-light-300.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-light-300.woff2",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-regular-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-regular-400.eot",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-regular-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V13/webfonts/fa-regular-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/Archive/V13/webfonts/fa-regular-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-regular-400.ttf",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-regular-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-regular-400.woff",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-regular-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-regular-400.woff2",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-solid-900.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-solid-900.eot",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-solid-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/Archive/V13/webfonts/fa-solid-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/Archive/V13/webfonts/fa-solid-900.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-solid-900.ttf",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-solid-900.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-solid-900.woff",
+		"oF": 0
+		},
+	"/Archive/V13/webfonts/fa-solid-900.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Archive/V13/webfonts/fa-solid-900.woff2",
 		"oF": 0
 		},
 	"/Designs/port-designs.sketch": {
@@ -2689,22 +3601,9 @@
 		"oAP": "/images/_notes/dwsync.xml",
 		"oF": 0
 		},
-	"/images/controller-icons.png": {
-		"ft": 32768,
-		"iS": 20127,
-		"oA": 0,
-		"oAP": "/images/controller-icons.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
 	"/images/dave-dechant-bw.jpg": {
 		"ft": 16384,
-		"iS": 105114,
+		"iS": 11874,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/dave-dechant-bw.jpg",
@@ -2715,105 +3614,105 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/dave-illustrated.png": {
-		"ft": 32768,
-		"iS": 7029,
-		"oA": 0,
-		"oAP": "/images/dave-illustrated.png",
+	"/images/dave-face.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/dave-face.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/gerty-1.jpg": {
 		"ft": 16384,
-		"iS": 147476,
+		"iS": 132564,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gerty-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/gerty-2.jpg": {
 		"ft": 16384,
-		"iS": 200306,
+		"iS": 190653,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gerty-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/gerty-3.jpg": {
 		"ft": 16384,
-		"iS": 217236,
+		"iS": 199086,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gerty-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/gerty-4.jpg": {
 		"ft": 16384,
-		"iS": 209305,
+		"iS": 183361,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gerty-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/gerty-5.jpg": {
 		"ft": 16384,
-		"iS": 283051,
+		"iS": 270032,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gerty-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/gerty-6.jpg": {
 		"ft": 16384,
-		"iS": 133931,
+		"iS": 122038,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/gerty-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/gerty-gif.gif": {
-		"ft": 4194304,
-		"iS": 492287,
+	"/images/gerty-thumb.jpg": {
+		"ft": 16384,
+		"iS": 19698,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/gerty-gif.gif",
+		"oAP": "/images/gerty-thumb.jpg",
 		"oF": 0,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
+		"q": 100,
 		"rq": 75
 		},
 	"/images/icons/favicon.ico": {
@@ -2930,75 +3829,61 @@
 		},
 	"/images/king-anthology.jpg": {
 		"ft": 16384,
-		"iS": 131868,
+		"iS": 119773,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/king-anthology.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/king-gif.gif": {
-		"ft": 4194304,
-		"iS": 811368,
+	"/images/king-thumb.jpg": {
+		"ft": 16384,
+		"iS": 29424,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/king-gif.gif",
+		"oAP": "/images/king-thumb.jpg",
 		"oF": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"rq": 75
-		},
-	"/images/laptop-frame.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/laptop-frame.svg",
-		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/ninty-app-1.jpg": {
 		"ft": 16384,
-		"iS": 325180,
+		"iS": 299763,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/ninty-app-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/ninty-gif.gif": {
-		"ft": 4194304,
-		"iS": 770297,
+	"/images/ninty-thumb.jpg": {
+		"ft": 16384,
+		"iS": 36249,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/ninty-gif.gif",
+		"oAP": "/images/ninty-thumb.jpg",
 		"oF": 0,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
+		"q": 100,
 		"rq": 75
 		},
-	"/images/phone-frame.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/phone-frame.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/santa-hat.png": {
+	"/images/project-image.png": {
 		"ft": 32768,
-		"iS": 7994,
+		"iS": 1428,
 		"oA": 0,
-		"oAP": "/images/santa-hat.png",
+		"oAP": "/images/project-image.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -3009,64 +3894,67 @@
 		},
 	"/images/securian-1.jpg": {
 		"ft": 16384,
-		"iS": 103333,
+		"iS": 84295,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/securian-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/securian-2.jpg": {
 		"ft": 16384,
-		"iS": 136277,
+		"iS": 113858,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/securian-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/securian-3.jpg": {
 		"ft": 16384,
-		"iS": 239376,
+		"iS": 365593,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/securian-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
 	"/images/securian-4.jpg": {
 		"ft": 16384,
-		"iS": 242934,
+		"iS": 215655,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/securian-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/securian-gif.gif": {
-		"ft": 4194304,
-		"iS": 112700,
+	"/images/securian-thumb.jpg": {
+		"ft": 16384,
+		"iS": 21700,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/securian-gif.gif",
+		"oAP": "/images/securian-thumb.jpg",
 		"oF": 0,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
+		"q": 100,
 		"rq": 75
 		},
 	"/images/sps-1.jpg": {
@@ -3121,113 +4009,93 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/sps-commerce-1.jpg": {
+	"/images/sps-thumb.jpg": {
 		"ft": 16384,
-		"iS": 136748,
+		"iS": 19274,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/sps-commerce-1.jpg",
+		"oAP": "/images/sps-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
-		"rq": 75
-		},
-	"/images/sps-commerce-2.jpg": {
-		"ft": 16384,
-		"iS": 232647,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/sps-commerce-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/sps-commerce-3.jpg": {
-		"ft": 16384,
-		"iS": 154017,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/sps-commerce-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/sps-gif.gif": {
-		"ft": 4194304,
-		"iS": 219962,
-		"oA": 0,
-		"oAP": "/images/sps-gif.gif",
-		"oF": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
 		"rq": 75
 		},
 	"/images/uhc-1.jpg": {
 		"ft": 16384,
-		"iS": 206235,
+		"iS": 176738,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/uhc-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uhc-2.jpg": {
+	"/images/uhc-thumb.jpg": {
 		"ft": 16384,
-		"iS": 458215,
+		"iS": 22205,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/uhc-2.jpg",
-		"oF": 1,
+		"oAP": "/images/uhc-thumb.jpg",
+		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uhc-gif.gif": {
-		"ft": 4194304,
-		"iS": 549159,
+	"/images/wtp-1.jpg": {
+		"ft": 16384,
+		"iS": 604925,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/uhc-gif.gif",
+		"oAP": "/images/wtp-1.jpg",
 		"oF": 0,
-		"opt": 1,
-		"ou": "lpckwebp-none",
-		"rq": 75
-		},
-	"/images/xmas-lights-red-on.png": {
-		"ft": 32768,
-		"iS": 8930,
-		"oA": 0,
-		"oAP": "/images/xmas-lights-red-on.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/xmas-lights-white-on.png": {
-		"ft": 32768,
-		"iS": 7710,
+	"/images/wtp-2.jpg": {
+		"ft": 16384,
+		"iS": 481391,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/xmas-lights-white-on.png",
+		"oAP": "/images/wtp-2.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/wtp-3.jpg": {
+		"ft": 16384,
+		"iS": 914848,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/wtp-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/wtp-thumb.jpg": {
+		"ft": 16384,
+		"iS": 29174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/wtp-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -3246,6 +4114,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/resume-dave-dechant.pdf",
+		"oF": 0
+		},
+	"/resume.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/resume.html",
 		"oF": 0
 		},
 	"/styles/.sass-cache/1fbf55d95b2884bf9ed718337eb825548459cd16/icons.scssc": {
@@ -3592,8 +4468,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 572802912.72960901,
-	"displayValue": "davedechant.github.io",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "NewPort",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 0
 	},
