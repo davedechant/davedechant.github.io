@@ -3543,6 +3543,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/Designs/Resume/dave-face.png": {
+		"ft": 32768,
+		"iS": 2252,
+		"oA": 0,
+		"oAP": "/Designs/Resume/dave-face.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/Designs/Resume/hero-shield.png": {
 		"ft": 32768,
 		"iS": 55942,

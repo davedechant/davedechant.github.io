@@ -327,6 +327,7 @@ a:hover {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 0.688rem;
+  line-height: 1rem;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -595,4 +596,20 @@ a:hover {
 
 /* sm */
 /* xs */
+@media (max-width: 540px) {
+  .logo-name {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0.125rem; }
+  .logo-title {
+    margin: 0;
+    letter-spacing: 0.3px; }
+  .project-summary-title {
+    font-size: 1.5rem; }
+  .project-details-content h2 {
+    font-size: 1.5rem; }
+  .project-details-content h3 {
+    font-size: 1.25rem; }
+  .resume h2 {
+    font-size: 1.25rem; } }
+
 /* End Responsive/Media Queries */
