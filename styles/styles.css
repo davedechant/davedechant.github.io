@@ -474,7 +474,7 @@ a:hover {
 
 .about-photo {
   border-radius: 50%;
-  margin-bottom: 2rem; }
+  margin: 1rem 0 2rem; }
 
 .about p, .resume h2, .resume small, .resume ul li {
   color: #FFFFFF; }
@@ -597,12 +597,21 @@ a:hover {
 /* sm */
 /* xs */
 @media (max-width: 540px) {
+  .mobile-header {
+    width: 100%;
+    margin-bottom: 1rem; }
   .logo-name {
     font-size: 1.5rem;
     margin: 0.5rem 0 0.125rem; }
   .logo-title {
     margin: 0;
     letter-spacing: 0.3px; }
+  .projects {
+    padding: 1rem; }
+  .project-summary {
+    padding: 2rem 1rem;
+    width: 100%;
+    margin: 0 0 1rem; }
   .project-summary-title {
     font-size: 1.5rem; }
   .project-details-content h2 {
