@@ -433,7 +433,8 @@ a:hover {
 .project-details-container {
   height: 99%;
   overflow-y: scroll;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  border-bottom: 1px solid #E0E0E0; }
 
 .project-details-content {
   width: 600px;
