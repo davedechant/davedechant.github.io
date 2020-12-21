@@ -201,21 +201,22 @@ a:hover {
 .logo {
   background-image: url(../images/dave-face.svg);
   background-repeat: no-repeat;
-  padding-left: 50px;
-  height: 50px; }
+  background-size: 55px;
+  padding-left: 64px;
+  height: 66px; }
 
 .logo-name, .logo-title {
-  font-size: 2rem;
+  font-size: 2.688rem;
   letter-spacing: 2px;
   color: #FFFFFF;
-  margin: 0.25rem 0 0.125rem; }
+  margin: 0.25rem 0 0; }
 
 .logo-title {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-family: "Spartan", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 1.6px;
   margin: 0; }
 
 .sidebar-summary {
@@ -558,7 +559,8 @@ a:hover {
     height: 100%;
     width: 100%;
     z-index: 9992;
-    transform: translate(-100%, 0); }
+    transform: translate(-100%, 0);
+    background-color: rgba(0, 0, 0, 0.85); }
   .sidebar:target {
     transform: translate(0, 0); }
   .sidebar .logo, .sidebar .sidebar-summary, .sidebar .footer {
@@ -600,6 +602,20 @@ a:hover {
     font-size: 3rem; } }
 
 /* sm */
+@media (max-width: 740px) {
+  .logo {
+    background-size: 45px;
+    padding-left: 55px;
+    height: 55px; }
+  .logo-name, .logo-title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 0.25rem 0 0.125rem; }
+  .logo-title {
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    margin: 0; } }
+
 /* xs */
 @media (max-width: 540px) {
   .mobile-header {

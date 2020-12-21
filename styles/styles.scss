@@ -281,23 +281,24 @@ a:hover {
 .logo {
 	background-image: url(../images/dave-face.svg);
 	background-repeat: no-repeat;
-	padding-left: 50px;
-	height: 50px;
+	background-size: 55px;
+	padding-left: 64px;
+	height: 66px;
 }
 
 .logo-name, .logo-title {
-	font-size: 2rem;
+	font-size: 2.688rem;
 	letter-spacing: 2px;
 	color: $grayscale-0;
-	margin: 0.25rem 0 0.125rem;
+	margin: 0.25rem 0 0;
 }
 
 .logo-title {
-	font-size: 0.75rem;
+	font-size: 0.875rem;
 	font-family: $copy-font;
 	font-weight: 500;
 	text-transform: uppercase;
-	letter-spacing: 0.5px;
+	letter-spacing: 1.6px;
 	margin: 0;
 }
 
@@ -704,6 +705,7 @@ a:hover {
 		width: 100%;
 		z-index: 9992;
 		transform: translate(-100%,0);
+		background-color: rgba($grayscale-1000, 0.85);
 	}
 
 	.sidebar:target {
@@ -772,7 +774,23 @@ a:hover {
 /* sm */
 @media (max-width: 740px) {
 
-	
+	.logo {
+		background-size: 45px;
+		padding-left: 55px;
+		height: 55px;
+	}
+
+	.logo-name, .logo-title {
+		font-size: 2rem;
+		letter-spacing: 2px;
+		margin: 0.25rem 0 0.125rem;
+	}
+
+	.logo-title {
+		font-size: 0.75rem;
+		letter-spacing: 0.5px;
+		margin: 0;
+	}
 	
 }
 
