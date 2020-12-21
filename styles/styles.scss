@@ -419,9 +419,10 @@ a:hover {
 	color: $grayscale-700;
 	text-transform: uppercase;
 	font-weight: 900;
-	font-size: 0.688rem;
+	font-size: 0.938rem;
+	font-family: $header-font;
 	line-height: 1rem;
-	letter-spacing: 1px;
+	letter-spacing: 2.5px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -463,16 +464,16 @@ a:hover {
 }
 
 .project-summary-link, .project-summary-link:visited {
-	font-family: $copy-font;
+	font-family: $header-font;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 0.688rem;
-	font-weight: 900;
-	letter-spacing: 1.5px;
-	padding: 1rem 1rem 0.75rem;
+	font-size: 1.125rem;
+	letter-spacing: 1px;
+	padding: 1rem 1.5rem 0.875rem;
 	background-color: rgba($grayscale-0, 0.1);
 	border-radius: 30px;
 	color: $grayscale-0;
+	display: inline-block;
 }
 
 .project-summary-link:hover {
@@ -544,6 +545,10 @@ a:hover {
 	width: 600px;
 	margin: auto;
 	position: relative;
+}
+
+.project-details-content h2 {
+	font-size: 4rem;
 }
 
 .project-details-image, .project-details-video {
@@ -758,8 +763,8 @@ a:hover {
 		filter: grayscale(0);
 	}
 
-	.resume h2 {
-		font-size: 1.375rem;
+	.project-details-content h2 {
+		font-size: 3rem;
 	}
 
 }
@@ -794,7 +799,7 @@ a:hover {
 	}
 
 	.project-details-content h2 {
-		font-size: 1.5rem;
+		font-size: 2.125rem;
 	}
 
 	.project-details-content h3 {
@@ -802,7 +807,7 @@ a:hover {
 	}
 
 	.resume h2 {
-		font-size: 1.25rem;
+		font-size: 2rem;
 	}
 
 }
