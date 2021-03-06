@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Name: Empty Boilerplate
+Author: dave dechant
+Description: Empty boilerplate for website
+*/
+
+
+/* Table of Contents */
+
+/* 1. SASS Variables */
+/*- 1a. Colors -*/
+/*- 1b. Fonts -*/
+
+/* 2. Reset/Base Styles */
+/*- 2a. Reset -*/
+/*- 2b. Responsive Images -*/
+/*- 2c. Text -*/
+
+/* Module/Universal Styles */
+
+/* Website/Product Specific Styles */
+
+/* Responsive/Media Query Styles */
+
+
+/*---------------------------------------------------------------------*/
+
+
+/* 1. SASS Variables */
+
+/*- 1a. Colors -*/
+
+/* primary color */
+
+$primary-color: #163876;
+$secondary-color: #5C87EE;
+
+/* grayscale */
+
+$grayscale-0: #FFFFFF;
+$grayscale-100: #FAFAFA;
+$grayscale-200: #F5F5F5;
+$grayscale-300: #EEEEEE;
+$grayscale-400: #E0E0E0;
+$grayscale-500: #BDBDBD;
+$grayscale-600: #9E9E9E;
+$grayscale-700: #757575;
+$grayscale-800: #616161;
+$grayscale-900: #424242;
+$grayscale-1000: #000000;
+
+/*- 1b. Fonts -*/
+
+$primary-font: 'Montserrat', sans-serif;
+$secondary-font: 'Montserrat', sans-serif;
+
+/* End SASS Variables */
+
+
+/*---------------------------------------------------------------------*/
+
+
+/* 2. Begin Reset/Base Styles */
+
+/*- 2a. Reset -*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus {
+	outline: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	line-height: 1;
+	color: $grayscale-1000;
+	background: $grayscale-0;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+main, section, nav, article, aside, header, footer {
+	display: block;	
+}
+
+/*- 2b. Responsive Images -*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*- 2c. Text -*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 10px;
+	font-family: $primary-font;
+	font-weight: 400;
+	color: #2d2d2d;
+	letter-spacing: -0.5px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.375rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.125rem;
+}
+
+h5 {
+	font-size: 1rem;
+}
+
+h6 {
+	font-size: 0.75rem;
+}
+
+p, ul, ol, blockquote, cite, small {
+	margin: 0 0 1.75rem;
+	font-family: $primary-font;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	color: #595959;
+	letter-spacing: -0.5px;
+}
+
+ul, ol {
+	margin-left: 20px;
+}
+
+ul li {
+	list-style-type: disc;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+hr {
+	border: 0;
+    border-bottom: 5px solid $grayscale-600;
+    background: none;
+}
+
+blockquote {
+	border-top: 1px solid $grayscale-200;
+	border-bottom: 1px solid $grayscale-200;
+	padding: 20px 0;
+	margin: 40px 0;
+	font-size: 1.313rem;
+}
+
+cite {
+	font-size: .688rem;
+	display: block;
+	margin: 10px 0 0;
+	color: $grayscale-500;
+}
+
+small {
+	font-size: .813rem;
+}
+
+a, a:visited {
+	color: $secondary-color;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+	color: $secondary-color;
+}
+
+/* End Reset/Base Styles */
+
+
+/* Begin Website/Product Specific Styles */
+
+.content {
+	padding: 120px 0;
+	border-bottom: 1px solid $grayscale-400;
+}
+
+.content-container {
+	margin: 0 auto;
+	width: 1440px;
+	padding: 0 2rem;
+}
+
+.header {
+	padding: 1rem 0;
+	background-color: $grayscale-0;
+	position: fixed;
+	width: 100%;
+}
+
+.header .content-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-title {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.header-title span {
+	font-weight: 400;
+	margin-top: 0.5rem;
+	display: inline-block;
+}
+
+.header-nav-open, .header-nav-open:visited, .header-nav-open:hover {
+	font-size: 1.25rem;
+	color: $grayscale-800;
+	padding: 0.625rem 0.75rem 0.5rem;
+	border-radius: 8px;
+}
+
+.header-nav-open:hover {
+	background-color: lighten($primary-color,67%);
+}
+
+.header-nav-menu {
+	position: fixed;
+	right: -50%;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #0F2853;
+	margin: 0;
+	padding: 6rem;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	opacity: 0;
+}
+
+.header-nav-menu:target {
+	right: 0;
+	opacity: 1;
+}
+
+.header-nav-menu-item {
+	list-style-type: none;
+	font-weight: 600;
+}
+
+.header-nav-menu-item a, .header-nav-menu-item a:visited {
+	line-height: 4rem;
+	color: #8FA7EC;
+}
+
+.header-nav-menu-item a:hover {
+	color: $grayscale-0;
+}
+
+.header-nav-menu-close {
+	position: absolute;
+	top: 3rem;
+	right: 3rem;
+	list-style-type: none;
+}
+
+.header-nav-menu-close a, .header-nav-menu-close a:visited {
+	padding: 0.568rem 1rem 0.5rem;
+	border-radius: 8px;
+	color: $grayscale-0;
+}
+
+.header-nav-menu-close a:hover {
+	background-color: lighten(#0F2853, 15%);
+}
+
+.problem-statement {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-top: 160px;
+}
+
+.problem-statement-copy {
+	width: 930px;
+}
+
+.content-title {
+	font-size: 4rem;
+	line-height: 5.5rem;
+	margin-bottom: 1.75rem;
+}
+
+.content-img {
+	border-radius: 0.5rem;
+	margin-bottom: 3rem;
+}
+
+.cta {
+	background-color: #E4F1FC;
+}
+
+.awareness {
+	background-color: #E2F3EF;
+}
+
+.wayfinding {
+	background-color: #F0EFFE;
+}
+
+.confidence {
+	background-color: #FCEBF2;
+}
+
+
+
+/* End Website/Product Specific Styles */
+
+
+/*---------------------------------------------------------------------*/
+
+/* 7. Begin Responsive/Media Queries */
+
+/* xl */
+@media screen and (max-width: 1440px) {
+
+	.content-container {
+		width: 1280px;
+	}
+
+}
+
+/* lg */
+@media (max-width: 1280px) {
+
+	.content-container {
+		width: 980px;
+	}
+
+}
+
+/* md */
+@media (max-width: 980px) {
+
+	.content-container {
+		width: 740px;
+	}
+
+	.header-nav-menu {
+		right: -80%;
+		width: 80%;
+		padding: 4rem;
+	}
+
+	.problem-statement {
+		padding-top: 140px;
+	}
+
+	.content-title {
+		font-size: 2.75rem;
+		line-height: 3.5rem;
+	}
+
+	.problem-statement-copy {
+		width: 100%;
+	}
+
+	p, ul, ol, blockquote, cite, small {
+		margin: 0 0 1.5rem;
+		font-size: 1.25rem;
+		line-height: 1.875rem;
+	}
+
+}
+
+/* sm */
+@media (max-width: 740px) {
+
+	.content-container {
+		width: 540px;
+	}
+
+	.header-nav-menu {
+		right: -90%;
+		width: 90%;
+		padding: 4rem;
+	}
+
+	.problem-statement {
+		padding-top: 120px;
+	}
+
+	.content-title {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+
+	p, ul, ol, blockquote, cite, small {
+		margin: 0 0 1.375rem;
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}
+	
+}
+
+/* xs */
+@media (max-width: 540px) {
+
+	.content-container {
+		width: 100%;
+		padding: 0 1rem;
+	}
+
+}
+
+/* End Responsive/Media Queries */
