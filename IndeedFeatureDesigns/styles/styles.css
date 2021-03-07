@@ -272,6 +272,9 @@ a:hover {
 .confidence {
   background-color: #FCEBF2; }
 
+.lofi {
+  background-color: #FCEEE2; }
+
 /* End Website/Product Specific Styles */
 /*---------------------------------------------------------------------*/
 /* 7. Begin Responsive/Media Queries */
