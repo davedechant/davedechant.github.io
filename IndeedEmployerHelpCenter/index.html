@@ -43,6 +43,30 @@
 
         <!-- Google Analytics Script -->
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6645091-26"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-6645091-26');
+        </script>
+
+
+        <!-- Note: plugin scripts must be included after the tracking snippet. -->
+
+        <script src="https://ipmeta.io/plugin.js"></script>
+
+        <script>
+           provideGtagPlugin({
+              serviceProvider: 'dimension1',
+              networkDomain: 'dimension2',
+              networkType: 'dimension3',
+           });
+        </script>
+
 
         <!-- Force Old Browsers to Accept HTML5 -->
 
