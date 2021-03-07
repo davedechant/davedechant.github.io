@@ -327,6 +327,8 @@ a:hover {
 @media (max-width: 540px) {
   .content-container {
     width: 100%;
-    padding: 0 1rem; } }
+    padding: 0 1rem; }
+  .header-nav-menu {
+    padding: 2.5rem; } }
 
 /* End Responsive/Media Queries */
