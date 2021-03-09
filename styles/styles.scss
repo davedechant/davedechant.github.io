@@ -384,7 +384,7 @@ a:hover {
 	overflow-y: scroll;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	padding: 2rem 1rem 1rem 2rem;
 	position: relative;
 	animation-name: main;
@@ -399,7 +399,7 @@ a:hover {
 .project-summary {
 	padding: 2rem;
 	border-radius: 2px;
-	width: calc(33% - 1rem);
+	width: calc(33.333% - 1rem);
 	margin: 0 1rem 1rem 0;
 	background-color: lighten($grayscale-1000, 10%);
 	position: relative;
@@ -414,6 +414,7 @@ a:hover {
 .project-summary:hover {
 	border: 1px solid rgba($grayscale-0,0.2);
 	background-color: lighten($grayscale-1000, 5%);
+	transform: translate(-1px,-4px);
 }
 
 .project-summary-tag {
