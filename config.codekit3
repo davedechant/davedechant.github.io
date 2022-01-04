@@ -7,7 +7,7 @@
       "uuidString" : "BF6D9895-A27B-4B7D-A821-AE9BE4CEBB3E"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34335",
   "files" : {
     "\/about.html" : {
       "cB" : 0,
@@ -589,6 +589,7 @@
     "\/Archive\/V10\/styles\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -1426,6 +1427,7 @@
     "\/Archive\/V11\/styles\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -2387,6 +2389,7 @@
     "\/Archive\/V12\/styles\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -3248,6 +3251,7 @@
     "\/Archive\/V13\/styles\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -4174,1082 +4178,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/IndeedEmployerHelpCenter\/images\/_notes\/dwsync.xml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/_notes\/dwsync.xml",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/images\/header_img1.png" : {
-      "ft" : 32768,
-      "iS" : 686047,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/header_img1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/favicon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/favicon.ico",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/large.png" : {
-      "ft" : 32768,
-      "iS" : 2916,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/large.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/square.png" : {
-      "ft" : 32768,
-      "iS" : 1562,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/square.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/tiny.png" : {
-      "ft" : 32768,
-      "iS" : 1150,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/tiny.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-ipad-retina.png" : {
-      "ft" : 32768,
-      "iS" : 1183,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-ipad-retina.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-ipad.png" : {
-      "ft" : 32768,
-      "iS" : 1022,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-ipad.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-iphone-retina.png" : {
-      "ft" : 32768,
-      "iS" : 1101,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-iphone-retina.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-iphone.png" : {
-      "ft" : 32768,
-      "iS" : 988,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/touch-icon-iphone.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/icons\/wide.png" : {
-      "ft" : 32768,
-      "iS" : 1897,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/icons\/wide.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/indeed-logo.jpg" : {
-      "ft" : 16384,
-      "iS" : 52861,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/indeed-logo.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-1.png" : {
-      "ft" : 32768,
-      "iS" : 3177,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-2.png" : {
-      "ft" : 32768,
-      "iS" : 1912,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-3.png" : {
-      "ft" : 32768,
-      "iS" : 2757,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-4.png" : {
-      "ft" : 32768,
-      "iS" : 2665,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-4.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-5.png" : {
-      "ft" : 32768,
-      "iS" : 3174,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-5.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-6.png" : {
-      "ft" : 32768,
-      "iS" : 2582,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-6.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-7.png" : {
-      "ft" : 32768,
-      "iS" : 2791,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-7.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-8.png" : {
-      "ft" : 32768,
-      "iS" : 3695,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-8.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-9.png" : {
-      "ft" : 32768,
-      "iS" : 3067,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-9.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-10.png" : {
-      "ft" : 32768,
-      "iS" : 2927,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-10.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet-11.png" : {
-      "ft" : 32768,
-      "iS" : 2381,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet-11.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/images\/servlet.png" : {
-      "ft" : 32768,
-      "iS" : 3823,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/images\/servlet.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedEmployerHelpCenter\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/index.html",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/fontawesome.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/fontawesome-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/styles\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/styles\/styles.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.eot",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.ttf",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.woff",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-brands-400.woff2",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.eot",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.ttf",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.woff",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-light-300.woff2",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.eot",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.ttf",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.woff",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-regular-400.woff2",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.eot",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.ttf",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.woff",
-      "oF" : 0
-    },
-    "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedEmployerHelpCenter\/webfonts\/fa-solid-900.woff2",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/images\/_notes\/dwsync.xml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/_notes\/dwsync.xml",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/images\/edit-application-cta-button.jpg" : {
-      "ft" : 16384,
-      "iS" : 162611,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/edit-application-cta-button.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/edit-application-dialog.jpg" : {
-      "ft" : 16384,
-      "iS" : 225111,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/edit-application-dialog.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/edit-success-push-notification.png" : {
-      "ft" : 32768,
-      "iS" : 105232,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/edit-success-push-notification.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/edit-successful-email.jpg" : {
-      "ft" : 16384,
-      "iS" : 105086,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/edit-successful-email.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/email-to-applications-flow.jpg" : {
-      "ft" : 16384,
-      "iS" : 82264,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/email-to-applications-flow.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/favicon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/favicon.ico",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/large.png" : {
-      "ft" : 32768,
-      "iS" : 2916,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/large.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/square.png" : {
-      "ft" : 32768,
-      "iS" : 1562,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/square.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/tiny.png" : {
-      "ft" : 32768,
-      "iS" : 1150,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/tiny.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-ipad-retina.png" : {
-      "ft" : 32768,
-      "iS" : 1183,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-ipad-retina.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-ipad.png" : {
-      "ft" : 32768,
-      "iS" : 1022,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-ipad.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-iphone-retina.png" : {
-      "ft" : 32768,
-      "iS" : 1101,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-iphone-retina.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-iphone.png" : {
-      "ft" : 32768,
-      "iS" : 988,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/touch-icon-iphone.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/icons\/wide.png" : {
-      "ft" : 32768,
-      "iS" : 1897,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/icons\/wide.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/inline-notification-flow.jpg" : {
-      "ft" : 16384,
-      "iS" : 78253,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/inline-notification-flow.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/my-applications-menu-item.jpg" : {
-      "ft" : 16384,
-      "iS" : 161361,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/my-applications-menu-item.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/new-feature-notification.jpg" : {
-      "ft" : 16384,
-      "iS" : 115128,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/new-feature-notification.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/new-feature-push-notification.png" : {
-      "ft" : 32768,
-      "iS" : 106367,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/new-feature-push-notification.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/images\/push-to-applications-flow.jpg" : {
-      "ft" : 16384,
-      "iS" : 162540,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/images\/push-to-applications-flow.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/IndeedFeatureDesigns\/includes\/head-stuff.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/IndeedFeatureDesigns\/includes\/head-stuff.html",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/index.html",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/index.html",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/fontawesome.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/fontawesome-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/IndeedFeatureDesigns\/styles\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/styles\/styles.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.eot",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.ttf",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.woff",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-brands-400.woff2",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.eot",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.ttf",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.woff",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-light-300.woff2",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.eot",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.ttf",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.woff",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-regular-400.woff2",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.eot" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.eot",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 3758088159,
-      "prP" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.ttf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.ttf",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.woff",
-      "oF" : 0
-    },
-    "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/IndeedFeatureDesigns\/webfonts\/fa-solid-900.woff2",
-      "oF" : 0
-    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5257,6 +4185,411 @@
       "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
+    },
+    "\/Legomasters\/images\/_notes\/dwsync.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/_notes\/dwsync.xml",
+      "oF" : 0
+    },
+    "\/Legomasters\/images\/ahren.png" : {
+      "ft" : 32768,
+      "iS" : 48582,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/ahren.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/arrow-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Legomasters\/images\/arrow-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/Legomasters\/images\/bio-background.png" : {
+      "ft" : 32768,
+      "iS" : 40380,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/bio-background.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/close-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Legomasters\/images\/close-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/Legomasters\/images\/dave.png" : {
+      "ft" : 32768,
+      "iS" : 56195,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/dave.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/dylon.png" : {
+      "ft" : 32768,
+      "iS" : 62053,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/dylon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/horizontal-rule.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Legomasters\/images\/horizontal-rule.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/Legomasters\/images\/icons\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/favicon.ico",
+      "oF" : 0
+    },
+    "\/Legomasters\/images\/icons\/large.png" : {
+      "ft" : 32768,
+      "iS" : 2916,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/large.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/icons\/square.png" : {
+      "ft" : 32768,
+      "iS" : 1562,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/square.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/icons\/tiny.png" : {
+      "ft" : 32768,
+      "iS" : 1150,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/tiny.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/icons\/touch-icon-ipad-retina.png" : {
+      "ft" : 32768,
+      "iS" : 1183,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-ipad-retina.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/icons\/touch-icon-ipad.png" : {
+      "ft" : 32768,
+      "iS" : 1022,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-ipad.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/icons\/touch-icon-iphone-retina.png" : {
+      "ft" : 32768,
+      "iS" : 1101,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-iphone-retina.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/icons\/touch-icon-iphone.png" : {
+      "ft" : 32768,
+      "iS" : 988,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-iphone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/icons\/wide.png" : {
+      "ft" : 32768,
+      "iS" : 1897,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/icons\/wide.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/jason.png" : {
+      "ft" : 32768,
+      "iS" : 56050,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/jason.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/kudos-img.jpg" : {
+      "ft" : 16384,
+      "iS" : 8329,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/kudos-img.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/lindsey.png" : {
+      "ft" : 32768,
+      "iS" : 53281,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/lindsey.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/shajuan.png" : {
+      "ft" : 32768,
+      "iS" : 54716,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/shajuan.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/square-block-black.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Legomasters\/images\/square-block-black.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/Legomasters\/images\/square-block-yellow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Legomasters\/images\/square-block-yellow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/Legomasters\/images\/vector-lion.png" : {
+      "ft" : 32768,
+      "iS" : 1042,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/images\/vector-lion.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Legomasters\/images\/vector-lion.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Legomasters\/images\/vector-lion.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/Legomasters\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/index.html",
+      "oF" : 0
+    },
+    "\/Legomasters\/js\/time-elapsed-jquery-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/js\/time-elapsed-jquery-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/Legomasters\/js\/time-elapsed-jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/js\/time-elapsed-jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/Legomasters\/js\/time-elapsed.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/js\/time-elapsed-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc",
+      "oF" : 0
+    },
+    "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc",
+      "oF" : 0
+    },
+    "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc",
+      "oF" : 0
+    },
+    "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc",
+      "oF" : 0
+    },
+    "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc",
+      "oF" : 0
+    },
+    "\/Legomasters\/styles\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/styles\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/Legomasters\/styles\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/Legomasters\/styles\/styles.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
     },
     "\/resume-dave-dechant.pdf" : {
       "cB" : 0,
@@ -5341,6 +4674,7 @@
     "\/styles\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -5942,144 +5276,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "coffeeLintFlags2" : {
-      "arrow_spacing" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camel_case_classes" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "colon_assignment_spacing" : {
-        "active" : 0,
-        "flagValue" : 1
-      },
-      "cyclomatic_complexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "duplicate_key" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "ensure_comprehensions" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "indentation" : {
-        "active" : 1,
-        "flagValue" : 2
-      },
-      "line_endings" : {
-        "active" : 0,
-        "flagValue" : 0
-      },
-      "max_line_length" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "missing_fat_arrows" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newlines_after_classes" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "no_backticks" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_debugger" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_empty_functions" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_empty_param_list" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_implicit_braces" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_implicit_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_interpolation_in_single_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_nested_string_interpolation" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_private_function_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_stand_alone_at" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_tabs" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_throwing_strings" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_semicolons" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_whitespace" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_unnecessary_double_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_unnecessary_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "non_empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prefer_english_operator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "space_operators" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "spacing_after_comma" : {
-        "active" : 1,
-        "flagValue" : -1
-      }
-    },
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
@@ -6579,7 +5775,8 @@
         "optionString" : ""
       },
       "no-multi-assign" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'ignoreNonDeclaration': false}"
       },
       "no-multi-spaces" : {
         "active" : 0,
@@ -6702,7 +5899,8 @@
         "active" : 0
       },
       "no-sequences" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowInParentheses': true}"
       },
       "no-setter-return" : {
         "active" : 1
@@ -6789,6 +5987,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
@@ -6908,6 +6109,9 @@
       "prefer-numeric-literals" : {
         "active" : 0
       },
+      "prefer-object-has-own" : {
+        "active" : 0
+      },
       "prefer-object-spread" : {
         "active" : 0
       },
@@ -6940,7 +6144,8 @@
         "optionString" : "'always'"
       },
       "require-atomic-updates" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowProperties': false}"
       },
       "require-await" : {
         "active" : 0
@@ -7066,354 +6271,6 @@
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
-    "jsHintFlags2" : {
-      "asi" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "bitwise" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "boss" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "browserify" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camelcase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "curly" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "debug" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "dojo" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "elision" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqeqeq" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqnull" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es3" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "esnext" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "evil" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "expr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "forin" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "freeze" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "funcscope" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "futurehostile" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "globalstrict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "immed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "indent" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "iterator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jasmine" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jquery" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "lastsemic" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "latedef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "laxbreak" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "laxcomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "loopfunc" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxcomplexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "maxdepth" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "maxparams" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxstatements" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "mocha" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "mootools" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "moz" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "multistr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newcap" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noarg" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nocomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "noempty" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonbsp" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonew" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nonstandard" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "notypeof" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noyield" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "onecase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "phantom" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "proto" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prototypejs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "qunit" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "regexp" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "rhino" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "scripturl" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shadow" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shelljs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "singleGroups" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "strict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "sub" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "supernew" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "typed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "undef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "unused" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "varstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "withstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "worker" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "wsh" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "yui" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
-    "jsLintFlags2" : {
-      "bitwise" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es6" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "eval" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "for" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "white" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",
@@ -7424,7 +6281,6 @@
       "minifierStyle" : 1,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
-      "syntaxCheckerStyle" : 1,
       "transpilerStyle" : 1
     },
     "languageDefaultsCSS" : {
@@ -7697,6 +6553,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -7719,6 +6578,7 @@
     "tsEmitBOM" : 0,
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
+    "tsExactOptionalPropertyTypes" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
@@ -7727,10 +6587,12 @@
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
+    "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
@@ -7746,6 +6608,7 @@
     "tsStripInternal" : 0,
     "tsSuppressExcessPropertyErrors" : 0,
     "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseUnknownInCatchVariables" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
