@@ -4186,19 +4186,19 @@
       "oAP" : "\/index.html",
       "oF" : 0
     },
-    "\/Legomasters\/images\/_notes\/dwsync.xml" : {
+    "\/legomasters\/images\/_notes\/dwsync.xml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/_notes\/dwsync.xml",
+      "oAP" : "\/legomasters\/images\/_notes\/dwsync.xml",
       "oF" : 0
     },
-    "\/Legomasters\/images\/ahren.png" : {
+    "\/legomasters\/images\/ahren.png" : {
       "ft" : 32768,
       "iS" : 48582,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/ahren.png",
+      "oAP" : "\/legomasters\/images\/ahren.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4207,21 +4207,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/arrow-right.svg" : {
+    "\/legomasters\/images\/arrow-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Legomasters\/images\/arrow-right.svg",
+      "oAP" : "\/legomasters\/images\/arrow-right.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/Legomasters\/images\/bio-background.png" : {
+    "\/legomasters\/images\/bio-background.png" : {
       "ft" : 32768,
       "iS" : 40380,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/bio-background.png",
+      "oAP" : "\/legomasters\/images\/bio-background.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4230,21 +4230,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/close-icon.svg" : {
+    "\/legomasters\/images\/close-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Legomasters\/images\/close-icon.svg",
+      "oAP" : "\/legomasters\/images\/close-icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/Legomasters\/images\/dave.png" : {
+    "\/legomasters\/images\/dave.png" : {
       "ft" : 32768,
       "iS" : 56195,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/dave.png",
+      "oAP" : "\/legomasters\/images\/dave.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4253,11 +4253,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/dylon.png" : {
+    "\/legomasters\/images\/dylon.png" : {
       "ft" : 32768,
       "iS" : 62053,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/dylon.png",
+      "oAP" : "\/legomasters\/images\/dylon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4266,29 +4266,29 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/horizontal-rule.svg" : {
+    "\/legomasters\/images\/horizontal-rule.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Legomasters\/images\/horizontal-rule.svg",
+      "oAP" : "\/legomasters\/images\/horizontal-rule.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/Legomasters\/images\/icons\/favicon.ico" : {
+    "\/legomasters\/images\/icons\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/favicon.ico",
+      "oAP" : "\/legomasters\/images\/icons\/favicon.ico",
       "oF" : 0
     },
-    "\/Legomasters\/images\/icons\/large.png" : {
+    "\/legomasters\/images\/icons\/large.png" : {
       "ft" : 32768,
       "iS" : 2916,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/large.png",
+      "oAP" : "\/legomasters\/images\/icons\/large.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4297,11 +4297,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/icons\/square.png" : {
+    "\/legomasters\/images\/icons\/square.png" : {
       "ft" : 32768,
       "iS" : 1562,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/square.png",
+      "oAP" : "\/legomasters\/images\/icons\/square.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4310,11 +4310,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/icons\/tiny.png" : {
+    "\/legomasters\/images\/icons\/tiny.png" : {
       "ft" : 32768,
       "iS" : 1150,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/tiny.png",
+      "oAP" : "\/legomasters\/images\/icons\/tiny.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4323,11 +4323,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/icons\/touch-icon-ipad-retina.png" : {
+    "\/legomasters\/images\/icons\/touch-icon-ipad-retina.png" : {
       "ft" : 32768,
       "iS" : 1183,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-ipad-retina.png",
+      "oAP" : "\/legomasters\/images\/icons\/touch-icon-ipad-retina.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4336,11 +4336,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/icons\/touch-icon-ipad.png" : {
+    "\/legomasters\/images\/icons\/touch-icon-ipad.png" : {
       "ft" : 32768,
       "iS" : 1022,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-ipad.png",
+      "oAP" : "\/legomasters\/images\/icons\/touch-icon-ipad.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4349,11 +4349,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/icons\/touch-icon-iphone-retina.png" : {
+    "\/legomasters\/images\/icons\/touch-icon-iphone-retina.png" : {
       "ft" : 32768,
       "iS" : 1101,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-iphone-retina.png",
+      "oAP" : "\/legomasters\/images\/icons\/touch-icon-iphone-retina.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4362,11 +4362,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/icons\/touch-icon-iphone.png" : {
+    "\/legomasters\/images\/icons\/touch-icon-iphone.png" : {
       "ft" : 32768,
       "iS" : 988,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/touch-icon-iphone.png",
+      "oAP" : "\/legomasters\/images\/icons\/touch-icon-iphone.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4375,11 +4375,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/icons\/wide.png" : {
+    "\/legomasters\/images\/icons\/wide.png" : {
       "ft" : 32768,
       "iS" : 1897,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/icons\/wide.png",
+      "oAP" : "\/legomasters\/images\/icons\/wide.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4388,11 +4388,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/jason.png" : {
+    "\/legomasters\/images\/jason.png" : {
       "ft" : 32768,
       "iS" : 56050,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/jason.png",
+      "oAP" : "\/legomasters\/images\/jason.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4401,12 +4401,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/kudos-img.jpg" : {
+    "\/legomasters\/images\/kudos-img.jpg" : {
       "ft" : 16384,
       "iS" : 8329,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/kudos-img.jpg",
+      "oAP" : "\/legomasters\/images\/kudos-img.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4414,11 +4414,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/lindsey.png" : {
+    "\/legomasters\/images\/lindsey.png" : {
       "ft" : 32768,
       "iS" : 53281,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/lindsey.png",
+      "oAP" : "\/legomasters\/images\/lindsey.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4427,11 +4427,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/shajuan.png" : {
+    "\/legomasters\/images\/shajuan.png" : {
       "ft" : 32768,
       "iS" : 54716,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/shajuan.png",
+      "oAP" : "\/legomasters\/images\/shajuan.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4440,31 +4440,31 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/square-block-black.svg" : {
+    "\/legomasters\/images\/square-block-black.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Legomasters\/images\/square-block-black.svg",
+      "oAP" : "\/legomasters\/images\/square-block-black.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/Legomasters\/images\/square-block-yellow.svg" : {
+    "\/legomasters\/images\/square-block-yellow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Legomasters\/images\/square-block-yellow.svg",
+      "oAP" : "\/legomasters\/images\/square-block-yellow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/Legomasters\/images\/vector-lion.png" : {
+    "\/legomasters\/images\/vector-lion.png" : {
       "ft" : 32768,
       "iS" : 1042,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/images\/vector-lion.png",
+      "oAP" : "\/legomasters\/images\/vector-lion.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -4473,98 +4473,98 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Legomasters\/images\/vector-lion.svg" : {
+    "\/legomasters\/images\/vector-lion.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Legomasters\/images\/vector-lion.svg",
+      "oAP" : "\/legomasters\/images\/vector-lion.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
     },
-    "\/Legomasters\/index.html" : {
+    "\/legomasters\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/index.html",
+      "oAP" : "\/legomasters\/index.html",
       "oF" : 0
     },
-    "\/Legomasters\/js\/time-elapsed-jquery-min.js" : {
+    "\/legomasters\/js\/time-elapsed-jquery-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/js\/time-elapsed-jquery-min-min.js",
+      "oAP" : "\/legomasters\/js\/time-elapsed-jquery-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/Legomasters\/js\/time-elapsed-jquery.js" : {
+    "\/legomasters\/js\/time-elapsed-jquery.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/js\/time-elapsed-jquery-min.js",
+      "oAP" : "\/legomasters\/js\/time-elapsed-jquery-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/Legomasters\/js\/time-elapsed.js" : {
+    "\/legomasters\/js\/time-elapsed.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/js\/time-elapsed-min.js",
+      "oAP" : "\/legomasters\/js\/time-elapsed-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc" : {
+    "\/legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc",
+      "oAP" : "\/legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons.scssc",
       "oF" : 0
     },
-    "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc" : {
+    "\/legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc",
+      "oAP" : "\/legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/icons2.scssc",
       "oF" : 0
     },
-    "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc" : {
+    "\/legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc",
+      "oAP" : "\/legomasters\/styles\/.sass-cache\/1fbf55d95b2884bf9ed718337eb825548459cd16\/styles.scssc",
       "oF" : 0
     },
-    "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc" : {
+    "\/legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc",
+      "oAP" : "\/legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/icons2.scssc",
       "oF" : 0
     },
-    "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc" : {
+    "\/legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc",
+      "oAP" : "\/legomasters\/styles\/.sass-cache\/c8a1dd5e8faaf96b1df0a246ebc94e79901f32cf\/styles.scssc",
       "oF" : 0
     },
-    "\/Legomasters\/styles\/styles.css" : {
+    "\/legomasters\/styles\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -4572,11 +4572,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/styles\/styles-min.css",
+      "oAP" : "\/legomasters\/styles\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/Legomasters\/styles\/styles.scss" : {
+    "\/legomasters\/styles\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -4585,7 +4585,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/Legomasters\/styles\/styles.css",
+      "oAP" : "\/legomasters\/styles\/styles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
